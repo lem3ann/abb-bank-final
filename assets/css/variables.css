@@ -1,0 +1,40 @@
+:root {
+
+    /* !Variables --Gadir */
+
+
+
+
+
+    /* !Variables --Jala */
+
+
+
+
+
+
+    /* !Variables --Laman */
+    /* ?font-size */
+    --font-size-extra-small: 12px;
+    --font-size-thin: 14px;
+    --font-size-small: 16px;
+
+
+
+    /* ?colors */
+    --main-blue: rgb(27 99 237);
+    --grey-font-color: #7A7D82;
+    --context-black-color: black;
+    --context-white-color: white;
+    --footer-app-container-bg: #0A0B0D29;
+
+
+
+
+
+
+
+
+
+
+}

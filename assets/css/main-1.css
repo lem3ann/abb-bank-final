@@ -1,0 +1,75 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+/*!NAVBAR  #####################  */
+.nav-color-black li a {
+    color: black !important;
+}
+
+.nav-color-grey li a {
+    color: var(--grey-font-color) !important;
+}
+
+.nav-text-style {
+    line-height: 24px;
+    font-size: var(--font-size-small);
+    font-weight: 500;
+}
+
+.network-btn {
+    background-color: var(--main-blue);
+    border-radius: 5px;
+}
+
+.nav-color-grey .network-btn a {
+    color: var(--context-white-color) !important;
+}
+
+/* !FOOTER ###################### */
+footer {
+    background-image: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
+    color: azure;
+}
+
+.apps-container-box,
+.footer-abb-cariers {
+    background-color: var(--footer-app-container-bg);
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+
+.apps-container-box {
+    display: flex;
+}
+
+.apps-icon-flex {
+    display: flex;
+}
+
+.footer-elements a {
+    display: block;
+    color: var(--grey-font-color);
+    font-size: var(--font-size-extra-small);
+    margin-top: 7px;
+}
+
+.links-flex {
+    display: flex;
+}
+
+.border-bottom-grey {
+    border-bottom: 1px solid var(--grey-font-color);
+}
+
+.footer-elements .link-bold {
+    color: var(--context-white-color);
+    font-weight: 600;
+}
+
+.thin-text {
+    font-size: var(--font-size-thin);
+    color: var(--grey-font-color);
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
