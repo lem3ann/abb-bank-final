@@ -4,7 +4,119 @@
 
 /*!NAVBAR  #####################  */
 .nav-color-black li a {
-    color: black !important;
+    color: var(--context-black-color) !important;
+}
+
+.border-bottom-grey {
+    position: relative;
+    z-index: 20;
+}
+
+.l-r-border {
+    border-left: 1px solid var(--light-grey-font-color);
+    border-right: 1px solid var(--light-grey-font-color);
+}
+
+/* nav link hover */
+.nav-blue-hover:hover {
+    color: var(--main-blue) !important;
+}
+
+.nav-blue-hover {
+    font-weight: 600 !important;
+}
+
+/* ?position-ferdi tab */
+.nav-menu-position {
+    position: absolute;
+    left: 0;
+    background-color: var(--context-white-color);
+    border-radius: 20px;
+    padding: 0 50px;
+    width: 1200px;
+    /* max-width: 900px; */
+    display: none;
+    border: 1px solid var(--grey-with-opacity);
+}
+
+/* ?position-business tabi */
+.business-dropdown-position {
+    position: absolute;
+    left: 0;
+    background-color: var(--context-white-color);
+    border-radius: 20px;
+    padding: 20px 50px;
+    width: 1200px;
+    /* max-width: 900px; */
+    border: 1px solid var(--grey-with-opacity);
+    display: none;
+    /* display: none; */
+}
+
+.business-dropdown-position a {
+    display: block;
+    padding: 10px 0;
+}
+
+/* ?about-position */
+.bank-details a {
+    display: block;
+    padding: 5px 0;
+}
+
+.about-nav {
+    position: absolute;
+    left: 0;
+    width: 1200px;
+    background-color: var(--context-white-color);
+    border-radius: 20px;
+    padding: 20px 50px;
+    /* max-width: 900px; */
+    border: 1px solid var(--grey-with-opacity);
+    display: none;
+}
+
+.about-nav-position:hover .about-nav {
+    display: block;
+}
+
+
+.business-dropdown-position {
+    width: 1200px;
+}
+
+.business-dropdown-position li {
+    padding: 10px 0;
+}
+
+.nav-business-position:hover .business-dropdown-position {
+    display: block;
+}
+
+.a-link-bold a {
+    display: block;
+    color: var(--context-black-color);
+    padding: 5px 0;
+}
+
+.nav-menu-position a,
+.business-dropdown-position a,
+.about-nav a {
+    text-decoration: none !important;
+}
+
+.a-link-bold {
+    padding: 15px 0;
+}
+
+.bold-header {
+    font-size: var(--font-size-small);
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.nav-relative-position:hover .nav-menu-position {
+    display: flex;
 }
 
 .nav-color-grey li a {
@@ -26,6 +138,317 @@
     color: var(--context-white-color) !important;
 }
 
+/* links color */
+.nav-menu-position a:not(.bold-header),
+.business-dropdown-position a:not(.bold-header),
+.about-nav a:not(.bold-header) {
+    color: var(--grey-font-color) !important;
+}
+
+.nav-menu-position a:hover,
+.business-dropdown-position a:hover,
+.about-nav a:hover,
+.nav-menu-position .bold-header:hover,
+.about-nav .bold-header:hover {
+    color: var(--main-blue) !important;
+}
+
+
+/* !SECTION -1 quick links */
+#quick-links {
+    background-color: var(--section-bg-light-pink);
+    padding: 30px 0;
+}
+
+.carousel-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 20px !important;
+}
+
+.blue-box {
+    background-color: var(--main-blue) !important;
+}
+
+.carousel-first-img img {
+    width: 320px;
+    height: 280px;
+}
+
+.carousel-first-text span {
+    background-color: var(--white-with-opacity);
+    padding: 5px;
+    border-radius: 8px;
+    font-size: var(--font-size-thin);
+    color: var(--context-white-color);
+}
+
+.carousel-first-text h2 {
+    font-size: var(--font-size-large);
+    line-height: 40px;
+    font-weight: 500;
+    color: var(--context-white-color);
+    padding: 20px 0;
+}
+
+.carousel-first-text p {
+    color: var(--context-white-color);
+    padding-bottom: 20px;
+}
+
+.carousel-first-text a {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    color: var(--context-black-color);
+    padding: 12px;
+    border-radius: 10px;
+    background-color: var(--context-white-color);
+}
+
+.teal-box {
+    border-radius: 20px;
+    background-color: var(--teal-bg-color);
+}
+
+.teal-box a {
+    width: 140px;
+}
+
+.purple-box {
+    border-radius: 20px;
+    background-color: var(--purple-bg-color);
+}
+
+.blue-box-2 {
+    background-color: var(--main-blue);
+    border-radius: 20px;
+}
+
+.blue-box-2 a {
+    width: 155px;
+}
+
+.button-width-purple a {
+    width: 160px;
+}
+
+.button-width-blue {
+    width: 170px;
+}
+
+/* arrow positions */
+.left-right-arrow {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.round-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-with-opacity);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.left-right-arrow {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+}
+
+/* deposit card */
+.deposit-head-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.side-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--grey-with-opacity);
+    border-radius: 50%;
+}
+
+.deposit-head-part h3 {
+    font-size: var(--font-size-medium);
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.white-feature-box {
+    background-color: var(--context-white-color);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.deposit-head-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deposit-head-img img {
+    width: 250px;
+    height: auto;
+}
+
+/* !Qucick links  */
+.quick-link-class {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.quick-link-pic img {
+    width: 70px;
+    height: 70px;
+}
+
+.quick-link-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* !TAM Digicard ********************** */
+#full-digicard {
+    padding: 40px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.full-digi-text-details img {
+    width: 90px;
+    height: 60px;
+}
+
+.digi-big-img img {
+    width: 520px;
+    height: 560px;
+}
+
+.full-digi-text-details {
+    display: flex;
+    align-items: center;
+}
+
+.digi-text-style {
+    font-size: var(--font-size-extra-large);
+    line-height: 72px;
+    font-weight: 500;
+}
+
+.digi-bold {
+    font-size: var(--font-size-medium);
+    font-weight: 500;
+}
+
+.interest-rate {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+.rate-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* button */
+.digi-order-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--context-white-color);
+    background-color: var(--main-blue);
+    padding: 15px 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.grey-little-text {
+    padding: 30px 0;
+    font-size: var(--font-size-extra-small);
+    color: var(--grey-font-color);
+}
+
+/* form */
+.form-checkbox {
+    display: flex;
+}
+
+.form-submit-flex {
+    display: flex;
+}
+
+/* SHAPE the future ################### */
+#shape-the-future {
+    background-color: var(--footer-app-container-bg);
+    padding: 30px 0;
+}
+
+/* abb staff */
+.abb-staff img {
+    width: 515px;
+    height: 515px;
+}
+
+/* !CAMPAGINS ########################### */
+.campagins-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.campagins-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ;
+    background-color: #383C46;
+    padding: 20px 0;
+}
+
+.campagins-column img {
+    width: 300px;
+    height: 220px;
+}
+
+.campagins-padding {
+    padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* !FOOTER ###################### */
 footer {
     background-image: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
@@ -35,17 +458,30 @@ footer {
 .apps-container-box,
 .footer-abb-cariers {
     background-color: var(--footer-app-container-bg);
-    padding: 10px 5px;
+    padding: 0px 10px;
     border-radius: 20px;
 }
 
 .apps-container-box {
     display: flex;
+    justify-content: space-between;
 }
 
 .apps-icon-flex {
     display: flex;
 }
+
+.apps-design {
+    margin-top: 10px;
+    background-color: var(--context-black-opacity);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.google-play {
+    margin-left: 10px;
+}
+
 
 .footer-elements a {
     display: block;
@@ -58,10 +494,6 @@ footer {
     display: flex;
 }
 
-.border-bottom-grey {
-    border-bottom: 1px solid var(--grey-font-color);
-}
-
 .footer-elements .link-bold {
     color: var(--context-white-color);
     font-weight: 600;
@@ -72,4 +504,26 @@ footer {
     color: var(--grey-font-color);
     margin-bottom: 10px;
     margin-top: 5px;
+}
+
+.download-abb-app,
+.footer-abb-cariers {
+    padding: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.qr-style {
+    background-color: var(--context-white-color);
+    padding: 10px;
+    color: var(--context-black-color);
+    border-radius: 10px;
+}
+
+.portal-link-btn a {
+    padding: 10px;
+    color: var(--context-white-color);
+    background-color: var(--main-blue);
+    border-radius: 10px;
 }
