@@ -1,0 +1,205 @@
+*{
+   font-family: "Inter", sans-serif;
+}
+.ipoteka-section1{
+   background-color:rgb(240 240 240);
+   padding-bottom: 60px;
+}
+.individual-ipoteka{
+     display: block;
+   padding-bottom: 40px;
+   margin-top: 20px;
+   font-size: var(--font-size-small)
+}
+.individual-ipoteka-item{
+     color: #7A7D82;
+}
+.individual-ipoteka-item:hover{
+    color: #7A7D82;
+}
+.all-loans-ipoteka{
+     color: #7A7D82;
+}
+.all-loans-ipoteka:hover{
+    color: #7A7D82;
+}
+.header-ipoteka{
+    color: black;
+}
+.ipoteka-header-parg1{
+    font-size: 60px;
+    line-height: 1.2;
+   font-weight: 500;
+}
+.ipoteka-parg2{
+   font-size: 20px;
+   margin-top: 15px;
+   line-height: 1.3;
+}
+.ipoteka-header-button{
+     margin-top: 30px;
+    background-color:var( --main-blue);
+    color: var( --context-white-color);
+    border-radius:13px ;
+    border: 1px solid black;
+    display: block;
+    width: 250px;
+    height: 55px;
+    border: none;
+   text-align: center;
+   padding-top: 20px;
+}
+.ipoteka-header-button:hover{
+    color: white;
+    background-color: #004B98;
+}
+.ipoteka-header-img{
+     width: 570px; 
+    display: block;
+    margin-top: 90px;
+}
+.ipoteka-header-table{
+    display:flex;
+    justify-content:space-around ;
+    align-items: center;
+    border:1px solid;
+    height: 100px;
+    max-width: 1230px;
+    gap: 20px;
+    line-height: 1.6;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+.ipoteka-header-table-head{
+      font-weight: 700;
+    font-size: 20px;
+}
+.ipoteka-header-table-body{
+    font-size: var(--font-size-thin);
+    line-height: 20px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+.ipoteka-header-table-icon{
+  color:var(--main-blue) ;
+  font-size: 16px;
+}
+.ipoteka-header-parg3{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 90px;
+}
+.ipoteka-header-card{
+    height: 420px ;
+    width: 390px;
+   border-radius: 40px; 
+   margin-top: 50px;
+
+}
+.ipoteka-header-card-title{
+    font-size: 24px;
+    line-height: 32px; 
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+.ipoteka-header-card-text{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.ipoteka-section2-calculator-text{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 56px;
+    padding-top: 50px;
+}
+.ipoteka-section2-product-text{
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom:40px;
+}
+.ipoteka-section2-card{
+    height: 400px;
+    background-color:rgb(240 240 240);
+    border-radius: 30px;
+    border: none;
+}
+.ipoteka-section2-card-title{
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.ipoteka-section2-card-text{
+     font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+.ipoteka-section2-card-img{
+    width: 270px;
+    padding-left: 30px;
+}
+.ipoteka-section2-button{
+     display: block;
+    background-color:var( --main-blue);
+    color: var( --context-white-color);
+    border-radius:13px ;
+    border: 1px solid black;
+    display: block;
+    width: 250px;
+    height: 55px;
+    border: none;
+   text-align: center;
+   padding-top: 20px;
+   margin: auto;
+   margin-top: 40px;
+   margin-bottom: 80px;
+}
+.ipoteka-section2-button:hover{
+    color: white;
+    background-color: #004B98;
+}
+.section2-right-icon{
+    font-size: 13px;
+}
+.ipoteka-section3{
+  background:radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
+  padding-bottom: 90px;
+}
+.ipoteka-section3-parg1{
+    font-size: 50px;
+    line-height: 1.2;
+   font-weight: 500;
+   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: white;
+}
+.ipoteka-section3-card{
+    height: 250px;
+   background-color: black;
+  border-radius: 20px;
+}
+.ipoteka-section3-card-title{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.ipoteka-section3-card-text{
+    color: #FFFFFFB8;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.ipoteka-section3-card-link{
+    color: white;
+    text-decoration: underline;
+   text-decoration-thickness:1px ;
+}
