@@ -1,12 +1,810 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/global.css">
 </head>
+
 <body>
-    
+    <main>
+        <!-- =============================Header============================== -->
+          <div class="position-sticky">
+            <div class="container py-3 pb-2 border-bottom-grey">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="#"><img src="../images/ABB_Logo.png" alt="" width="70px" height="30px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto nav-color-black nav-text-style">
+                <li class="nav-item nav-relative-position">
+                  <a class="nav-link nav-blue-hover" href="#">Fərdi <span class="visually-hidden">(current)</span></a>
+                  <!-- !position elements -->
+                   <div class="nav-menu-position">
+                    <div class="row ">
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="all-loan-bold a-link-bold">
+                          <!-- butun kreditler -->
+                         <ul>
+                              <li><a href="#" class="bold-header">Bütün kreditlər</a></li>
+                              <li><a href="#" class="thin-and-grey">Nağd kredit</a></li>
+                              <li><a href="#" class="thin-and-grey">Avans krediti</a></li>
+                              <li><a href="#" class="thin-and-grey">Avtomobil krediti</a></li>
+                              <li><a href="#" class="thin-and-grey">Əmanətçi nağd krediti</a></li>
+                              <li><a href="#" class="thin-and-grey">Əmanətçilər üçün kredit xətti</a></li>
+                          </ul>
+                        </div>
+                        <!-- kartlar -->
+                        <div class="cardss-bold a-link-bold">
+                          <ul>
+                              <li><a href="#" class="bold-header">Kartlar</a></li>
+                              <li><a href="#" class="thin-and-grey">Kredit kartlar</a></li>
+                              <li><a href="#" class="thin-and-grey">Debet kartlar</a></li>
+                          </ul>
+                        </div>
+                        <!-- emanetler -->
+                         <div class="deposits-bold a-link-bold">
+                          <ul>
+                              <li><a href="#" class="bold-header">Əmanətlər</a></li>
+                              <li><a href="#" class="thin-and-grey">DigiDepozit</a></li>
+                              <li><a href="#" class="thin-and-grey">Klassik Əmanət</a></li>
+                              <li><a href="#" class="thin-and-grey">Depozit seyfləri</a></li>
+                              <li><a href="#" class="thin-and-grey">Əmanət əsaslı ipoteka krediti</a></li>
+                            </ul>
+                         </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                        <!-- hesablar -->
+                        <div class="account-bold a-link-bold">
+                          <ul>
+                              <li><a href="#" class="bold-header">Hesablar</a></li>
+                              <li><a href="#" class="thin-and-grey">DigiHesab Max</a></li>
+                              <li><a href="#" class="thin-and-grey">DigiHesab</a></li>
+                              <li><a href="#" class="thin-and-grey">Cari hesab</a></li>
+                              <li><a href="#" class="thin-and-grey">Dama-dama</a></li>
+                            </ul>                         
+                        </div>
+                        <!-- ipoteka -->
+                         <div class="mortgage-bold a-link-bold">
+                          <a href="#" class="bold-header">Ipoteka</a>
+                         </div>
+                         <!-- cashback -->
+                          <div class="cashback-bold a-link-bold">
+                            <ul>
+                              <li><a href="#" class="bold-header">Keşbek</a></li>
+                              <li><a href="#" class="thin-and-grey">Faydalı keşbek</a></li>
+                              <li><a href="#" class="thin-and-grey">Faydalı Max</a></li>
+                              <li><a href="#" class="thin-and-grey">Faydalı Klub</a></li>
+                            </ul>
+
+                          </div>
+                          <!-- kampaniyalar -->
+                           <div class="campagins-bold a-link-bold">
+                            <ul>
+                              <li><a href="#" class="bold-header">Kampaniyalar</a></li>
+                            </ul>
+                           </div>    
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="all-operations-bold a-link-bold">
+                         <ul>
+                            <li><a href="#" class="bold-header">Bütün əməliyyatlar</a></li>
+                            <li><a href="#" class="thin-and-grey">Ölkədaxili və ölkəxarici köçürmələr</a></li>
+                            <li><a href="#" class="thin-and-grey">Bank köçürmələri</a></li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="online-services a-link-bold">
+                        <ul>
+                          <li><a href="#" class="bold-header">Onlayn xidmətlər</a></li>
+                          <li><a href="#" class="thin-and-grey">Randevu</a></li>
+                          <li><a href="#" class="thin-and-grey">ABB mobile</a></li>
+                          <li><a href="#" class="thin-and-grey">Məlumat Mərkəzi</a></li>
+                          <li><a href="#" class="thin-and-grey">Arayış sifarişi</a></li>
+                          <li><a href="#" class="thin-and-grey">Kredit ödənişi</a></li>
+                          <li><a href="#" class="thin-and-grey">Karta mədaxil</a></li>
+                          <li><a href="#" class="thin-and-grey">Pul köçürməsi</a></li>
+                          <li><a href="#" class="thin-and-grey">Cash by Code</a></li>
+                          <li><a href="#" class="thin-and-grey">İanə et</a></li>
+                          <li><a href="#" class="thin-and-grey">PİN kod dəyişimi</a></li>
+                          <li><a href="#" class="thin-and-grey">Sığorta</a></li>
+                          <li><a href="#" class="thin-and-grey">İnvestisiya</a></li>
+                        </ul>
+                        </div>
+                        <div class="abb-prime-bold a-link-bold">
+                          <ul>
+                            <li>
+                              <a href="#" class="bold-header">ABB Prime</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                   </div>
+                    
+                   <!--! end  -->
+                </li>
+                <li class="nav-item nav-business-position">
+                  <a class="nav-link nav-blue-hover" href="#">Biznes</a>
+                  <!-- !position elements -->
+                   <div class="business-dropdown-position">
+                      <ul>
+                        <li><a href="#" class="bold-header">Korporativ</a></li>
+                        <li><a href="#" class="bold-header">Kiçik və orta biznes</a></li>
+                        <li><a href="#" class="bold-header">Mikro fərdi sahibkar</a></li>
+                      </ul>
+                   </div>
+                </li>
+                <!-- ! position about section -->
+                <li class="nav-item about-nav-position">
+                  <a class="nav-link nav-blue-hover" href="#">Haqqımızda</a>
+                  <div class="about-nav">
+                    <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="bank-details">
+                        <ul>
+                            <li><a href="#" class="bold-header">Bank haqqında</a></li>
+                            <li><a href="#" class="thin-and-grey">Rekvizitlər</a></li>
+                            <li><a href="#" class="thin-and-grey">Missiya və strateji baxış</a></li>
+                            <li><a href="#" class="thin-and-grey">Sosial məsuliyyət /Sponsorluq</a></li>
+                            <li><a href="#" class="thin-and-grey">Müxbir banklar</a></li>
+                            <li><a href="#" class="thin-and-grey">Törəmə və asılı müəssisələrdə iştirak payı</a></li>
+                            <li><a href="#" class="thin-and-grey">Mükafatlar</a></li>
+                          </ul>
+                      </div>
+                      <div class="bank-details">
+                        <ul>
+                          <li>
+                            <a href="#" class="bold-header">Rəhbərlik</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="bank-details">
+                        <ul>
+                          <li>
+                            <a href="#" class="bold-header">İdarəetmə və komitələr</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="bank-details">
+                        <ul>
+                          <li>
+                            <a href="#" class="bold-header">Tariflər,Sənədlər və Resurslar</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="bank-details">
+                        <ul>
+                          <li>
+                            <a href="#" class="bold-header">Siyasətlərimiz</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="bank-details">
+                        <ul>
+                          <li>
+                            <a href="#" class="bold-header">Korporativ təqdimat</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="bank-details">
+                        <ul>
+                          <li>
+                            <a href="#" class="bold-header">Araşdırma</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="bank-details">
+                        <ul>
+                          <li>
+                            <a href="#" class="bold-header">Hesabatlar</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="bank-details">
+                        <ul>
+                          <li>
+                            <a href="#" class="bold-header">Təklif və iradlar</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="bank-details">
+                        <ul>
+                          <li>
+                            <a href="#" class="bold-header">İnvestisiya bankçılığı</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="bank-details">
+                        <ul>
+                          <li>
+                            <a href="#" class="bold-header">Brend Mərkəzi</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="bank-details">
+                        <ul>
+                            <li><a href="#" class="bold-header">Satınalmalar</a></li>
+                            <li><a href="#" class="thin-and-grey">Müsabiqələlrin elanı</a></li>
+                            <li><a href="#" class="thin-and-grey">Bildirişlər</a></li>
+                            <li><a href="#" class="thin-and-grey">Bağlanmış müqavilələrin qeydiyyatı</a></li>
+                            <li><a href="#" class="thin-and-grey">Satınalma planı</a></li>
+                            <li><a href="#" class="thin-and-grey">Təchizatçı sorğusu</a></li>
+                            <li><a href="#" class="thin-and-grey">Satınalma hesabatları</a></li>
+                          </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  </div>
+                </li>
+                <!-- ?end -->
+                <li class="nav-item">
+                  <a class="nav-link nav-blue-hover" href="#">İnvestorlarla əlaqə</a>
+                </li>
+              </ul>
+              <!-- right side -->
+              <ul class="navbar-nav ms-auto nav-color-grey nav-text-style">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3 l-r-border" href="#">AZ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#"><i class="fa-solid fa-phone"></i> 937</a>
+                </li>
+                <li class="nav-item network-btn">
+                  <a class="nav-link" href="https://abb-bank.az/filiallar">
+                    <i class="fa-solid fa-location-dot"></i> Xidmət Şəbəkəsi
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        </div>
+        </div>
+<!--================================== Section================================= -->
+        <section>
+            <div class="all-loan-section1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mt-5">
+                            <!-- todo "Fərdi" link qoyulacaq -->
+                            <span class="individual-all-loans individual"><a class="individual" href="">Fərdi • </a> 
+                                <span class="loans-all"> Bütün kreditlər </span></span>
+                            <h1 class="all-loans-head-parg1">İstəyinizə uyğun nağd krediti tam onlayn əldə edin!</h1>
+                            <p class="all-loans-head-parg2">Planlarınızı rahat həyata keçirmək üçün olduğunuz <br>
+                                yerdən onlayn kredit sifariş edin. Güzəştli şərtlərlə və <br> zaminsiz.</p>
+                            <!-- todo butona link qoyulacaq -->
+                            <a class="all-loans-head-button" href="">İndi sifariş edin</a>
+                        </div>
+                        <div class="col-6">
+                            <img class="all-loans-head-img" src="../images/all-loans-img1.png" alt="">
+                            <div class="all-loans-head-table">
+                                <div>
+                                    <p class="all-loans-table-head">Maksimum məbləğ</p>
+                                    <p class="all-loans-table-body">50 000 ₼</p>
+                                </div>
+                                <div>
+                                    <p class="all-loans-table-head">Minimum illik faiz</p>
+                                    <p class="all-loans-table-body">10,9%</p>
+                                </div>
+                                <div>
+                                    <p class="all-loans-table-head">Maksimum müddət</p>
+                                    <p class="all-loans-table-body">60 ay</p>
+                                </div>
+                                <div>
+                                    <p class="all-loans-table-head">Min. və maks. FİFD</p>
+                                    <p class="all-loans-table-body">10.9%-37.7%</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================================ Section2===========================-->
+        <!-- ! copy this area=============================================== -->
+        <section>
+            <div class="all-loans-loan-limit">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <p>
+                                <span class="all-loans-section-limit">Kredit limitinizi</span> <br>
+                                <span class="all-loans-section-limit2">öyrənin</span>
+                            </p>
+                            <p class="all-loans-loan-limit-text">50 000 AZN-dək krediti tam onlayn əldə <br> edin!</p>
+                        </div>
+                        <div class="col-8">
+                            <form action="">
+                                <div class="all-loans-section-limit-fin-phone">
+                                    <label for="phone"></label>
+                                    <input type="tel" id="phone" name="phone" placeholder="Mobil nömrə" required
+                                        class="all-loans-loan-limit-form">
+                                    <div class="all-loans-section-limit-fin">
+                                        <label for="fin"></label>
+                                        <input type="text" id="fin" name="fin" placeholder="Fin kod" required
+                                            class="all-loans-loan-limit-form">
+                                        <i class="fa-solid fa-circle-info all-loans-section-limit-icon-info"></i>
+
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="check" name="check" class="all-loans-loan-limit-checked"
+                                        value="check">
+                                    <label for="check" class="all-loans-loan-limit-check">“Davam et” düyməsinə
+                                        klikləməklə <a class="all-loans-loan-limit-akb" href="">Azərbaycan Kredit
+                                            Bürosu</a> və <a class="all-loans-loan-limit-akb" href="">ASAN Finans</a>
+                                        vasitəsilə <br> məlumatlarımın ABB-yə təqdim edilməsinə razılıq verirəm.</label>
+                                    <button class="all-loans-loan-limit-button">Davam et</button>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--============================== Section3 =========================-->
+        <section>
+            <div class="all-loan-section2">
+                <h1 class="all-loan-section2-parg1">Tələbinizə uyğun krediti seçin</h1>
+                <div class="container">
+                    <div class="card mb-3 all-loan-section2-card-body-head" style=>
+                        <div class="row g-0 all-loan-section2-card-body">
+                            <div class="col-md-4">
+                                <img src="../images/all-loans-card-1.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body  ">
+                                    <h5 class="card-title all-loan-section2-card-title">Nağd kredit</h5>
+                                    <p class="card-text all-loan-section2-card-text">Planlarınız üçün 50 000 AZN-dək
+                                        nağd krediti filiala gəlmədən, tam onlayn əldə edin.</p>
+                                    <div class="all-loan-section2-cards">
+                                        <div>
+                                            <p>Maksimum məbləğ</p>
+                                            <p class="all-loan-card-item">50 000 ₼</p>
+                                        </div>
+                                        <div>
+                                            <p>Minimum illik faiz</p>
+                                            <p class="all-loan-card-item">10,9%</p>
+                                        </div>
+                                        <div>
+                                            <p>
+                                                Maksimum müddət
+                                            </p>
+                                            <p class="all-loan-card-item">
+                                                60 ay
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p>Min. və maks. FİFD</p>
+                                            <p class="all-loan-card-item">10.9%-37.7%</p>
+                                        </div>
+                                    </div>
+                                    <div class="all-loan-card-buttons">
+                                        <!-- todo butonlara link qoyulacaq -->
+                                        <div class="all-loan-card-button-order"><a
+                                                class="all-loan-card-button-link-order" href=""> Sifariş edin</a> </div>
+                                        <div class="all-loan-card-button"><a class="all-loan-card-button-link" href="">
+                                                Ətraflı</a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 all-loan-section2-card-body-head" style=>
+                        <div class="row g-0 all-loan-section2-card-body">
+                            <div class="col-md-4">
+                                <img src="../images/all-loans-card-2.png"
+                                    class="img-fluid rounded-start all-loans-section2-card-img2" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title all-loan-section2-card-title">Avtomobil krediti</h5>
+                                    <p class="card-text all-loan-section2-card-text">Avtomobil krediti əldə etmək
+                                        istəyən müştərilər bütün rəsmi avtomobil dilerlərindən istədikləri avtomobili
+                                        seçərək onlayn kredit üçün müraciət edə bilərlər.</p>
+                                    <div class="all-loan-section2-cards">
+                                        <div>
+                                            <p class="all-loan-card-item2">Maksimum məbləğ</p>
+                                            <p class="all-loan-card-item">200 000 ₼</p>
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">Minimum illik faiz</p>
+                                            <p class="all-loan-card-item">13%</p>
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">
+                                                Maksimum müddət
+                                            </p>
+                                            <p class="all-loan-card-item">
+                                                60 ay
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">Min. və maks. FİFD</p>
+                                            <p class="all-loan-card-item">18.64%-41.65%</p>
+                                        </div>
+                                    </div>
+                                    <div class="all-loan-card-button"><a class="all-loan-card-button-link" href="">
+                                            Ətraflı</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 all-loan-section2-card-body-head" style=>
+                        <div class="row g-0 all-loan-section2-card-body">
+                            <div class="col-md-4">
+                                <img src="../images/all-loans-card-3.png"
+                                    class="img-fluid rounded-start all-loans-section2-card-img3" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title all-loan-section2-card-title">Əmanət üzrə nağd kredit</h5>
+                                    <p class="card-text all-loan-section2-card-text">ABB-də depozit yerləşdirmiş
+                                        müştərilər əmanət məbləğinin maksimum 70%-i həcmində və maksimum 50,000 AZN/USD
+                                        olmaqla nağd kredit əldə edə bilər.</p>
+                                    <div class="all-loan-section2-cards">
+                                        <div>
+                                            <p class="all-loan-card-item2">Maksimum məbləğ</p>
+                                            <p class="all-loan-card-item">70%</p>
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">Minimum illik faiz</p>
+                                            <p class="all-loan-card-item">3%</p>
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">
+                                                Maksimum müddət
+                                            </p>
+                                            <p class="all-loan-card-item">
+                                                Depozit <br> müddətinədək
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">Min. və maks. FİFD</p>
+                                            <p class="all-loan-card-item">5.21%-23.12%</p>
+                                        </div>
+                                    </div>
+                                    <div class="all-loan-card-button"><a class="all-loan-card-button-link" href="">
+                                            Ətraflı</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 all-loan-section2-card-body-head" style=>
+                        <div class="row g-0 all-loan-section2-card-body">
+                            <div class="col-md-4">
+                                <img src="../images/all-loans-card-4.png"
+                                    class="img-fluid rounded-start all-loans-section2-card-img4" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title all-loan-section2-card-title">Avans kredit xətti</h5>
+                                    <p class="card-text all-loan-section2-card-text">Avans kredit xətti ABB-dən
+                                        əməkhaqqı və ya təqaüd alan şəxslərə maaşı gözləmədən təcili xərclərinin həlli
+                                        üçün təklif olunan pul vəsaitidir.</p>
+                                    <div class="all-loan-section2-cards">
+                                        <div>
+                                            <p class="all-loan-card-item2">Maksimum məbləğ</p>
+                                            <p class="all-loan-card-item">1000 ₼</p>
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">Minimum illik faiz</p>
+                                            <p class="all-loan-card-item">0%</p>
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">
+                                                Maksimum müddət
+                                            </p>
+                                            <p class="all-loan-card-item">
+                                                36 ay
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">Komissiya</p>
+                                            <p class="all-loan-card-item">5% (min. 2 AZN)</p>
+                                        </div>
+                                    </div>
+                                    <div class="all-loan-card-button"><a class="all-loan-card-button-link" href="">
+                                            Ətraflı</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 all-loan-section2-card-body-head" style=>
+                        <div class="row g-0 all-loan-section2-card-body">
+                            <div class="col-md-4">
+                                <img src="../images/all-loans-card-5.png"
+                                    class="img-fluid rounded-start all-loans-section2-card-img5" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title all-loan-section2-card-title">Əmanətçi üçün kredit limiti</h5>
+                                    <p class="card-text all-loan-section2-card-text">ABB-də depozit yerləşdirmiş
+                                        müştərilərə əmanət məbləğinin maksimum 60%-i həcmində və maksimum 50,000 AZN/USD
+                                        olmaqla kartla kredit xətti ayrıla bilər.</p>
+                                    <div class="all-loan-section2-cards">
+                                        <div>
+                                            <p class="all-loan-card-item2">Maksimum məbləğ</p>
+                                            <p class="all-loan-card-item">50 000 AZN/USD</p>
+
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">Minimum illik faiz</p>
+                                            <p class="all-loan-card-item">18%</p>
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">
+                                                Maksimum müddət
+                                            </p>
+                                            <p class="all-loan-card-item">
+                                                Depozit <br> müddətinədək
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="all-loan-card-item2">Min. və maks. FİFD</p>
+                                            <p class="all-loan-card-item">5.21%-23.12%</p>
+                                        </div>
+                                    </div>
+                                    <div class="all-loan-card-button"><a class="all-loan-card-button-link" href="">
+                                            Ətraflı</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===============================Section4=========================== -->
+        <section>
+
+        </section>
+        <!-- ================================Section5======================= -->
+         <!-- ! copy this area====================================================== -->
+        <section>
+            <div class="all-loan-section3">
+                <div class="container px-5">
+                    <div class="row">
+                        <div class="col-6 px-5">
+                            <p class="all-loan-section3-parg1">ABB mobile</p>
+                            <p class="all-loan-section3-parg2">4.9 reytinqə malik innovativ və təhlükəsiz bank mobil
+                                <br> tətbiqi!</p>
+                            <div class="all-loans-scan">
+                                <div>
+                                    <img class="all-loan-qr" src="../images/all-loans-qr.png" alt="">
+                                </div>
+                                <div>
+                                    <p class="all-loan-section3-scan-text">ABB mobile yükləmək <br> üçün QR kodu skan
+                                        edin.</p>
+                                    <i class="fa-brands fa-apple all-loan-section3-icon"></i>
+                                    <i class="fa-brands fa-google-play all-loan-section3-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 all-loan-section3-phone-img ">
+                            <img class="all-loan-phone-img" src="../images/all-loans-phone.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- ===========================Section6================================= -->
+         <!-- ! copy this area========================================================== -->
+        <section>
+            <div class="all-loans-rating">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 ">
+                            <div>
+                                <p class="all-loans-rating-parg1">Səhifəni <span
+                                        class="all-loans-rating-parg1-item">dəyərləndirin</span></p>
+                                <p class="all-loans-rating-parg2">Fikirlərinizi bizimlə bölüşün. Rəyləriniz dəyərlidir!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="all-loan-rating-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================================Footer=========================== -->
+         <footer>
+          <div class="container p-4">
+            <div class="row ">
+              <!-- col-1 -->
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                  <img src="../images/abb-footer-logo.png" alt="ABB" width="80px" height="40px">
+                  <p class="thin-text pt-2" >Tel:</p>
+                  <p class="font-size-14px">+994 12 493 00 91</p>
+                  <p class="thin-text">Faks:</p>
+                  <p class="font-size-14px">+994 12 493 00 91</p>
+                </div>
+                <!-- col-2 -->
+                 <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+                  <p class="thin-text">E-poçt:</p>
+                  <p class="font-size-14px">info@abb-bank.az</p>
+                  <p class="thin-text">Ünvan</p>
+                  <p class="font-size-14px">67, Nizami küç., AZ1005 Bakı, Azərbaycan</p>
+                 </div>
+                 <!-- col-3 -->
+                 <div class="col-lg-4 col-md-6 col-sm-12">
+                   <div class=" apps-container-box">
+                    <div class="download-abb-app">
+                      <div class="footer-dow-app">
+                       <p>ABB mobile yüklə</p>
+                       <div class="apps-icon-flex">
+                        <!-- icons flex -->
+                        <div class="apple apps-design">
+                          <i class="fa-brands fa-apple"></i>
+                        </div>
+                        <div class="google-play apps-design">
+                          <i class="fa-brands fa-google-play"></i>
+                        </div>
+                       </div>
+                      </div>
+                      <div class="footer-dow-btn qr-style">
+                        <!-- button -->
+                       <a href="https://play.google.com/store/apps/details?id=iba.mobilbank&hl=az" ><i class="fa-solid fa-qrcode"></i>Tətbiqi yüklə</a>
+                      </div>
+                    </div>
+                    <div class="footer-app-img">
+                      <img src="../images/footer-phone.png" alt="Phone">
+                    </div>
+                  </div>
+                 </div>
+                  <!-- col -4 -->
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="footer-abb-cariers">
+                      <div class="footer-cariers-container">
+                      <p>ABB Karyera</p>
+                      <p>Uğur hekayənizi ABB ilə yazın</p>
+                      </div>
+                      <!-- button -->
+                      <div class="portal-link-btn">
+                        <a href="https://careers.abb-bank.az/?_gl=1*1jlxk7n*_gcl_au*MTc4NTE4NDgyMC4xNzcwMDE4MTk2*_ga*MTMwNTE1MDE5MC4xNzcwMDE4MTk3*_ga_XS2V03MMNQ*czE3NzAyNjg4NDYkbzE3JGcxJHQxNzcwMjc0MTk0JGo1NSRsMCRoMA..">Karyera portalı <i class="fa-solid fa-angle-right"></i></a>
+                      </div>
+                   </div>
+
+                  </div>
+            </div>
+          </div>
+          <!-- footer elements -->
+           <div class="container border-bottom-grey-line">
+            <div class="footer-elements">
+            <div class="row ">
+               <div class="col-lg-3 col-md-6 col-sm-12">
+                    <ul>
+                        <li><a href="#" class="link-bold">Fərdi</a></li>
+                        <li><a href="#">Bütün kreditlər</a></li>
+                        <li><a href="./assets/pages/cards.html">Kartlar</a></li>
+                        <li><a href="#">Əmanətlər</a></li>
+                        <li><a href="#">Hesablar</a></li>
+                        <li><a href="#">İpoteka</a></li>
+                        <li><a href="#">Keşbek</a></li>
+                        <li><a href="#">Kampaniyalar</a></li>
+                        <li><a href="#">Bütün əməliyyatlar</a></li>
+                        <li><a href="#">Onlayan xidmətlər</a></li>
+                        <li><a href="#">ABB Prime</a></li>
+                        <li><a href="#">Tariflər, Sənədlər və Resurslar</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-12">
+                    <ul>
+                        <li><a href="#" class="link-bold">Biznes</a></li>
+                        <li><a href="#">Korporativ</a></li>
+                        <li><a href="#">Kiçik və orta biznes</a></li>
+                        <li><a href="#">Mikro fərdi sahibkar</a></li>
+                        <li><a href="#">İnternet Bankçılıq</a></li>
+                    </ul>
+               </div>
+             <div class="col-lg-3 col-md-6 col-sm-12">
+                    <ul>
+                        <li><a href="#" class="link-bold">Haqqımızda</a></li>
+                        <li><a href="#">Bank haqqında</a></li>
+                        <li><a href="#">Rəhbərlik</a></li>
+                        <li><a href="#">İdarəetmə və komitələr</a></li>
+                        <li><a href="#">Tariflər, Sənədlər və Resurslar</a></li>
+                        <li><a href="#">Siyasətlərimiz</a></li>
+                        <li><a href="#">Korporativ təqdimat</a></li>
+                        <li><a href="#">Araşdırma</a></li>
+                        <li><a href="#">Hesabatlar</a></li>
+                        <li><a href="#">Təklif və İradlar</a></li>
+                        <li><a href="#">İnvestisiya bankçılığı</a></li>
+                        <li><a href="#">Brend Mərkəzi</a></li>
+                        <li><a href="#">Satınalmalar</a></li>
+                    </ul>
+
+             </div>
+             <div class="col-lg-3  col-md-6 col-sm-12">
+             <ul>
+              <li>
+                 <a href="#" class="link-bold">İnvestorlarla əlaqə</a>
+              </li>
+             </ul>
+             </div>
+            </div>
+            </div>
+            
+           </div>
+           <!-- footer social links -->
+            <div class="container pt-4">
+              <div class="row footer-links-center">
+                <div class="col-lg-4 col-md-6 col-sm-12 links-flex">
+                  <!-- links -->
+                   <div class="links-container-round">
+                      <a href="https://x.com/abb_bank"><i class="fa-brands fa-x-twitter f-icon-size"></i></a>
+                   </div>
+                   <div class="links-container-round">
+                     <a href="https://www.youtube.com/c/abbaz"><i class="fa-brands fa-youtube f-icon-size"></i></a>
+                   </div>
+                   <div class="links-container-round">
+                     <a href="https://www.instagram.com/abb_bank/"> <i class="fa-brands fa-instagram f-icon-size"></i></a>
+                   </div>
+                   <div class="links-container-round">
+                    <a href="https://www.facebook.com/abbbank.az"> <i class="fa-brands fa-facebook f-icon-size"></i></a>
+                   </div>
+                   <div class="links-container-round">
+                      <a href="https://az.linkedin.com/company/the-bank-abb"><i class="fa-brands fa-linkedin f-icon-size"></i></a>
+                   </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  © ABB 2025 - Bütün hüquqlar qorunur
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-img-center">
+                  <div class="footer-img-true-center">
+                  <a href="#"><img src="../images/footer-logo-1.webp" alt="" width="50px" height="30px"></a>
+                  <a href="#"><img src="../images/footer-logo-2.png" alt="" width="50px" height="30px"></a>
+                  <a href="#"><img src="../images/footer-logo-3.webp" alt="" width="50px" height="30px"></a>
+                  <a href="#"><img src="../images/footer-logo-4.webp" alt="" width="50px" height="30px"></a>
+                  <a href="#"><img src="../images/footer-logo-5.svg" alt="" width="50px" height="30px"></a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+         </footer>
+
+
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
