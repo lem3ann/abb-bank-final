@@ -17,14 +17,13 @@
 }
 
 @font-face {
-    font-family: "Inter", sans-serif;
-    src: url("../fonts/Inter_18pt-Regular.ttf");
+    font-family: "Inter",sans-serif;
+    src: url("../fonts/Inter_24pt-Regular.ttf");
     font-weight: 400;
 }
-
 @font-face {
-    font-family: "Inter", sans-serif;
-    src: url("../fonts/Inter_18pt-Medium.ttf");
+    font-family:"Inter",sans-serif;
+    src: url("../fonts/Inter_24pt-Medium.ttf");
     font-weight: 500;
 }
 
@@ -47,7 +46,7 @@
 }
 
 @font-face {
-    font-family: "Inter", sans-serif;
-    src: url("../fonts/Inter_18pt-Black.ttf");
+    font-family: "Inter",sans-serif;
+    src: url("../fonts/Inter_24pt-Black.ttf");
     font-weight: 900;
 }
