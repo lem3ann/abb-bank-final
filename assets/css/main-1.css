@@ -537,3 +537,7 @@ footer {
 .font-size-14px{
     font-size: 14px;
 }
+.footer-bottom-border{
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--grey-font-color);
+}
