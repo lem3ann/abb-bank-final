@@ -1,0 +1,353 @@
+#cashback-information {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.cashback-information-text {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    max-width: 535px;
+}
+
+.cashback-information-text h3 {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: var(--grey-font-color);
+}
+
+.cashback-information-text h1 {
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.cashback-information-text p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #484a4f;
+}
+
+.cashback-information-text a {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 500;
+    padding: 16px 24px;
+    background-color: #1b63ed;
+    color: white;
+    display: inline-block;
+    border-radius: 12px;
+    width: 46%;
+}
+
+.cashback-information-text a:hover {
+    background-color: #134fc2;
+    text-decoration: none;
+}
+
+.black {
+    color: black;
+}
+
+.cashback-information-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.cashback-txt {
+    display: flex;
+    border: 1px solid #f0f0f0;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: auto;
+}
+
+
+.cashback-txt .header_text_box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cashback-img img {
+    max-height: 356px;
+    margin-bottom: 85px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.txt h4{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: var(--grey-font-color);
+}
+
+.txt p {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+}
+
+#cashback-type{
+    background-color: #f0f0f0;
+}
+
+.bg_light_section{
+    background-color: white ;
+    padding: 50px 0;
+    border: 1px solid white;
+    border-top-left-radius: 54px;
+    border-top-right-radius: 54px;
+}
+
+.cashback-10 {
+    background-color: #f0f0f0;
+    padding: 48px;
+    border-radius: 32px;
+    margin-bottom: 45px;
+}
+
+.cashback-name {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 48px;
+}
+
+.cashback-about {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.cashback-about h1 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    color: black;
+    padding-right: 14px;
+}
+
+.cashback-about h1 span {
+    color: #1b63ed;
+}
+
+.cashback-about p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+}
+
+.cashback-about a {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 500;
+    padding: 10px 24px;
+    background-color: #1b63ed;
+    color: white;
+    display: inline-block;
+    border-radius: 12px;
+    width: 15%;
+}
+
+.cashback-about a:hover {
+    background-color: #134fc2;
+    text-decoration: none;
+}
+
+.cashback1-img img {
+    max-height: 356px;
+    margin-bottom: 85px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cashback-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.cashback-variants {
+    width: 19%;
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 24px;
+}
+
+.cashback-variants h5 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: black;
+    display: block;
+}
+
+.cashback-variants p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+}
+
+.cashback-variants1 {
+    width: 14%;
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 24px;
+}
+
+.cashback-variants1 h5 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.cashback-variants1 p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    text-align: center;
+}
+
+
+.cashback-variants2 {
+    width: 39%;
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    border-radius: 24px;
+}
+
+.cashback-variants2 h5 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: black;
+    display: block;
+}
+
+.cashback-variants2 p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+}
+
+.cashback-svg {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    width: 25%;
+    color: #1b63ed;
+}
+
+.cashback-img {
+    object-fit: cover;
+    height: 76px;
+}
+
+.cashback-img2 img {
+    object-fit: cover;
+    max-height: 184px;
+}
+
+.cashback-partner {
+    background-color: #f0f0f0;
+    padding: 48px;
+    border-radius: 32px;
+    margin-bottom: 45px;
+}
+
+.cashback-partner-information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ferid1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cashback-partner-information h3 {
+    padding: 6px 12px;
+    background-color: white;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: black;
+    border-radius: 36px;
+}
+
+.cashback-partner-information a {
+    padding: 10px 10px;
+    background-color: #ebe7e7;
+    border-radius: 50%;
+    color: black;
+}
+
+.cashback-partner-information h1 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    color: black;
+    padding-right: 14px;
+}
+
+.cashback-partner-information h1 span {
+    color: #1b63ed;
+}
+
+.cashback-partner-information p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+}
+
+.cashback-partner-img img  {
+    object-fit: cover;
+    max-height: 220px;
+}
+
+
+
+
+
