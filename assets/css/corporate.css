@@ -36,9 +36,9 @@
     background-color: var(--context-white-color);
     max-height: 302px;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 30px;
     padding-top:20px ;
-    padding-left: 20px;
+    padding-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,7 +55,7 @@
     display: flex;
     border-radius: 20px;
     padding-top:20px ;
-    padding-left: 20px;
+    padding-left: 30px;
     background-color: var(--context-white-color);
 }
 .corporative-boxs-img{
@@ -99,3 +99,98 @@
     justify-content: center;
     align-items: center;
 }
+/* ?Business cards +business internet bank setion */
+#business-cards,#abb-internet-bank{
+    background-image: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
+    border-top-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.business-cards-right-img img{
+    width:580px;
+    max-height:450px;   
+}
+.business-cards-left-text{
+    color: var(--context-white-color);
+}
+.business-cards-left-text h2{
+    font-size: 64px;
+}
+.business-cards-left-text p{
+    color: var(--card-grey-font-color);
+    font-size: var(--font-size-sm);
+    line-height: 28px;
+}
+.business-white-cards-btn a{
+    color:var(--context-black-color);
+    background-color:var(--context-white-color);
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+.business-cards-left-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+}
+/* ?Digital services */
+#digital-services{
+    padding: 64px 0;
+    border-top-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+#digital-services h2{
+    text-align: center;
+    font-size: var(--font-size-md);
+    padding: 30px;
+}
+.digital-services-img-text{
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--cards-container-transparency);
+    padding-top: 20px;
+    padding-left: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.digital-services-img-container img{
+    max-width: 275px;
+    max-height: 275px;
+    transition: all .5s;
+}
+.digital-services-img-container img:hover{
+    transform: scale(1.2);        
+}
+.digital-services-left-text h3{
+    font-size: var(--font-size-medium);
+}
+.digital-services-left-text p{
+    font-size: var(--links-grey-text-color);
+}
+.digital-services-left-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.digital-services-left-text a{
+    padding: 30px 0;
+}
+/* !ABB Internet Bank******************************/
+.abb-internet-bank-left-text h2,.abb-internet-bank-left-text p{
+    font-size:var(--font-size-large);
+    line-height: 40px;
+    letter-spacing: .025em;
+}
+.abb-internet-bank-pic img{
+    max-width: 620px;
+    max-height: 620px;
+}
+.abb-internet-bank-left-text{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.abb-internet-bank-left-text h2{
+    text
+    background-image: linear-gradient(90deg,#6F9FFF,#74C4FF 33.93%);
+}
+

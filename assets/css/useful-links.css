@@ -1,0 +1,78 @@
+#useful-links-information {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.useful-links-information-text {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    max-width: 580px;
+}
+
+.useful-links-information-text h3 {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+}
+
+.useful-links-information-text h1 {
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.useful-links-information-text p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #484a4f;
+}
+
+.useful-links-img img {
+    max-height: 356px;
+    margin-bottom: 85px;
+    width: 100%;
+    object-fit: contain;
+}
+
+#useful-links-faq{
+    background-color: #f0f0f0;
+}
+
+.bg_light_section{
+    background-color: white ;
+    padding: 50px 0;
+    border: 1px solid white;
+    border-top-left-radius: 54px;
+    border-top-right-radius: 54px;
+}
+
+.faq-links {
+    margin-left: 50px;
+}
+
+.faq-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.faq-links ul li a {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #134fc2;
+}
+
+.faq-links ul li a:hover {
+    text-decoration: none;
+}
