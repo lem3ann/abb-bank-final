@@ -1,0 +1,101 @@
+*{
+    font-family: "Inter",sans-serif;
+}
+#corporate-quick-links{
+    padding: 64px 0;
+    background-color:var(--cards-container-transparency);
+}
+.corporate-box-img img{
+    width: 330px;
+    height: 160px;
+    transition: all .5s;
+}
+.corporate-box-img{
+    display: flex;
+    justify-content: flex-end;
+}
+.corporative-img-end,.corportive-loan-box{
+    overflow: hidden;
+    border-radius: 20px;
+}
+.carousel-max-width{
+    max-height: 302px;
+    width: 100%;
+}
+.corporative-img-end img{
+    max-width: 180px;
+    height: 140px;
+    border-radius: 20px;
+    object-fit: contain;
+    transition: all .5s;
+}
+.corporative-img-end img:hover,.corporate-box-img img:hover{
+    transform: scale(1.2);
+}
+.corportive-loan-box{
+    background-color: var(--context-white-color);
+    max-height: 302px;
+    height: 100%;
+    border-radius: 20px;
+    padding-top:20px ;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.corporate-h3-arrow{
+    display: flex;
+    justify-content: space-between;
+}
+.corporate-h3-arrow h3{
+    font-size: 24px;
+}
+/* 3 columns */
+.corporative-boxs{
+    display: flex;
+    border-radius: 20px;
+    padding-top:20px ;
+    padding-left: 20px;
+    background-color: var(--context-white-color);
+}
+.corporative-boxs-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.corporative-box-text p{
+    padding-top: 20px;
+}
+.corporate-arrow{
+    margin-right: 15px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: var(--light-grey-font-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+.corporative-box-text h3{
+    font-size: var(--font-size-medium);
+}
+/* ? suretli kecidler hissesi */
+.corporate-ql-container{
+    padding: 64px 0;
+}
+.corporate-ql-container h3{
+    text-align: center;
+    font-size: var(--font-size-small);
+    color:var(--links-grey-text-color);
+}
+.corporate-ql-box img{
+    width: 70px;
+    height: 70px;
+}
+.corporate-ql-box-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
