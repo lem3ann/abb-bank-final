@@ -1,15 +1,10 @@
 :root {
 
-    /* !Variables --Gadir */
-      /* ?colors */
-    --background-color: rgb(240 240 240 / 1)
-    
-
-
-
-
+  /* !Variables --Gadir */
+  /* ?colors */
+  --background-color: rgb(240 240 240 / 1)
     /* !Variables --Jala */
-   
+
 
 
 
@@ -18,34 +13,35 @@
     /* !Variables --Laman */
     /* ?font-size */
     --font-size-extra-small: 12px;
-    --font-size-thin: 14px;
-    --font-size-small: 16px;
-    --font-size-medium: 24px;
-    --font-size-large: 32px;
-    --font-size-extra-large: 64px;
-    --font-size-sm:18px;
-    --font-size-md:48px;
+  --font-size-thin: 14px;
+  --font-size-small: 16px;
+  --font-size-medium: 24px;
+  --font-size-large: 32px;
+  --font-size-extra-large: 64px;
+  --font-size-sm: 18px;
+  --font-size-md: 48px;
+  --font-size-for-news: 20px;
 
 
 
-    /* ?colors */
-    --main-blue: rgb(27 99 237);
-    --grey-font-color: #7A7D82;
-    --context-black-color: black;
-    --context-black-opacity: rgba(0, 0, 0, 0.341);
-    --context-white-color: white;
-    --footer-app-container-bg: #0A0B0D29;
-    --section-bg-light-pink: rgb(240, 240, 240);
-    --white-with-opacity: rgba(255, 255, 255, 0.258);
-    --grey-with-opacity: rgba(188, 185, 185, 0.258);
-    --teal-bg-color: rgb(0, 158, 198);
-    --purple-bg-color: rgb(126, 72, 250);
-    --light-grey-font-color: rgb(225, 223, 227);
-    --blue-with-dark-hover:rgb(15, 75, 189);
-    --cards-container-transparency:#0A0B0D0A;
-    --links-grey-text-color:#7A7D82;
-    --card-grey-font-color:#FFFFFFB8;
-    
+  /* ?colors */
+  --main-blue: rgb(27 99 237);
+  --grey-font-color: #7A7D82;
+  --context-black-color: black;
+  --context-black-opacity: rgba(0, 0, 0, 0.341);
+  --context-white-color: white;
+  --footer-app-container-bg: #0A0B0D29;
+  --section-bg-light-pink: rgb(240, 240, 240);
+  --white-with-opacity: rgba(255, 255, 255, 0.258);
+  --grey-with-opacity: rgba(188, 185, 185, 0.258);
+  --teal-bg-color: rgb(0, 158, 198);
+  --purple-bg-color: rgb(126, 72, 250);
+  --light-grey-font-color: rgb(225, 223, 227);
+  --blue-with-dark-hover: rgb(15, 75, 189);
+  --cards-container-transparency: #0A0B0D0A;
+  --links-grey-text-color: #7A7D82;
+  --card-grey-font-color: #FFFFFFB8;
+
 
 
 
