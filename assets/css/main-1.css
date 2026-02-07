@@ -1,6 +1,9 @@
 * {
     font-family: "Inter", sans-serif;
 }
+/* .container{
+    max-width: 1144px!important;
+} */
 
 /*!NAVBAR  #####################  */
 .nav-color-black li a {
@@ -24,7 +27,8 @@
 .nav-blue-hover {
     font-weight: 600 !important;
 }
-.position-sticky{
+
+.position-sticky {
     position: sticky;
     top: 0;
     z-index: 20;
@@ -34,7 +38,9 @@
 }
 
 /* ?position-ferdi tab ve business tabi*/
-.nav-menu-position,.business-dropdown-position,.about-nav{
+.nav-menu-position,
+.business-dropdown-position,
+.about-nav {
     position: absolute;
     left: 0;
     top: 80px;
@@ -45,14 +51,18 @@
     display: none;
     border: 1px solid var(--grey-with-opacity);
 }
+
 .business-dropdown-position a {
     display: block;
     padding: 10px 0;
 }
-.nav-menu-position,.business-dropdown-position{
+
+.nav-menu-position,
+.business-dropdown-position {
     padding: 0 50px;
 }
-.about-nav{
+
+.about-nav {
     padding: 20px 50px;
 }
 
@@ -114,9 +124,10 @@
     background-color: var(--main-blue);
     border-radius: 5px;
 }
-.network-btn:hover{
-    background-color: var( --blue-with-dark-hover);
-} 
+
+.network-btn:hover {
+    background-color: var(--blue-with-dark-hover);
+}
 
 .nav-color-grey .network-btn a {
     color: var(--context-white-color) !important;
@@ -384,15 +395,40 @@
 
 /* SHAPE the future ################### */
 #shape-the-future {
-    background-color: var(--footer-app-container-bg);
-    padding: 30px 0;
+    border-top-left-radius:50px ;
+    border-top-right-radius:50px;
+    background-image: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
+    padding: 60px 0;
 }
 
 /* abb staff */
 .abb-staff img {
-    width: 515px;
-    height: 515px;
+    width: 520px;
+    height: 520px;
 }
+.shape-the-future-width-abb{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.shape-the-future-width-abb h2{
+    font-size: var(--font-size-extra-large);
+    color: var(--context-white-color);
+    padding: 10px 0;
+}
+.shape-the-future-width-abb span.transparency-abb-text{
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg,#6F9FFF,#74C4FF 33.93%);
+}
+.shape-the-future-width-abb p{
+    padding: 10px;
+    line-height: 28px;
+    font-size:var(--font-size-sm);
+    color: var(--card-grey-font-color);
+}
+
 
 /* !CAMPAGINS ########################### */
 .campagins-header {
@@ -431,6 +467,7 @@ footer {
     background-color: var(--footer-app-container-bg);
     border-radius: 20px;
 }
+
 .download-abb-app,
 .footer-abb-cariers {
     padding: 25px 10px;
@@ -439,9 +476,11 @@ footer {
     justify-content: space-between;
 
 }
-.footer-app-img{
+
+.footer-app-img {
     height: 100%;
 }
+
 .apps-container-box {
     display: flex;
     justify-content: space-between;
@@ -469,7 +508,8 @@ footer {
     font-size: var(--font-size-extra-small);
     margin-top: 7px;
 }
-.footer-elements{
+
+.footer-elements {
     border-bottom: 1px solid var(--grey-font-color);
     padding-bottom: 10px;
 }
@@ -493,7 +533,8 @@ footer {
 
 
 
-.qr-style a,.portal-link-btn a {
+.qr-style a,
+.portal-link-btn a {
     background-color: var(--context-white-color);
     padding: 10px;
     color: var(--context-black-color);
@@ -505,10 +546,12 @@ footer {
     background-color: var(--main-blue);
     color: var(--context-white-color);
 }
-.portal-link-btn a:hover{
-    background-color: var( --blue-with-dark-hover);
+
+.portal-link-btn a:hover {
+    background-color: var(--blue-with-dark-hover);
 }
-.links-container-round{
+
+.links-container-round {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -517,27 +560,34 @@ footer {
     border-radius: 50%;
     background-color: var(--context-black-opacity);
 }
-.links-container-round:hover{
+
+.links-container-round:hover {
     background-color: var(--main-blue);
 }
-.links-container-round a{
+
+.links-container-round a {
     color: var(--context-white-color);
 }
-.f-icon-size{
+
+.f-icon-size {
     font-size: 22px;
 }
-.footer-img-true-center{
+
+.footer-img-true-center {
     display: flex;
     gap: 15px;
 }
-.footer-links-center{
+
+.footer-links-center {
     display: flex;
     align-items: center;
 }
-.font-size-14px{
+
+.font-size-14px {
     font-size: 14px;
 }
-.footer-bottom-border{
+
+.footer-bottom-border {
     padding-bottom: 20px;
     border-bottom: 1px solid var(--grey-font-color);
 }
