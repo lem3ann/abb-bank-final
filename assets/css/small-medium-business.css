@@ -1,0 +1,17 @@
+.black-sm-box {
+    background-image: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
+}
+
+.currency-sm-text {
+    display: flex;
+    justify-content: flex-start;
+    gap: 35px;
+}
+
+.currency-sm-flex h4 {
+    font-size: var(--font-size-medium);
+}
+
+.currency-sm-flex p {
+    font-size: var(--font-size-small);
+}
