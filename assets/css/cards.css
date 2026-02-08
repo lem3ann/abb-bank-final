@@ -1,0 +1,113 @@
+*{
+    font-family: "Inter",sans-serif;
+}
+/* !Digicard  -full */
+#digicard-full{
+    background-color: var(--section-bg-light-pink);
+    padding: 64px 0;
+}
+.digicard-full-card-img img{
+    width:572px;
+    height: 316px;
+}
+.digicard-left-side-container a{
+    text-decoration: none;
+    color: var( --grey-font-color);
+}
+.digi-fs{
+    font-size:var(--font-size-thin);
+}
+.digicard-left-side-container h1{
+    font-size: var(--font-size-extra-large);
+    line-height: 72px;
+    font-weight: 500;
+}
+.digi-fs-18{
+    font-size: var(--font-size-sm);
+    color: var(--grey-font-color);
+}
+/* buttons */
+.digicard-buttons-container a:first-child{
+    background-color: var(--main-blue);
+    color: var(--context-white-color);
+    margin-right: 15px;
+}
+.digicard-buttons-container a:nth-child(2){
+    background-color: var(--context-white-color);
+    color: var(--context-black-color);
+}
+.digicard-buttons-container a:first-child:hover{
+    background-color: var(--blue-with-dark-hover);
+}
+
+.digicard-buttons-container a:nth-child(2):hover{
+    outline: 1px solid var(--light-grey-font-color);
+}
+.digi-btn-padding a{
+    padding:15px 23px ;
+    border-radius: 8px;
+}
+.digicard-left-side-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+}
+.digicards-detail-container{
+    display: flex;
+    gap: 40px;
+    background-color: var(--context-white-color);
+    border-radius: 15px;
+    padding: 24px 40px;
+    justify-content: space-between;
+}
+.digicard-c1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.grey-digi-text{
+    font-size: var(--font-size-thin);
+    color: var(--grey-font-color);
+}
+.bold-digi-text{
+    font-size: 20px;
+    line-height: 24px;
+}
+/* ! RIGHT CARD OPTION*/
+#right-card-option{
+    padding-bottom: 80px;
+}
+#right-card-option h2{
+    text-align: center;
+    font-size: var(--font-size-medium);
+    padding: 30px 0;
+}
+.right-card-optoin-debet-img img{
+    width: 210px;
+    height: 210px;     
+}
+.right-card-optoin-debet-img{
+    display: flex;
+    align-items: flex-end;
+}
+.right-card-option-debet{
+    background-color: var(--cards-container-transparency);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    height: 250px;
+}
+.right-card-option-debet-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.right-card-flex-column h3{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
