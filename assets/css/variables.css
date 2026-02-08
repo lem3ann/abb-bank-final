@@ -21,6 +21,7 @@
   --font-size-sm: 18px;
   --font-size-md: 48px;
   --font-size-for-news: 20px;
+  --font-size-for-title: 56px;
 
 
 
@@ -43,6 +44,9 @@
   --card-grey-font-color: #FFFFFFB8;
   --color-disabled: rgb(200, 197, 197);
   --white-with-grey-hover: rgb(237, 233, 233);
+  --grey-txt-color: rgb(122, 135, 139);
+  --medium-grey: #484A4F;
+  --striped-black-bg-color: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
 
 
 

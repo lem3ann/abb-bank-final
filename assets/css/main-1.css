@@ -220,7 +220,8 @@
     border-radius: 20px;
     background-color: var(--purple-bg-color);
 }
-.purple-box a{
+
+.purple-box a {
     width: 160px;
 }
 
@@ -240,7 +241,8 @@
 .button-width-blue {
     width: 170px;
 }
-.main-page-btn-width a{
+
+.main-page-btn-width a {
     width: 180px;
 }
 
@@ -409,6 +411,7 @@
 
 /* SHAPE the future ################### */
 #shape-the-future {
+    padding-top: 60px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     background-image: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
@@ -728,6 +731,7 @@ table tr td p {
 .currency-table-padding {
     padding: 80px 0;
 }
+
 .currency-convertor-details {
     max-height: 536px;
     height: 100%;
@@ -740,29 +744,35 @@ table tr td p {
     border-radius: 20px;
     background-color: var(--section-bg-light-pink);
 }
-.convertor-coin-img img{
+
+.convertor-coin-img img {
     width: 120px;
     height: 120px;
 }
+
 .currency-convertor-header-details {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.currency-convertor-header-details h3{
+
+.currency-convertor-header-details h3 {
     font-size: var(--font-size-large);
 }
-.flex-input-and-btn input{
+
+.flex-input-and-btn input {
     height: 60px;
-    border-top-left-radius:20px ;
-    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
-.flex-input-and-btn button{
+
+.flex-input-and-btn button {
     padding-left: 10px;
     height: 50px;
     background-color: var(--context-white-color);
 }
-.flex-input-and-btn{
+
+.flex-input-and-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -770,15 +780,18 @@ table tr td p {
     border-radius: 10px;
     border: 1px solid var(--white-with-grey-hover);
 }
-.currency-inputs{
+
+.currency-inputs {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.position-up-down-arrow{
+
+.position-up-down-arrow {
     position: relative;
 }
-.up-down-arrow{
+
+.up-down-arrow {
     position: absolute;
     left: 45%;
     bottom: 20%;
@@ -790,9 +803,11 @@ table tr td p {
     background-color: var(--main-blue);
     border-radius: 50%;
 }
-.up-down-arrow svg{
+
+.up-down-arrow svg {
     color: var(--context-white-color);
 }
+
 /* number input ucun spinnerin gorunmemesi */
 /* input type number-in spinnerini gizlədir */
 input[type=number]::-webkit-outer-spin-button,
