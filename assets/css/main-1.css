@@ -1,6 +1,7 @@
 * {
     font-family: "Inter", sans-serif;
 }
+
 /* .container{
     max-width: 1144px!important;
 } */
@@ -395,8 +396,8 @@
 
 /* SHAPE the future ################### */
 #shape-the-future {
-    border-top-left-radius:50px ;
-    border-top-right-radius:50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     background-image: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
     padding: 60px 0;
 }
@@ -406,54 +407,87 @@
     width: 520px;
     height: 520px;
 }
-.shape-the-future-width-abb{
+
+.shape-the-future-width-abb {
     height: 100%;
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
-.shape-the-future-width-abb h2{
+
+.shape-the-future-width-abb h2 {
     font-size: var(--font-size-extra-large);
     color: var(--context-white-color);
     padding: 10px 0;
 }
-.shape-the-future-width-abb span.transparency-abb-text{
+
+.shape-the-future-width-abb span.transparency-abb-text {
     background-clip: text;
     color: transparent;
-    background-image: linear-gradient(90deg,#6F9FFF,#74C4FF 33.93%);
+    background-image: linear-gradient(90deg, #6F9FFF, #74C4FF 33.93%);
 }
-.shape-the-future-width-abb p{
+
+.shape-the-future-width-abb p {
     padding: 10px;
     line-height: 28px;
-    font-size:var(--font-size-sm);
+    font-size: var(--font-size-sm);
     color: var(--card-grey-font-color);
 }
 
 
 /* !CAMPAGINS ########################### */
+/* #campagins {
+    padding: 64px 0;
+} */
+.campagins-padding {
+    padding: 30px 0;
+}
+
 .campagins-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.campagins-header h2 {
+    font-size: var(--font-size-md);
+    line-height: 56px;
+    font-weight: 500;
+}
+
+.l-r-arrow {
+    display: flex;
+    gap: 10px;
+}
+
+.l-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--grey-with-opacity);
+}
+
 .campagins-column {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    ;
-    background-color: #383C46;
-    padding: 20px 0;
+    justify-content: space-between;
+    max-height: 100%;
+    border-radius: 20px;
+    background-color: var(--grey-with-opacity);
 }
 
 .campagins-column img {
     width: 300px;
-    height: 220px;
+    height: 250px;
 }
 
-.campagins-padding {
-    padding: 30px 0;
+.color-disabled {
+    color: var(--color-disabled);
 }
+
 
 /* !FOOTER ###################### */
 footer {
