@@ -1,0 +1,226 @@
+#useful-cashback-information {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.useful-cashback-information-text {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    max-width: 535px;
+}
+
+.useful-cashback-information-text h3 {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: var(--grey-font-color);
+}
+
+.useful-cashback-information-text h1 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.useful-cashback-information-text p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #484a4f;
+}
+
+.useful-cashback-information-text a {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 500;
+    padding: 16px 24px;
+    background-color: #1b63ed;
+    color: white;
+    display: inline-block;
+    border-radius: 12px;
+    width: 35%;
+}
+
+.useful-cashback-information-text a:hover {
+    background-color: #134fc2;
+    text-decoration: none;
+}
+
+.black {
+    color: black;
+}
+
+.useful-cashback-information-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.useful-cashback-img img {
+    max-height: 356px;
+    margin-bottom: 85px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.useful-cashback-h1 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    text-align: center;
+    margin: 35px 0;
+}
+
+.useful-cashback-partner {
+    background-color: white;
+    border-radius: 32px;
+    margin-bottom: 45px;
+}
+
+.useful-cashback-partner-information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 40px 20px 40px;
+}
+
+.ferid1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.useful-cashback-partner-information h3 {
+    letter-spacing: 0;
+    color: black;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+.useful-cashback-partner-information p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    text-align: center;
+}
+
+.useful-cashback-partner-img img  {
+    object-fit: cover;
+    max-height: 182px;
+}
+
+
+#useful-cashback-top {
+    background-color: #f0f0f0;
+}
+
+.bg_light_section{
+    background-color: white ;
+    padding: 50px 0;
+    border: 1px solid white;
+    border-top-left-radius: 54px;
+    border-top-right-radius: 54px;
+}
+
+.partner-variant {
+    background-color: #f0f0f0;
+    padding: 48px;
+    border-radius: 32px;
+    margin-bottom: 45px;
+}
+
+.useful-cashback-partner-h1 h1 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    color: black;
+    margin: 35px 0;
+}
+
+.useful-cashback-partner-variants {
+    display: flex;
+    justify-content: space-between;
+}
+
+.useful-cashback-partner-column1 {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.useful-cashback-partner-column1 h4 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #7a7d82;
+}
+
+.useful-cashback-partner-column1 p {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+}
+
+.useful-cashback-partner-column1 p span {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #7a7d82;
+}
+
+.useful-cashback-accordion {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.useful-cashback-accordion button {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+}
+
+.useful-cashback-accordion p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    margin-bottom: 20px;
+}
+
+.useful-cashback-accordion ul li {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    margin-bottom: 20px;
+    list-style-type: circle;
+}
+
+.useful-cashback-accordion button:focus {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 0 white;
+}
+
+

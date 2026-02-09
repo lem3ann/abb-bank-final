@@ -2,6 +2,10 @@
 @import url("./font.css");
 @import url("./reset.css");
 @import url("./variables.css");
+@import url("./all-deposits.css");
+@import url("./cashback.css");
+@import url("./useful-links.css");
+@import url("./useful-cashback.css");
 @import url("./all-loans.css");
 @import url("./ipoteka.css");
 @import url("./responsive-1.css");
@@ -9,3 +13,10 @@
 @import url("./responsive-3.css");
 @import url("./all-operations.css");
 @import url("./online-service-appointment.css");
+@import url("./cards.css");
+@import url("./corporate.css");
+@import url("./small-medium-business.css");
+@import url("./micro-business.css");
+@import url("./doc-resource.css");
+@import url("./corporate-pres.css");
+@import url("./about-the-abb.css");
