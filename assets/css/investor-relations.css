@@ -8,3 +8,188 @@
 .blue-round-area{
     background-color: var(--main-blue);
 }
+/* !2024 MALIYYE GOSTREICILERI */
+#statistics-2024{
+    background-color: var(--main-blue);
+}
+
+/* !Bütün header ölçülerini burda yaz h2 -ler üçün */
+.page-title-header-h2,.nav-elements-true-center h2,#feedback h2,#press-releases h2{
+    font-size: var(--font-size-md);
+    text-align: center;
+}
+.header-h2-fc{
+    color: var(--context-white-color);
+    padding: 40px 0;
+}
+.statistics-details-2024{
+    height:160px;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--white-with-opacity);
+    border-radius: 20px;
+}
+.statistics-details-2024 h5{
+    font-size: var(--font-size-medium);
+    color: var(--context-white-color);
+}
+.statistics-details-2024 p{
+    padding: 10px 0;
+    font-size: var(--font-size-thin);
+    color: var( --card-grey-font-color);
+}
+/* !FINANCE INDEX */
+.finance-p-text {
+    text-align: center;
+    padding: 10px 0;
+    color: var(--grey-txt-color);
+    font-size: var(--font-size-small);
+    line-height: 24px;
+}
+.finance-report-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.finance-report-details img{
+    max-width: 60px;
+    max-height: 60px;
+    width: 100%;
+    height: 100%;
+}
+.finance-report{
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--color-disabled);
+}
+.finance-report-details h3{
+    padding: 10px 0;
+    font-size: var( --font-size-sm);
+    font-weight: 600;
+}
+.finance-report-details p{
+    color: var(--medium-grey);
+    font-size:var(--font-size-thin);
+    line-height: 20px;
+    font-weight: 400;
+}
+.finance-report-box{
+    height: 280px;
+    max-height: 100%;
+}
+.finace-report-statistics p{
+    font-size: var(--font-size-large);
+    font-weight: 500;
+    line-height: 40px;
+}
+.statistics-table-for-abb{
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+/* BIG TABLE ************************* */
+.statistics-table-for-abb{
+    margin-top: 30px;
+}
+.finance-rank-abb thead th th{
+    font-size: var(--font-size-thin);
+    color: var(--grey-font-color);
+}
+.finance-rank-abb tr {
+    padding: 30px 0;
+}
+.finance-rank-abb tbody tr td{
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+/* !DOCUMENTS SECTION ************************************ */
+#investor-documents{
+    /* padding: 60px 0; */
+    background-color: var(--section-bg-light-pink);
+}
+.nav-elements-true-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-elements-true-center h2{
+    padding: 20px 0;
+}
+.report-pdf-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    height: 150px;
+    background-color: #e5e6e8;
+}
+.pdf-report-details{
+    display: flex;
+    justify-content: space-between;
+}
+.report-pdf-container svg{
+    color: var(--main-blue);
+}
+.pdf-report-details p{
+    font-size:var(--font-size-thin) ;
+    color: var(--medium-grey);
+}
+.hover-download-btn svg{
+    display: none;
+}
+.report-pdf-container:hover .pdf-report-details .hover-download-btn svg{
+    display: flex;
+}
+.blue-square-border {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+    background-color:#1B63ED1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* !ACCORDION STYLE */
+.accordion-border-none{
+    border: none!important;
+}
+.accordion-border-none button{
+    /* font-weight: 600; */
+    line-height: 28px !important;
+    font-size: var(--font-size-for-news)!important;
+}
+.accordion-button:not(.collapsed){
+    color: var(--context-black-color) !important;
+    box-shadow: none;
+    background-color: transparent!important;
+}
+
+/* !PRESS RELEASES */
+.press-release a{
+    color: var(--context-black-color);
+    font-size: var(--font-size-for-news);
+}
+.press-release a:hover{
+    text-decoration: underline;
+}
+.all-news-btn{
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid var(--color-disabled);
+}
+.all-news-btn:hover{
+    background-color:rgb(248, 246, 246);
+}
