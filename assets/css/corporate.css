@@ -1,0 +1,316 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+#corporate-quick-links {
+    padding: 64px 0;
+    background-color: var(--cards-container-transparency);
+}
+
+.corporate-box-img img {
+    width: 330px;
+    height: 160px;
+    transition: all .5s;
+}
+
+.corporate-box-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.corporative-img-end,
+.corportive-loan-box {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.carousel-max-width {
+    max-height: 302px;
+    width: 100%;
+}
+
+.corporative-img-end img {
+    max-width: 180px;
+    height: 140px;
+    border-radius: 20px;
+    object-fit: contain;
+    transition: all .5s;
+}
+
+.corporative-img-end img:hover,
+.corporate-box-img img:hover {
+    transform: scale(1.2);
+}
+
+.corportive-loan-box {
+    background-color: var(--context-white-color);
+    max-height: 302px;
+    height: 100%;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.corporate-h3-arrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.corporate-h3-arrow h3 {
+    font-size: 24px;
+}
+
+/* 3 columns */
+.corporative-boxs {
+    display: flex;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: var(--context-white-color);
+}
+
+.corporative-boxs-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.corporative-box-text p {
+    padding-top: 20px;
+}
+
+.corporate-arrow {
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-grey-font-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+
+.corporative-box-text h3 {
+    font-size: var(--font-size-medium);
+}
+
+/* ? suretli kecidler hissesi */
+.corporate-ql-container {
+    padding: 64px 0;
+}
+
+.corporate-ql-container h3 {
+    text-align: center;
+    font-size: var(--font-size-small);
+    color: var(--links-grey-text-color);
+}
+
+.corporate-ql-box img {
+    width: 70px;
+    height: 70px;
+}
+
+.corporate-ql-box-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ?Business cards +business internet bank setion */
+#business-cards,
+#abb-internet-bank {
+    background-image: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
+    border-top-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.business-cards-right-img img {
+    max-width: 580px;
+    width: 100%;
+    max-height: 450px;
+}
+
+.business-cards-left-text {
+    color: var(--context-white-color);
+}
+
+.business-cards-left-text h2 {
+    font-size: 64px;
+}
+
+.business-cards-left-text p {
+    color: var(--card-grey-font-color);
+    font-size: var(--font-size-sm);
+    line-height: 28px;
+}
+
+.business-white-cards-btn a {
+    color: var(--context-black-color);
+    background-color: var(--context-white-color);
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+
+.business-cards-left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* ?Digital services */
+#digital-services {
+    padding: 64px 0;
+    border-top-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+#digital-services h2 {
+    text-align: center;
+    font-size: var(--font-size-md);
+    padding: 30px;
+}
+
+.digital-services-img-text {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cards-container-transparency);
+    padding-top: 20px;
+    padding-left: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.digital-services-img-container img {
+    max-width: 275px;
+    max-height: 275px;
+    transition: all .5s;
+}
+
+.digital-services-img-container img:hover {
+    transform: scale(1.2);
+}
+
+.digital-services-left-text h3 {
+    font-size: var(--font-size-medium);
+}
+
+.digital-services-left-text p {
+    padding: 20px 0;
+    font-size: var(--links-grey-text-color);
+}
+
+.digital-services-left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.digital-services-left-text a {
+    padding: 30px 0;
+}
+
+/* !ABB Internet Bank******************************/
+
+.abb-internet-bank-pic img {
+    max-width: 620px;
+    max-height: 620px;
+}
+
+.abb-internet-bank-left-text {
+    padding-top: 60px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.abb-internet-bank-left-text h2 {
+    font-size: var(--font-size-extra-large);
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.abb-bus-blue-text {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #6F9FFF, #74C4FF 33.93%);
+}
+
+.abb-bus-white-text {
+    padding: 8px 0;
+    color: var(--context-white-color);
+}
+
+.abb-internet-bank-left-text p {
+    padding-top: 8px;
+    color: var(--card-grey-font-color);
+    font-size: var(--font-size-thin);
+}
+
+/* !XEBERLER */
+#abb-news {
+    padding: 60px 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: var(--section-bg-light-pink);
+}
+
+.abb-news-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.abb-news-col-box {
+    width: 100%;
+}
+
+.abb-news-col-box img {
+    margin-bottom: 10px;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.abb-news-title h2 {
+    font-size: var(--font-size-md);
+}
+
+.abb-news-col-box a,
+.news-title-bottom a {
+    color: var(--context-black-color);
+    font-size: var(--font-size-for-news);
+}
+
+.abb-news-col-box a:hover,
+.news-title-bottom a:hover {
+    text-decoration: underline;
+}
+
+time {
+    padding: 15px 0;
+    color: var(--links-grey-text-color);
+    display: block;
+}
+
+.news-title-bottom {
+    border-bottom: 1px solid var(--links-grey-text-color);
+}
+
+.news-title-with-border-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.white-bg-new-color {
+    background-color: var(--context-white-color);
+}

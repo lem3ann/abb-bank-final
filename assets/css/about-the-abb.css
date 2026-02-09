@@ -1,0 +1,226 @@
+    /* !BANK OF THE YEAR********** */
+    #bank-of-the-year {
+        background-color: var(--main-blue);
+    }
+
+    .bank-of-the-year-img img {
+        width: 100%;
+        max-width: 630px;
+        height: auto;
+    }
+
+    .bank-of-the-year-text {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .bank-of-the-year-text h1 {
+        font-size: var(--font-size-for-title);
+        color: var(--context-white-color);
+        text-align: left;
+        line-height: 64px;
+        font-weight: 500;
+    }
+
+    .bank-of-the-year-text p {
+        line-height: 28px;
+        font-size: var(--font-size-sm);
+        color: var(--card-grey-font-color);
+    }
+
+    .white-area-with-border-radius {
+        width: 100%;
+        height: 70px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        background-color: var(--context-white-color);
+    }
+
+    /* !MAJOR AWARDS********************************* */
+    #major-awards {
+        padding: 40px 0;
+        border-bottom: 1px solid var(--section-bg-light-pink);
+    }
+
+    .major-awards-details img {
+        width: 100%;
+        height: auto;
+        max-width: 280px;
+    }
+
+    .best-awards-details h5,
+    #bank-in-figures h5 {
+        padding: 10px 0;
+        text-align: center;
+        color: var(--grey-txt-color);
+        line-height: 24px;
+        font-size: var(--font-size-small);
+    }
+
+    .awards-p {
+        text-align: center;
+        font-size: var(--font-size-sm);
+        line-height: 28px;
+        color: var(--context-black-color);
+    }
+
+    .major-awards-details {
+        max-height: 300px;
+        height: 100%;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: var(--section-bg-light-pink);
+    }
+
+    .major-awards-details h4 {
+        padding: 10px 0;
+        text-align: center;
+        font-size: var(--font-size-for-news);
+        line-height: 28px;
+        font-weight: 600;
+    }
+
+    .major-awards-details p {
+        color: var(--medium-grey);
+    }
+
+    .all-awards-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 50px;
+        margin: 50px auto;
+        border-radius: 12px;
+        border: 1px solid var(--color-disabled);
+    }
+
+    .all-awards-btn a {
+        color: var(--context-black-color);
+    }
+    .all-awards-btn:hover{
+        background-color: var(--section-bg-light-pink);
+    }
+    
+
+    #learn-more-about-abb h2,
+    #bank-in-figures h2 {
+        font-size: var(--font-size-md);
+        line-height: 56px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .about-ql {
+        background-color: var(--section-bg-light-pink);
+    }
+
+    /*  !BANK İN FİGURES************************* */
+    .abb-statistics-ranks {
+        padding: 30px 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--section-bg-light-pink);
+    }
+
+    .abb-statistics-ranks h4 {
+        color: var(--context-black-color);
+        font-size: var(--font-size-medium);
+    }
+
+    .abb-statistics-ranks p {
+        padding: 5px 0;
+        color: var(--medium-grey);
+        font-size: var(--font-size-thin);
+    }
+
+    div.black-area-radius {
+        margin-top: 50px;
+        background-image: var(--striped-black-bg-color);
+    }
+
+    /* !DEGREE *************************************** */
+    #banks-degree {
+        background-image: var(--striped-black-bg-color);
+        padding: 40px 0;
+    }
+    .statistics-ranking-table-section{
+        padding: 20px 30px;
+    }
+    table.abb-statistics-table tr {
+        padding: 10px;
+        border-bottom:1px solid var( --medium-grey);
+        
+    }    
+    table.abb-statistics-table tr td{
+        color: var(--card-grey-font-color);
+        /* background-color: var(--table-bg-color); */
+        background-color: #30343B;
+    }
+    table.abb-statistics-table tr td:nth-child(2){
+        padding-left: 30px;
+    }
+    ul.table-tabs-bg-olor li:first-child button{
+        background-color:var(--context-black-color) !important;
+        color: var(--context-white-color) !important;
+        padding: 12px;
+        border-radius: 12px;
+    }
+    ul.table-tabs-bg-olor li:nth-child(2) button{
+        color: var(--card-grey-font-color);
+        font-size: var(--font-size-extra-small) !important;
+        padding: 12px;
+        border-radius: 12px;
+    }
+    ul.table-tabs-bg-olor li:nth-child(2) button:focus{
+        background-color: var(--context-black-color)!important;
+    }
+    .table-tabs-bg-olor li:nth-child(2) button{
+        margin-left: 10px;
+    }
+    .abb-statistics-table tr td:nth-child(2){
+        text-align: center;
+        padding: 20px;
+        border-left:1px solid var( --medium-grey);
+    }
+    .abb-statistics-table tr td:nth-child(1){
+        padding: 20px;
+    }
+    .statistics-table{
+        margin-top: 20px;
+    }
+    .table-footer-details{
+        padding: 8px;
+    }
+    .table-footer-details p{
+        color:var(--card-grey-font-color);
+    }
+    .degree-left-side img{
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+    }
+    .degree-left-side h2{
+        padding: 25px 0;
+        color: var(--context-white-color);
+        font-size: var( --font-size-extra-large);
+        line-height: 72px;
+    }
+    .degree-left-side p{
+        font-size: var(--font-size-sm);
+        color: var(--card-grey-font-color);
+        line-height: 28px;
+        padding: 10px 0;
+    }

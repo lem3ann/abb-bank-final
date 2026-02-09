@@ -1,0 +1,11 @@
+.mb-btn-width a {
+    width: 150px;
+}
+
+.purple-gradient-mb-box {
+    background-image: radial-gradient(77.43% 409.98% at 85.14% 7.65%, #2B76ED 0, #761BED 100%);
+}
+
+#micro-business-cards {
+    background-color: #761BED;
+}
