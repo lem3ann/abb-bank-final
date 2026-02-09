@@ -224,3 +224,36 @@
         line-height: 28px;
         padding: 10px 0;
     }
+    /* !POSITION ELEMENTS FOR MAIN PAGE FOOTER */
+    
+    .main-page-position-abb-person,.main-page-position-abb{
+        background-color: var(--main-blue);
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 2%;
+        /* left: 2%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid var(--main-blue);
+        /* outline: 5px solid rgba(178, 178, 243, 0.719); */
+        transition: all 0.4s;
+    }
+    .main-page-position-abb-person{
+        left: 2%;
+    }
+    .main-page-position-abb-person:hover,.main-page-position-abb:hover{
+        transform: scale(1.2);
+    }
+    .main-page-position-abb img{
+        width: 100%;
+        height: auto;
+    }
+    .main-page-position-abb{
+         right: 2%;
+    }
+    .rating-star-bg-color-grey{
+        background-color: rgb(228, 225, 225);
+    }
