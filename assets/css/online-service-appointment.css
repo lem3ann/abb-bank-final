@@ -1,0 +1,133 @@
+
+*{
+font-family: "Inter",sans-serif;
+}
+
+.online-service-appt{
+    background-color: rgb(240 240 240);
+}
+.appointment-text-icon{
+     font-size: 16px; 
+     line-height: 50px;
+     padding-left: 20px;
+     color: rgb(72 74 79);
+}
+.online-service-appt-table{
+    border: 1px solid black;
+    width: 250px;
+    height: 610px;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.appointment-text{
+    border: 1px solid black;
+    width: 220px;
+    margin-left: 15px;
+    /* margin-top: 20px; */
+    border-radius: 15px;
+    background-color: var(--main-blue);
+    color: white;
+    border: none;
+    
+}
+
+.appointment-section1-item{
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.appointment-section1-item2{
+    font-size: 16px;
+    color: rgb(72 74 79 );
+    margin-top: 20px;
+}
+.appointment-service-button{
+    border: 1px solid black;
+    display: block;
+    width: 180px;
+    height: 45px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: var(--main-blue);
+    color: white;
+    border: none;
+    padding-top:12px ;
+    margin-bottom: 40px;
+}
+.appointment-service-button:hover{
+     color: white;
+    background-color: #004B98;
+}
+.appointment-box{
+   
+}
+.appointment-text-box-item{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.appointment-card-box{
+    display: flex;
+    gap: 20px;
+
+}
+.appointment-card-box-item{
+border:1px solid black;
+width: 250px;
+height: 150px;
+border-radius: 20px;
+background-color: white;
+border: none;
+margin-top: 30px;
+}
+.appointment-card-box-text{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.appointment-card-box-number{
+    display: inline-block;
+    /* padding-top: 20px;
+    padding-left: 20px; */
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+    padding: 2px 6px;
+    background-color:  rgb(230 231 235);
+    color:rgb(96 99 105) ;
+    border: none;
+  
+}
+.appointment-parg{
+    color: rgb(72 74 79);
+    font-size: 14px;
+    margin-top: 30px;
+}
+.online-service-appointment-rating-stars{
+     border: 1px solid black;
+    width: 250px;
+    height:70px ;
+   display: flex;
+   justify-content: center;
+   flex-direction: row-reverse;
+   align-items: center;
+   gap: 12px;
+   font-size: 24px;
+   border-radius: 16px;
+   margin-top: 40px;
+   color:#0a0b0d14;
+   background-color: rgb(240 240 240);
+   border: none;
+}
+.online-service-appointment-rating-stars i:hover,
+.online-service-appointment-rating-stars i:hover ~ i{
+    color: #0072CE;
+}
+
