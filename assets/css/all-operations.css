@@ -163,3 +163,6 @@ color:#7A7D82;
 .all-operations-accordion-button{
     
 }
+.grey-bg-color-for-ranking-page{
+    background-color: var(--grey-font-color);
+}
