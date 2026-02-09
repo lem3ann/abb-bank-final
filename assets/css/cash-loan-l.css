@@ -1,4 +1,27 @@
 /* !CASH LOAN */
-.favorable-terms-details-link{
+.loan-with-favorable-terms {
+    padding: 60px 0;
+}
+
+div.favorable-terms-details-link {
     display: flex;
+    gap: 20px;
+    color: var(--card-grey-font-color);
+}
+
+.favorable-terms-details-link+h2 {
+    font-size: var(--font-size-extra-large);
+    line-height: 72px;
+    padding: 20px 0;
+}
+
+.favorable-terms-details-link+p {
+    font-size: var(--font-size-sm);
+    line-height: 28px;
+}
+
+.favorable-terms-img img {
+    max-width: 580px;
+    width: 100%;
+    height: auto;
 }
