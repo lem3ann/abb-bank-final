@@ -1,0 +1,174 @@
+#campaign-information {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.campaign-information-text {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    max-width: 474px;
+    padding-bottom: 64px;
+}
+
+.campaign-information-text h3 {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: var(--grey-font-color);
+}
+
+.campaign-information-text h1 {
+    font-size: 40px;
+    line-height: 72px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.campaign-information-text p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #484a4f;
+}
+
+.black {
+    color: black;
+}
+
+.campaign-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.campaign-filter h3 {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+}
+
+.campaign-filter-type {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.campaign-filter-type a {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: black;
+    padding: 10px 14px;
+    background-color: #e7e7e7;
+    border-radius: 32px;
+}
+
+.campaign-filter-type a:hover {
+    text-decoration: none;
+    background-color: #dcdcdc;
+}
+
+.campaign-filter-type a:focus {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.campaign-filter-type button {
+    color: #1b63ed;
+}
+
+.campaign-blogs {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.campaign-blogs_row {
+    background-color: white;
+    border-radius: 32px;
+}
+
+.campaign-blogs-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 40px 0;
+    padding-left: 20px;
+}
+
+.campaign-blogs-card-body > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.campaign-blogs-card-body h5 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #7a7d82;
+}
+
+.campaign-blogs-card-body h4 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+}
+
+.campaign-blogs-card-body p {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #606369;
+    padding: 2px 8px;
+    background-color: #e6e7eb;
+    display: inline-block;
+    width: 9%;
+    border-radius: 12px;
+}
+
+.campaign-blogs-img {
+    border-radius: 24px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 40px 0;
+}
+
+.campaign-blogs-buttons a {
+    color: #1b63ed; 
+}
+
+.campaign-pagination li a {
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    color: black;
+}
+
+.campaign-pagination li a:hover {
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    color: black;
+}
+
+.campaign-pagination li a:focus {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 0 #f0f0f0;
+    border-radius: 12px;
+}
+
+
+
