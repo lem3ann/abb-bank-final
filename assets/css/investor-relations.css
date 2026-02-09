@@ -1,0 +1,10 @@
+.bank-of-the-year-text h1{
+    color: var( --context-black-color);
+}
+.bank-of-the-year-text p{
+    color: var(--text-color-grey-p);
+    text-align: left;
+}
+.blue-round-area{
+    background-color: var(--main-blue);
+}
