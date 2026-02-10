@@ -1,3 +1,9 @@
-.dama-dama-btn{
+.dama-dama-btn {
    width: 250px;
+}
+
+/* !DIGIDEPOSIT PAGE CSS CODES*********************************************** */
+.create-digi-btn {
+   width: 200px;
+   margin-bottom: 20px;
 }
