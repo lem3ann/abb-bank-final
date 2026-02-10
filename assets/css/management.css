@@ -1,0 +1,52 @@
+
+*{
+    font-family: "Inter",sans-serif;
+}
+.management-tabs{
+    height: 630px;
+}
+.management-section2{
+    padding-bottom: 80px;
+}
+ol{
+    list-style-type: decimal;
+}
+.docs-resources-navtabs-item.active{
+       color: rgb(27 99 237) !important;
+       background-color: rgb(240 240 240) !important; 
+     
+}
+ .management-navtabs-table,.management-navtabs-table-item{
+    border: 7px solid  rgb(240 240 240) ;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+} 
+
+.management-navtabs-table-item2{
+    width: 300px;
+}
+.management-navtabs-table-item3{
+    width: 350px;
+}
+.management-navtabs-table-item{
+    font-size: 16px;
+    line-height: 24px;
+ 
+}
+ .management-navtabs-table{
+    border-collapse: collapse;
+}
+
+.management-section2{
+    padding-top: 90px;
+}
+.management-content1{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.management-navtabs-list{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
