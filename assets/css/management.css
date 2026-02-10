@@ -1,52 +1,162 @@
+#management-information {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
 
-*{
-    font-family: "Inter",sans-serif;
+.management-information-text {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    max-width: 575px;
 }
-.management-tabs{
-    height: 630px;
+
+.management-information-text h3 {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #7a7d82;
 }
-.management-section2{
-    padding-bottom: 80px;
+
+.management-information-text h1 {
+    font-size: 40px;
+    line-height: 72px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: black;
 }
-ol{
-    list-style-type: decimal;
+
+.management-information-text p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #484a4f;
 }
-.docs-resources-navtabs-item.active{
-       color: rgb(27 99 237) !important;
-       background-color: rgb(240 240 240) !important; 
-     
+
+.black {
+    color: black;
 }
- .management-navtabs-table,.management-navtabs-table-item{
-    border: 7px solid  rgb(240 240 240) ;
-    padding: 10px 20px;
+
+.management-img img {
+    max-height: 356px;
+    margin-bottom: 85px;
+    width: 100%;
+    object-fit: contain;
+}
+
+#management-leadership{
+    background-color: #f0f0f0;
+}
+
+.bg_light_section{
+    background-color: white ;
+    padding: 50px 0;
+    border: 1px solid white;
+    border-top-left-radius: 54px;
+    border-top-right-radius: 54px;
+}
+
+.management-section-text {
+    text-align: center;
+    color: #1b63ed;
     margin-bottom: 20px;
-} 
+}
 
-.management-navtabs-table-item2{
-    width: 300px;
+.management-leadership-about .card {
+    background-color: #0A0B0D0A;
+    border: 1px solid #0A0B0D0A;
+    border-radius: 12px;
 }
-.management-navtabs-table-item3{
-    width: 350px;
+
+.management-leadership-about .card .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
-.management-navtabs-table-item{
+
+.management-leadership-about .card .card-body h5 {
     font-size: 16px;
     line-height: 24px;
- 
-}
- .management-navtabs-table{
-    border-collapse: collapse;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
 }
 
-.management-section2{
-    padding-top: 90px;
-}
-.management-content1{
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-.management-navtabs-list{
-    font-size: 16px;
+.management-leadership-about .card .card-body h6 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
     font-weight: 400;
-    line-height: 24px;
+    color: #7a7d82;
 }
+
+.management-leadership-about .card .card-body p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #7a7d82;
+    text-decoration: underline;
+}
+
+.management-leadership-row-cards {
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.management-section-text2 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #1b63ed;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.management-leadership-about2 .card {
+    border: 1px solid white;
+}
+
+.management-leadership-about2 .card .card-body h5 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+}
+
+.management-leadership-about2 .card .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.management-leadership-about2 .card .card-body p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #7a7d82;
+}
+
+.management-leadership-about2 .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.management-leadership-row-cards2 {
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+

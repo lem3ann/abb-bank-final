@@ -14,6 +14,10 @@
 @import url("./all-operations.css");
 @import url("./online-service-appointment.css");
 @import url("./cards.css");
+@import url("./campaign.css");
+@import url("./management.css");
+@import url("./suggestions.css");
+@import url("./abb-mobile.css");
 @import url("./corporate.css");
 @import url("./small-medium-business.css");
 @import url("./micro-business.css");
@@ -21,3 +25,5 @@
 @import url("./corporate-pres.css");
 @import url("./about-the-abb.css");
 @import url("./management.css");
+@import url("./investor-relations.css");
+@import url("./cash-loan-l.css");

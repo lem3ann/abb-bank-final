@@ -1,0 +1,73 @@
+.suggestions-information-text {
+    margin-bottom: 50px ;
+}
+
+.suggestions-information-text h1 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.suggestions-information-text h3 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.suggestions-information-text p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.suggestions-information-text p a {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+    text-decoration: underline;
+}
+
+.suggestions-information-text p span {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 600;
+    color: black;
+}
+
+.suggestions-information-text h4 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.suggestions-information-text ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.suggestions-information-text ul li {
+    list-style-type: circle;
+}
+
+.suggestions-information-link {
+    margin-left: 20px;
+    color: black;
+    text-decoration: underline;
+}
+

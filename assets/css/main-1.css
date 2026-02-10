@@ -44,7 +44,7 @@
 .about-nav {
     position: absolute;
     left: 0;
-    top: 80px;
+    top: 50px;
     background-color: var(--context-white-color);
     border-radius: 20px;
     width: 1100px;
@@ -111,6 +111,27 @@
     display: flex;
 }
 
+.nav-relative-position:hover .nav-menu-position,
+.nav-business-position:hover .business-dropdown-position,
+.about-nav-position:hover .about-nav {
+    transform: scale(1);
+    animation: menuopen 0.3s ease-in-out 0s 1;
+}
+
+@keyframes menuopen {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+        filter: blur(10px);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
 .nav-color-grey li a {
     color: var(--grey-font-color) !important;
 }
@@ -170,7 +191,8 @@
 }
 
 .carousel-first-img img {
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     height: 270px;
 
 }
@@ -349,7 +371,8 @@
 }
 
 .digi-big-img img {
-    width: 520px;
+    width: 100%;
+    max-width: 520px;
     height: 560px;
 }
 
@@ -419,7 +442,8 @@
 
 /* abb staff */
 .abb-staff img {
-    width: 520px;
+    width: 100%;
+    max-width: 520px;
     height: 520px;
 }
 
