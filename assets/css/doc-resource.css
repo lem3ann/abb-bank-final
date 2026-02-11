@@ -59,52 +59,33 @@ border-radius: 20px;
     line-height: 25px;
     text-align: left;
     padding-top: 20px;
+    width: 100%;
+    
     
     
 }
 .docs-resources-navtabs-item:hover{
     color: black;
 background-color: #e6e8eb;
+
 }
-.updated-date{
-    font-size: 10px !important;
-    color:#484A4F !important;
-}
-.docs-resources-tabs-right-side{
-    /* border:1px solid black;
-    padding-top: 20px;
- height: 150px;
-    border-radius: 30px;
-    margin-top: 20px;
-    display: inline-block;
-    width: 200px; */
-    border: 1px solid black;
-    padding: 20px;
-    min-height: 150px;
-    border-radius: 30px;
-    display: block;
-    width: 200px;
-    border: none;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
+
+
 .docs-resources-tabs-download{
+    font-size: 14px;
  display: none;
 }
-.download-icon-navtabs{
-    display: flex;
-    justify-content: flex-end;
-    
-}
-.docs-resources-tabs-right-side:hover .docs-resources-tabs-download{
-  display: block;
-}
-.docs-resources-tabs-pl-tables2:hover .docs-resources-tabs-download{
+
+
+
+
+.docs-resources-tabs1:hover .docs-resources-tabs-download{
     display: block;
 }
-.docs-resources-tabs-pl-tables:hover .docs-resources-tabs-download{
-    display: block;
-}
+
+
+
+
 
 .docs-resources-tabs-box{
     width: 100%;
@@ -118,7 +99,7 @@ background-color: #e6e8eb;
     font-size: 32px;
     margin-bottom: 40px;
 }
-.docs-resources-tabs-right-side2{
+/* .docs-resources-tabs-right-side2{
     margin-top: 20px;
   
 }
@@ -128,25 +109,59 @@ background-color: #e6e8eb;
 }
 .docs-resources-tabs-icon{
 
+} */
+.docs-resources-tabs1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-color:rgb(240 240 240); 
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
-.docs-resources-tabs-text1{
+
+.docs-resources-tabs1-small{
+    height: 160px;
+}
+.docs-resources-tabs-long{
+    height: 420px;
+    margin-top: 30px;
+}
+.docs-resources-tabs-medium{
+    height:280px ;
+}
+.docs-resources-tabs1-width-long{
+    width: 300px;
+    height: 160px;
+}
+.docs-resources-tabs1-item{
+    display: flex;
+    justify-content: space-between;
+}
+.docs-resources-tabs-item2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+ .docs-resources-tabs-text1{
     color: black;
     font-size: 16px;
     font-weight: 500px;
-    margin-top: 20px;
+ 
     line-height: 24px;
-}
-.docs-resources-tabs-pdf{
+} 
+ .docs-resources-tabs-pdf{
     color: rgb(72 74 79);
     font-size: 14px;
-    margin-top: 75px;
-}
-.docs-resources-tabs-pdf2{
-    margin-top: 50px;
-     color: rgb(72 74 79);
-    font-size: 14px;
-    
-}
+ 
+} 
+
 .docs-resources-content2{
     font-size: 32px;
      margin-bottom: 40px;
@@ -193,23 +208,7 @@ background-color: #e6e8eb;
     border: none;
 
 }
-.docs-resources-tabs-pl-tables2{
-     border: 1px solid black;
-    padding: 20px;
-    min-height: 200px;
-    border-radius: 30px;
-    display: block;
-    width: 200px;
-    background-color: rgb(240 240 240);
-    border: none;
-    margin-top: 20px;
-}
-.docs-resources-tabs-pl-item{
-    color: black;
-    margin-top: 20px;
-    font-size: 16px;
-    line-height: 24px;
-}
+
 .docs-resources-content-text-parg{
     font-size: 24px;
     font-weight: 500;
@@ -229,25 +228,15 @@ background-color: #e6e8eb;
 .docs-resources-content-link:hover{
     color: black;
 }
-.docs-resources-tabs-pdf-fatca{
-    margin-top: 70px;
-     color: rgb(72 74 79);
-    font-size: 14px;
-}
-.docs-resources-tabs-pdf-fatca2{
-    margin-top: 50px;
-     color: rgb(72 74 79);
-    font-size: 14px;
-}
 
 
 
-.docs-resources-tabs-pdf-standart{
+/* .docs-resources-tabs-pdf-standart{
     margin-top: 25px;
      color: rgb(72 74 79);
     font-size: 14px;
-}
-.docs-resources-tabs-right-side-box{
+} */
+/* .docs-resources-tabs-right-side-box{
     border: 1px solid black;
     padding: 20px;
     border-radius: 30px;
@@ -260,8 +249,8 @@ background-color: #e6e8eb;
 }
 .docs-resources-tabs-right-side-box:hover .docs-resources-tabs-download{
     display: block;
-}
-.docs-resources-tabs-right-side-box2{
+} */
+/* .docs-resources-tabs-right-side-box2{
     border: 1px solid black;
     padding: 20px;
     min-height: 250px;
@@ -274,7 +263,7 @@ background-color: #e6e8eb;
 }
 .docs-resources-tabs-right-side-box2:hover .docs-resources-tabs-download{
     display: block;
-}
+} */
 .resources-tabs-text1{
     line-height: 24px;
 }
@@ -283,72 +272,12 @@ background-color: #e6e8eb;
     font-size: 14px;
     color:rgb(72 74 79) ;
 }
-.download-icon-navtabs-related{
-    display: flex;
-    justify-content: flex-end;
-}
-.docs-resources-tabs-download-related{
-     display: none;
 
-}
-.docs-resources-tabs-right-side-box:hover .docs-resources-tabs-download-related{
-  display: block;
-}
-.docs-resources-tabs-pdf-related2{
-    padding-top: 65px;
-     font-size: 14px;
-    color:rgb(72 74 79) ;
-}
-.docs-resources-tabs-pdf-related3{
-    padding-top: 25px;
-     font-size: 14px;
-    color:rgb(72 74 79) ;
-}
+
 .docs-resources-content2-text2{
     color: rgb(122 125 130);
     font-size: 16px;
     margin-bottom: 30px;
 }
-.docs-resources-tabs-right-side-box3{
-    border: 1px solid black;
-    padding: 20px;
-    min-height: 250px;
-    border-radius: 30px;
-    display: block;
-    width: 200px;
-    border: none;
-     height: 280px;
-    background-color: rgb(240 240 240);
-    margin-top: 20px;
-}
-.docs-resources-tabs-right-side-box3:hover .docs-resources-tabs-download{
-    display: block;
-}
-.docs-resources-navtabs-pdf{
-     color: rgb(72 74 79);
-    font-size: 14px;
-    padding-top:30px ;
-}
-.docs-resources-tabs-pdf-docx{
-    padding-top: 20px;
-    color: rgb(72 74 79);
-    font-size: 14px;
-}
-.docs-resources-tabs-pdf-docx2{
-    padding-top: 45px;
-    color: rgb(72 74 79);
-    font-size: 14px;
-}
-.docs-resources-tabs-money{
-    margin-top: 22px;
-}
-.pl-box-pdf2{
-     color: rgb(72 74 79);
-    font-size: 14px;
-    padding-top: 100px;
-}
-.pl-box-pdf3{
-    color: rgb(72 74 79);
-    font-size: 14px;
-    padding-top: 10px;
-}
+
+

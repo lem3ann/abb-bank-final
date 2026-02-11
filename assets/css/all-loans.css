@@ -9,7 +9,7 @@
    display: block;
    padding-bottom: 40px;
    margin-top: 20px;
-   font-size: 13px;
+   font-size: 14px;
 }
 .individual{
     color: #7A7D82;
@@ -47,6 +47,9 @@
    padding-top: 20px;
   
 }
+.all-loans-limit-box{
+    background-color: white
+}
 .all-loans-head-button:hover{
 color: white;
 background-color: #004B98;
@@ -76,8 +79,18 @@ background-color: #004B98;
     height: 360px;
 }
 .all-loans-loan-limit{
-    margin-top: 70px;
+  padding-top: 50px;
     margin-bottom: 60px;
+    background-color:white; 
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+
+}
+.all-loans-limit-box-section{
+    background-color:rgb(240 240 240); ;
+}
+.all-loans-limit-box{
+    background-color: #0072CE;
 }
 .all-loans-section-limit{
     font-size: 45px;
@@ -277,6 +290,7 @@ background-color: #1B63ED;
 border-top-left-radius: 60px;
 border-top-right-radius: 60px;
 height: 500px;
+
 }
 .all-loan-section3-parg1{
     font-size:60px ;
@@ -320,7 +334,7 @@ height: 500px;
     width: 540px;
   display: block;
   position: absolute;
-  bottom: -10%;
+  bottom: -17%;
  
 
 }
