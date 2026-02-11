@@ -1,4 +1,9 @@
 /* !CASH LOAN */
+#loan-with-favorable-terms {
+    padding: 60px 0;
+    background-color: var(--section-bg-light-pink);
+}
+
 .loan-with-favorable-terms {
     padding: 60px 0;
 }
@@ -25,3 +30,370 @@ div.favorable-terms-details-link {
     width: 100%;
     height: auto;
 }
+
+.favorable-terms-container-b p {
+    font-size: var(--font-size-sm);
+    color: var(--medium-grey);
+    line-height: 28px;
+}
+
+.loan-white-area-bg {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: var(--context-white-color);
+}
+
+.circle-and-price {
+    display: flex;
+    gap: 10px;
+}
+
+.loan-white-area-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.circle-and-price svg {
+    color: var(--main-blue);
+}
+
+.white-area-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.circle-right-border {
+    border-right: 1px solid var(--color-disabled);
+}
+
+.white-area-txt p:nth-child(2) {
+    font-size: var(--font-size-thin);
+    color: var(--medium-grey);
+}
+
+.white-area-txt p:nth-child(1) {
+    font-size: var(--font-size-sm);
+    color: var(--context-black-color);
+}
+
+.favorable-btn a {
+    color: var(--context-white-color);
+}
+
+.favorable-btn {
+    text-align: center;
+    border-radius: 12px;
+    width: 140px;
+    background-color: var(--main-blue);
+    padding: 18px;
+}
+
+.favorable-terms-container-b {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f-g-color,
+.f-g-color:hover {
+    color: var(--medium-grey);
+}
+
+.not-loan {
+    color: var(--context-black-color);
+}
+
+/* !ADVANTAGES */
+/* headerler ucun olcunu burda yaz */
+.loan-cash-advantages-box h2,
+.cash-loan-plans h2,
+.calculate-for-loan-sec h2,
+#avans-loan h3,
+#online-credit-apply-now h2 {
+    text-align: center;
+    font-size: var(--font-size-md);
+    line-height: 56px;
+    padding: 60px 0;
+}
+
+.loan-cash-advantages-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    height: 400px;
+    background-color: var(--context-white-color);
+}
+
+.loan-cash-adv-img img {
+    max-width: 380px;
+    width: 100%;
+    height: auto;
+}
+
+.loan-cash-adv-text h4 {
+    font-weight: 600;
+    text-align: center;
+    font-size: var(--font-size-for-news);
+}
+
+.loan-cash-adv-text p {
+    padding: 15px 0;
+    text-align: center;
+    text-align: center;
+    color: var(--medium-grey);
+    font-size: var(--font-size-thin);
+    line-height: 20px;
+}
+
+/* !PLAN*********************** */
+.cash-loan-plans {
+    max-width: 900px;
+}
+
+.plans-details-cash img {
+    width: 60px;
+    height: 60px;
+}
+
+.plans-details-cash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    /* justify-content: center; */
+}
+
+.plans-details-cash p {
+    color: var(--medium-grey);
+    font-size: var(--font-size-thin);
+    line-height: 20px;
+    text-align: center;
+}
+
+.plans-details-cash h5 {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+}
+
+/* !CALCULATE NOW */
+.calculate-for-loan-sec {
+    padding: 60px 0;
+}
+
+/* !PHONE NAVTABS************* */
+#phone-switch {
+    padding: 60px 0;
+    background-image: var(--striped-black-bg-color);
+}
+
+.switch-class-img img {
+    max-width: 280px;
+    width: 100%;
+    max-height: 600px;
+    height: auto;
+}
+
+.navbtabs-big-header {
+    padding: 30px 0;
+    color: var(--context-white-color);
+    font-size: var(--font-size-md);
+    line-height: 56px;
+}
+
+.margin-for-elements {
+    gap: 200px;
+}
+
+.phone-tabs-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    /* background-color: var(--cards-container-transparency); */
+    color: var(--context-black-color);
+    font-size: 20px;
+    padding: 50px 0;
+    border-radius: 20px !important;
+    height: 60px;
+}
+
+.navtab-flex-display {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.numbers-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(231, 222, 222);
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: var(--switch-grey-color);
+
+}
+
+.phone-tabs-style:focus .numbers-box,
+.phone-tabs-style:focus .navtabs-details-text {
+    background-color: var(--switch-focus-white);
+    color: black;
+}
+
+.phone-tabs-style:focus .navtabs-details-text p {
+    color: black;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+}
+
+.navtabs-details-text {
+    text-align: left;
+    padding: 30px;
+    width: 450px;
+    height: 120px;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: var(--switch-grey-color);
+}
+
+.navtabs-details-text h3 {
+    color: var(--context-white-color);
+    font-size: var(--font-size-for-news);
+}
+
+.navtabs-details-text p {
+    padding: 10px 0;
+    font-size: var(--font-size-thin);
+    color: var(--section-bg-light-pink);
+}
+
+.phone-tabs-style:focus h3 {
+    color: var(--context-black-color) !important;
+}
+
+
+/* !AVANS LOAN********************* */
+#avans-loan {
+    padding: 60px 0;
+}
+
+.loan-payment-navtabs-box {
+    height: 230px;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: var(--cards-container-transparency);
+}
+
+.loan-payment-navtabs-box h4 {
+    padding: 15px 0;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: var(--font-size-for-news);
+}
+
+.loan-payment-navtabs-box p {
+    font-weight: 500;
+    color: var(--medium-grey);
+    line-height: 20px;
+    font-size: var(--font-size-thin);
+}
+
+.loan-payment-navtabs-box svg {
+    width: 30px;
+    height: 30px;
+}
+
+.accordion-body-color {
+    color: var(--medium-grey);
+}
+
+.all-loans-section-limit-fin-loan-credit {
+    display: flex;
+    align-items: center;
+}
+
+/* !APPLY */
+#online-credit-apply-now {
+    padding: 60px 0;
+    background-color: var(--section-bg-light-pink);
+}
+
+.online-credit-apply-img img {
+    width: 100%;
+    max-width: 520px;
+    max-height: 500px;
+    height: auto;
+}
+
+.loan-credit-p-number {
+    padding: 0 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(204, 199, 199);
+}
+
+.loan-credit-p-number input {
+    background-color: rgb(204, 199, 199);
+}
+
+.loan-credit-p-number button {
+    background-color: rgb(204, 199, 199);
+}
+
+.checkbox-text-display {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.privacy-text-display {
+    padding: 15px;
+    align-items: center;
+    background-color: var(--cards-container-transparency);
+    display: flex;
+    gap: 10px;
+    border-radius: 18px;
+}
+
+.privacy-text-display svg {
+    color: green;
+}
+
+.privacy-text-display a {
+    width: 150px;
+    text-align: center;
+    border-radius: 18px;
+    padding: 20px;
+    background-color: var(--cards-container-transparency);
+    color: var(--medium-grey);
+}
+
+.checkbox-text-display input {
+    width: 25px;
+    height: 25px;
+}
+
+.checkbox-text-display p {
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--medium-grey);
+}
+
+#continue-btn:checked

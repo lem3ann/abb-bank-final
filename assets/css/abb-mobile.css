@@ -285,4 +285,155 @@
     max-height: 62px;
 }
 
+#abb-mobile-section-5{
+    background-color: white;
+}
 
+.bg_black_section{
+    background-color: black ;
+    padding: 50px 0;
+    border: 1px solid white;
+    border-top-left-radius: 54px;
+    border-top-right-radius: 54px;
+}
+
+.abb-mobile-section-5-p span {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: white;
+    padding: 12px 16px;
+    background-color: #484a4f;
+    border-radius: 24px;
+}
+
+.abb-mobile-svg {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #484a4f;
+    display: inline-block;
+    width: 24%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.abb-mobile-section-5-p {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.abb-mobile-section-5-h1 {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.abb-mobile-section-5-cards {
+    margin: 50px 0;
+}
+
+.abb-mobile-section-5-cards .card {
+    background-color: black;
+    border: 1px solid #484a4f;
+    border-radius: 24px;    
+}
+
+
+.abb-mobile-section-5-cards .card svg {
+    color: white;
+    width: 24px;
+    height: 24px;
+    
+}
+
+
+.abb-mobile-section-5-cards h4 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.abb-mobile-section-5-cards p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #FFFFFFB8;
+    margin-bottom: 20px;
+}
+
+.abb-mobile-section-5-h4 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #FFFFFFB8;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#abb-mobile-section-6 {
+    background-color: white;
+}
+
+.abb-mobile-section-6-h1 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    text-align: center;
+    margin: 30px 0;
+
+}
+
+.abb-mobile-section-6-p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #484a4f;
+    margin-bottom: 30px;
+}
+
+.abb-m-cards-type {
+    padding: 24px;
+    background-color: #1b63ed;
+    border-radius: 99999px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.abb-m-cards-type:hover {
+    background-color: #1958ce;
+}
+
+
+.abb-m-cards-svg svg {
+    color: #1b63ed;
+}
+
+.abb-m-cards-svg {
+    padding: 16px;
+    background-color: white;
+    border-radius: 24px;
+}
+
+.abb-m-cards-text p {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: white;
+}
+
+.abb-mobile-section-6-cards {
+    margin-bottom: 50px;
+}
