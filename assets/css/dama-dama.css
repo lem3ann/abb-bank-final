@@ -11,7 +11,7 @@
 /* !CURRENT ACCOUNT--CSS******************************************************* */
 .flags-container{
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
 }
 .flags-deatils-box{
@@ -28,4 +28,8 @@
    text-align: center;
    font-size: ;
 }
-.flags-container
+.flags-container{
+   border-radius: 20px;
+   padding: 20px;
+   background-color: var(--context-white-color);
+}
