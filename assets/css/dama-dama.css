@@ -7,3 +7,25 @@
    width: 200px;
    margin-bottom: 20px;
 }
+
+/* !CURRENT ACCOUNT--CSS******************************************************* */
+.flags-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.flags-deatils-box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.flags-deatils-box div img{
+   width: 50px;
+   height: 50px;
+}
+.header-h3-center{
+   text-align: center;
+   font-size: ;
+}
+.flags-container
