@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/global.css">
+</head>
+
+<body>
+    <main>
+        <!-- =============================Header============================== -->
+        <div class="position-sticky">
+            <div class="container py-3 pb-2 border-bottom-grey">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><img src="../assets/images/ABB_Logo.png" alt="" width="70px"
+                            height="30px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto nav-color-black nav-text-style">
+                            <li class="nav-item nav-relative-position">
+                                <a class="nav-link nav-blue-hover" href="#">Fərdi <span
+                                        class="visually-hidden">(current)</span></a>
+                                <!-- !position elements -->
+                                <div class="nav-menu-position">
+                                    <div class="row ">
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="all-loan-bold a-link-bold">
+                                                <!-- butun kreditler -->
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Bütün kreditlər</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Nağd kredit</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Avans krediti</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Avtomobil krediti</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Əmanətçi nağd krediti</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Əmanətçilər üçün kredit
+                                                            xətti</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- kartlar -->
+                                            <div class="cardss-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Kartlar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Kredit kartlar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Debet kartlar</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- emanetler -->
+                                            <div class="deposits-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Əmanətlər</a></li>
+                                                    <li><a href="#" class="thin-and-grey">DigiDepozit</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Klassik Əmanət</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Depozit seyfləri</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Əmanət əsaslı ipoteka
+                                                            krediti</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <!-- hesablar -->
+                                            <div class="account-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Hesablar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">DigiHesab Max</a></li>
+                                                    <li><a href="#" class="thin-and-grey">DigiHesab</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Cari hesab</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Dama-dama</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- ipoteka -->
+                                            <div class="mortgage-bold a-link-bold">
+                                                <a href="#" class="bold-header">Ipoteka</a>
+                                            </div>
+                                            <!-- cashback -->
+                                            <div class="cashback-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Keşbek</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Faydalı keşbek</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Faydalı Max</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Faydalı Klub</a></li>
+                                                </ul>
+
+                                            </div>
+                                            <!-- kampaniyalar -->
+                                            <div class="campagins-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Kampaniyalar</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="all-operations-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Bütün əməliyyatlar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Ölkədaxili və ölkəxarici
+                                                            köçürmələr</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Bank köçürmələri</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="online-services a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Onlayn xidmətlər</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Randevu</a></li>
+                                                    <li><a href="#" class="thin-and-grey">ABB mobile</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Məlumat Mərkəzi</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Arayış sifarişi</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Kredit ödənişi</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Karta mədaxil</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Pul köçürməsi</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Cash by Code</a></li>
+                                                    <li><a href="#" class="thin-and-grey">İanə et</a></li>
+                                                    <li><a href="#" class="thin-and-grey">PİN kod dəyişimi</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Sığorta</a></li>
+                                                    <li><a href="#" class="thin-and-grey">İnvestisiya</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="abb-prime-bold a-link-bold">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">ABB Prime</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--! end  -->
+                            </li>
+                            <li class="nav-item nav-business-position">
+                                <a class="nav-link nav-blue-hover" href="#">Biznes</a>
+                                <!-- !position elements -->
+                                <div class="business-dropdown-position">
+                                    <ul>
+                                        <li><a href="#" class="bold-header">Korporativ</a></li>
+                                        <li><a href="#" class="bold-header">Kiçik və orta biznes</a></li>
+                                        <li><a href="#" class="bold-header">Mikro fərdi sahibkar</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- ! position about section -->
+                            <li class="nav-item about-nav-position">
+                                <a class="nav-link nav-blue-hover" href="#">Haqqımızda</a>
+                                <div class="about-nav">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Bank haqqında</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Rekvizitlər</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Missiya və strateji baxış</a>
+                                                    </li>
+                                                    <li><a href="#" class="thin-and-grey">Sosial məsuliyyət
+                                                            /Sponsorluq</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Müxbir banklar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Törəmə və asılı müəssisələrdə
+                                                            iştirak payı</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Mükafatlar</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Rəhbərlik</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">İdarəetmə və komitələr</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Tariflər,Sənədlər və
+                                                            Resurslar</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Siyasətlərimiz</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Korporativ təqdimat</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Araşdırma</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Hesabatlar</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Təklif və iradlar</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">İnvestisiya bankçılığı</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Brend Mərkəzi</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Satınalmalar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Müsabiqələlrin elanı</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Bildirişlər</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Bağlanmış müqavilələrin
+                                                            qeydiyyatı</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Satınalma planı</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Təchizatçı sorğusu</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Satınalma hesabatları</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <!-- ?end -->
+                            <li class="nav-item">
+                                <a class="nav-link nav-blue-hover" href="#">İnvestorlarla əlaqə</a>
+                            </li>
+                        </ul>
+                        <!-- right side -->
+                        <ul class="navbar-nav ms-auto nav-color-grey nav-text-style">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 l-r-border" href="#">AZ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#"><i class="fa-solid fa-phone"></i> 937</a>
+                            </li>
+                            <li class="nav-item network-btn">
+                                <a class="nav-link" href="https://abb-bank.az/filiallar">
+                                    <i class="fa-solid fa-location-dot"></i> Xidmət Şəbəkəsi
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <!-- ===============================================Section2===================================== -->
+        <section>
+            <div class="doc-resource-section1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mt-5">
+                            <!-- todo "Fərdi" link qoyulacaq -->
+                            <span class="about-doc-resource doc-resource-about"><a class="doc-resource-about"
+                                    href="">Haqqımızda •
+                                </a>
+                                <span class="resource-docs"> İdarəetmə və Komitələr </span></span>
+                            <h1 class="docs-resources-head-parg1">İdarəetmə & Komitələr</h1>
+                            <p class="docs-resources-head-parg2">Strateji qərarların icrasına, uyğunluğa və təşkilati
+                                dürüstlüyə nəzarət edən korporativ idarəetmə strukturumuz və komitələrimiz haqqında
+                                öyrənin.</p>
+
+                        </div>
+                        <div class="col-6">
+                            <img class="docs-resources-head-img" src="../assets/images/management-header-img.png"
+                                alt="">
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================================================Section2============================================= -->
+        <section>
+            <div class="management-section2">
+                <div class="container">
+                    <div class="d-flex align-items-start docs-resources-tabs-box">
+                        <div class="nav flex-column nav-pills me-3  docs-resources-tabs management-tabs"
+                            id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                          <button class="nav-link active  docs-resources-navtabs-item" id="v-pills-home-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab"
+                                    aria-controls="v-pills-home" aria-selected="true">Təşkilati struktur <p class="last-update-time">Son
+                                    yenilənmə tarixi: 23.01.2026 </p> </button>
+                            <button class="nav-link  docs-resources-navtabs-item" id="v-pills-profile-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab"
+                                aria-controls="v-pills-profile" aria-selected="false">Riskləri idarəetmə
+                                komitəsi</button>
+                            <button class="nav-link  docs-resources-navtabs-item" id="v-pills-messages-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab"
+                                aria-controls="v-pills-messages" aria-selected="false">Korporativ idarəetmə</button>
+                            <button class="nav-link  docs-resources-navtabs-item" id="v-pills-settings-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false">Audit Komitəsi</button>
+                            <button class="nav-link  docs-resources-navtabs-item" id="v-pills-settings-tab1"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-settings1" type="button" role="tab"
+                                aria-controls="v-pills-settings1" aria-selected="false">Strategiya Komitəsi</button>
+                            <button class="nav-link  docs-resources-navtabs-item" id="v-pills-settings-tab2"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-settings2" type="button" role="tab"
+                                aria-controls="v-pills-settings2" aria-selected="false">Böyük Kredit Komitəsi</button>
+                            <button class="nav-link  docs-resources-navtabs-item" id="v-pills-settings-tab3"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-settings3" type="button" role="tab"
+                                aria-controls="v-pills-settings3" aria-selected="false">Orta Kredit Komitəsi</button>
+                            <button class="nav-link  docs-resources-navtabs-item" id="v-pills-settings-tab4"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-settings4" type="button" role="tab"
+                                aria-controls="v-pills-settings4" aria-selected="false">Kiçik Kredit Komitəsi</button>
+                            <button class="nav-link  docs-resources-navtabs-item" id="v-pills-settings-tab5"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-settings5" type="button" role="tab"
+                                aria-controls="v-pills-settings5" aria-selected="false">Aktiv və Passivləri İdarəetmə
+                                Komitəsi</button>
+                            <button class="nav-link  docs-resources-navtabs-item" id="v-pills-settings-tab6"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-settings6" type="button" role="tab"
+                                aria-controls="v-pills-settings6" aria-selected="false">İnformasiya texnologiyaları
+                                komitəsi</button>
+                        </div>
+                        <div class="tab-content docs-resources-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                aria-labelledby="v-pills-home-tab">
+
+
+
+                                <div class="row">
+
+
+                                    <div class="col-4">
+                                        <a class="docs-resources-navtabs-table-box" href="">
+                                            <div class="docs-resources-tabs1">
+                                                <div class="docs-resources-tabs-item2">
+                                                    <div><svg class="docs-resources-tabs-icon"
+                                                            xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                            fill="none" viewBox="0 0 20 20">
+                                                            <path fill="currentColor" fill-rule="evenodd"
+                                                                d="M7.299.833H12.7c.67 0 1.224 0 1.675.037.469.038.9.12 1.304.327.627.32 1.137.83 1.457 1.456.206.405.288.835.326 1.304.037.45.037 1.004.037 1.675v4.346c0 .459 0 .688-.053.782-.064.114-.089.136-.21.184-.1.04-.424-.003-1.071-.089a2.492 2.492 0 0 0-4.6 3.21 2.5 2.5 0 0 0 0 3.536l.431.432c.356.355.533.533.545.686a.42.42 0 0 1-.144.35c-.117.1-.368.1-.87.1a1649 1649 0 0 1-4.23-.002c-.67 0-1.224 0-1.675-.037-.468-.038-.899-.12-1.303-.327a3.33 3.33 0 0 1-1.457-1.456c-.206-.405-.288-.835-.326-1.304-.037-.45-.037-1.004-.037-1.675V5.632c0-.67 0-1.224.037-1.675.038-.469.12-.9.326-1.304.32-.627.83-1.137 1.457-1.456C4.724.99 5.155.908 5.623.87 6.074.833 6.628.833 7.3.833M5.833 4.167a.833.833 0 0 0 0 1.666h7.5a.833.833 0 1 0 0-1.666zM5 8.333c0-.46.373-.833.833-.833h5a.833.833 0 1 1 0 1.667h-5A.833.833 0 0 1 5 8.333m0 3.334c0-.46.373-.834.833-.834H7.5a.833.833 0 1 1 0 1.667H5.833A.833.833 0 0 1 5 11.667"
+                                                                clip-rule="evenodd"></path>
+                                                            <path fill="currentColor"
+                                                                d="M15.833 12.5c.46 0 .834.373.834.833v2.988l1.077-1.077a.833.833 0 0 1 1.179 1.178l-2.5 2.5a.833.833 0 0 1-1.179 0l-2.5-2.5a.833.833 0 1 1 1.179-1.178L15 16.321v-2.988c0-.46.373-.833.833-.833">
+                                                            </path>
+                                                        </svg></div>
+                                                    <div>
+                                                        <p class="docs-resources-tabs-text1">Təşkilati struktur</p>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="docs-resources-tabs1-item">
+                                                    <div>
+                                                        <p class="docs-resources-tabs-pdf">PDF • 1.04 MB</p>
+                                                    </div>
+                                                    <div> <i
+                                                            class="fa-solid fa-download docs-resources-tabs-download"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                aria-labelledby="v-pills-profile-tab">
+                                <p class="docs-resources-content1 ">Riskləri idarəetmə komitəsi</p>
+
+                                <table class="management-navtabs-table">
+                                    <tbody style="border-radius: 12px;">
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Xalid Əhədov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Müşahidə Şurasının üzvü,<br> Komitənin sədri</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Rüfət Əlimərdanov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Müşahidə Şurasının müstəqil üzvü,<br> Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Məcid Məmmədov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Müşahidə Şurasının müstəqil üzvü,<br> Komitənin üzvü</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+
+                                <p class="maanagement-navtabs-text management-content1">Riskləri İdarəetmə Komitəsinin
+                                    əsas vəzifələri</p>
+                                <ol class="management-navtabs-list">
+                                    <li>Məcmu və ayrı-ayrı risk növləri üzrə bankın cari və gələcəkdəki risk iştahasına
+                                        dair Müşahidə Şurasına təkliflər vermək;</li>
+                                    <li>
+                                        Bankın fəaliyyətinin risklərin idarə edilməsi siyasətinə uyğunluğunu təmin edən
+                                        prosedurların mövcudluğuna nəzarət etmək;
+                                    </li>
+                                    <li>Kapital və likvidliyin idarəedilməsi üzrə bankın hədəflərinin, habelə Banka xas
+                                        bütün risklərin, o cümlədən kredit, bazar, əməliyyat, reputasiya və digər
+                                        risklərin bankın risk iştahasına uyğunluğuna nəzarət etmək;</li>
+
+                                    <li>Risklərin müəyyənləşdirilməsi və qiymətləndirilməsi üzrə müvafiq metod və
+                                        alətləri seçmək və onların həyata keçirilməsi tezliyini müəyyən etmək;</li>
+                                    <li>Qəbul edilmiş metod və modellərin tətbiqindən əldə edilmiş nəticələri təhlil
+                                        edərək risklərin effektiv idarə edilməsi üçün risklərin qəbul edilməsi,
+                                        minimallaşdırılması, ötürülməsi, habelə riskdənqaçma kimi tədbirlərin həyata
+                                        keçirilməsi ilə bağlı Bankın risklərin idarə edilməsinə məsul struktur bölməsinə
+                                        müvafiq göstərişlər vermək;</li>
+                                    <li>Bankın məruz qaldığı risklərin vəziyyəti və risklərin idarə edilməsi sisteminin
+                                        effektivliyi barədə hesabat hazırlamaq və Müşahidə Şurasına təqdim etmək;</li>
+                                    <li>Risklərin idarə edilməsi sisteminin təkmilləşdirilməsi ilə bağlı Müşahidə
+                                        Şurasına təkliflər hazırlamaq.</li>
+                                </ol>
+
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                aria-labelledby="v-pills-messages-tab">
+                                <p class="docs-resources-content1">Korporativ idarəetmə</p>
+                                <table class="management-navtabs-table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Emin Hüseynov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Müşahidə Şurasının üzvü,<br> Komitənin sədri</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Xalid Əhədov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Müşahidə Şurasının müstəqil üzvü,<br> Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Rüfət Əlimərdanov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Müşahidə Şurasının müstəqil üzvü,<br> Komitənin üzvü</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="maanagement-navtabs-text management-content1">Korporativ İdarəetmə Komitəsinin
+                                    əsas vəzifələri</p>
+                                <ol class="management-navtabs-list">
+                                    <li>Bankın təşkilati və idarəetmə strukturunun qanunvericiliyin tələblərinə
+                                        uyğunluğuna nəzarət edir, aşkar olunan uyğunsuzluqlar və onların səbəbləri
+                                        barədə Müşahidə Şurasını məlumatlandırmaq, eləcə də onların aradan qaldırılması,
+                                        korporativ idarəetmənin təkmilləşdirilməsi və qanunvericilikdə baş verən
+                                        dəyişikliklərin tətbiqi barədə Müşahidə Şurasına təkliflər vermək;</li>
+                                    <li>Bankın korporativ idarəetməsinə dair ictimaiyyətə açıqlanacaq məlumatların
+                                        vaxtında açıqlanmasını və dürüstlüyünü təmin etmək;</li>
+                                    <li>Bankın mükafatlandırma siyasətini hazırlayaraq təsdiqlənməsi üçün Müşahidə
+                                        Şurasına təqdim etmək, eləcə də onun mütəmadi təkmilləşdirilməsi istiqamətində
+                                        tədbirlər görmək;</li>
+                                    <li>Daxili və kənar hadisələrin Bankın mükafatlandırma siyasəti və prosesi üzərində
+                                        təsirini nəzərdən keçirmək;</li>
+                                    <li>Korporativ katibin mükafatlandırılmasını müəyyən etmək;</li>
+                                    <li>Müşahidə Şurası, onun komitələrinin və İdarə Heyətinin üzvlüyünə yeni və
+                                        potensial namizədlərlə bağlı tövsiyə və rəy vermək;</li>
+                                    <li>Müşahidə Şurası, onun Komitələri və İdarə Heyəti üçün kadr ehtiyatının
+                                        formalaşdırılması prosesinə nəzarət etmək;</li>
+                                    <li>Qanunvericiliklə müəyyən olunmuş qaydada Bankın Müşahidə Şurasına hesabat təqdim
+                                        etmək.</li>
+                                </ol>
+
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                aria-labelledby="v-pills-settings-tab">
+                                <p class="docs-resources-content1">Audit Komitəsi</p>
+                                <table class="management-navtabs-table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Məcid Məmmədov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Müşahidə Şurasının üzvü,<br> Komitənin sədri</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Azad Məmmədov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Müşahidə Şurasının müstəqil üzvü,<br> Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Zamiq Məmmədov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Müşahidə Şurasının müstəqil üzvü,<br> Komitənin üzvü</td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+                                <p class="maanagement-navtabs-text management-content1">Audit Komitəsinin əsas
+                                    vəzifələri</p>
+                                <ol class="management-navtabs-list">
+                                    <li>Daxili audit yoxlama və monitorinqləri həyata keçirəcək auditorlara (yoxlama
+                                        qrupuna) yoxlama vəsiqələrinin verilməsini təmin etmək;</li>
+                                    <li>
+                                        Departamentin direktoru və əməkdaşlarının işə qəbul olunması və əmək haqqı
+                                        məbləğləri, vəzifədə irəliləyişi, işdən kənarlaşdırılması və ya azad olunması,
+                                        habelə mükafatlandırılması və intizam tənbehinə cəlb edilməsi ilə bağlı Müşahidə
+                                        Şurasına təkliflər vermək;
+                                    </li>
+                                    <li>
+                                        Daxili audit yoxlamalarının nəticələri və yoxlamaların nəticəsində aşkarlanan
+                                        nöqsanların aradan qaldırılmasına, eyni zamanda daxili nəzarət sistemlərinin
+                                        təkmilləşdirilməsinə dair Səhmdarların Ümumi Yığıncağına və Müşahidə Şurasına
+                                        təklif və tövsiyələr vermək;
+                                    </li>
+                                    <li>
+                                        Kənar və daxili auditlər, habelə digər tənzimləyici və nəzarət orqanları
+                                        tərəfindən Bankın daxili nəzarət və risklərin idarə edilməsi sistemlərinin
+                                        səmərəliliyinə dair verdikləri tövsiyələri nəzərdən keçirmək, tövsiyələrin
+                                        yerinə yetirilməsi üzrə hazırlanmış tədbirlər planı üzrə rəy bildirmək, onun
+                                        icrasına nəzarət etmək məqsədilə zəruri məlumatları İdarə Heyətindən əldə etmək;
+                                    </li>
+                                    <li>
+                                        Kənar auditordan audit zamanı aşkar olunan mühüm nöqsanlar, faktlar və hadisələr
+                                        haqqında məlumat(lar)ın Komitəyə dərhal verilməsini tələb etmək.
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings1" role="tabpanel"
+                                aria-labelledby="v-pills-settings-tab1">
+                                <p class="docs-resources-content1">Strategiya Komitəsi</p>
+                                <table class="management-navtabs-table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Xalid Əhədov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Müşahidə Şurasının üzvü,<br> Komitənin sədri</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Məcid Məmmədov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Müşahidə Şurasının müstəqil üzvü,<br> Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Abbas İbrahimov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyətinin sədri,<br> Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Nəbi Əliyev</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyətinin sədrinin müavini, Baş maliyyə inzibatçısı, Komitənin
+                                                üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Taleh Tahirli</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyətinin sədrinin müavini, Komitənin üzvü</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                                <p class="maanagement-navtabs-text management-content1">Strategiya Komitəsinin əsas
+                                    vəzifələri</p>
+                                <ol class="management-navtabs-list">
+                                    <li>
+                                        İdarə Heyəti tərəfindən hazırlanmış Bankın strateji baxışının və missiya
+                                        bəyanatının layihələrini qiymətləndirmək;
+                                    </li>
+                                    <li>
+                                        Bankın inkişaf strategiyasının prioritet istiqamətlərini nəzərdən keçirərək
+                                        Müşahidə Şurasının təsdiqinə təqdim etmək;
+                                    </li>
+                                    <li>
+                                        Götürülən risklərin Bankın strategiyasına uyğunluğunun monitorinqini aparmaq;
+                                    </li>
+                                    <li>
+                                        Strategiyanın təkmilləşdirilməsi ilə bağlı Müşahidə Şurasına təkliflər
+                                        hazırlamaq;
+                                    </li>
+                                    <li>
+                                        Komitə iclaslarının nəticələri barədə Müşahidə Şurasına qanunvericiliklə müəyyən
+                                        edilmiş qaydada hesabat vermək;
+                                    </li>
+                                    <li>
+                                        Ən azı ildə bir dəfə (tələb olunan hallarda isə dərhal) Bankın ümumi
+                                        strategiyasını qiymətləndirmək;
+                                    </li>
+                                    <li>
+                                        Bankın fəaliyyətinin nəticələrinin qəbul olunmuş strategiyaya uyğunluğuna
+                                        nəzarət etmək;
+                                    </li>
+                                    <li>
+                                        Qanunvericilik və bankdaxili hüquqi aktlardan irəli gələn digər vəzifələri icra
+                                        etmək
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel"
+                                aria-labelledby="v-pills-settings-tab2">
+                                <p class="docs-resources-content1">Böyük Kredit Komitəsi</p>
+
+                                <table class="management-navtabs-table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Abbas İbrahimov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyətinin sədri, Komitənin sədri</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Aqşin Əmirov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyəti sədrinin müavini, Baş risk inzibatçısı, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Elmir Həbibullayev</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyəti sədrinin müavini, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Nəbi Əliyev</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyətinin sədrinin müavini, Baş maliyyə inzibatçısı, Komitənin
+                                                üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Nərgizxanım Biləndərli</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Bankın Baş direktoru, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Fariz Rəhimov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Ofis rəhbəri, Komitənin üzvü</td>
+                                        </tr>
+
+
+                                    </tbody>
+
+
+                                </table>
+                                <p class="maanagement-navtabs-text management-content1">Kredit Komitəsinin əsas
+                                    vəzifələri</p>
+                                <ol class="management-navtabs-list">
+                                    <li>
+                                        Bankın kredit siyasətinə aidiyyəti üzrə baxmaq və onu Müşahidə Şurasının
+                                        təsdiqinə təqdim etmək;
+                                    </li>
+                                    <li>
+                                        Kreditlərin verilməsi və kredit öhdəliklərinin götürülməsi, habelə onların
+                                        şərtlərinin dəyişdirilməsi və restrukturizasiyasını təsdiq etmək;
+                                    </li>
+                                    <li>
+                                        Portfel səviyyəsində kreditlərin vaxtlı-vaxtında ödənilməsinə nəzarət etmək;
+                                    </li>
+                                    <li>
+                                        Kredit şərtlərinin Mərkəzi Bankın və Maliyyə Bazarlarına Nəzarət Palatasının
+                                        qaydalarına zidd olmamasını təmin etmək;
+                                    </li>
+                                    <li>
+                                        Portfel üzrə cəmləşmə riskinin qarşısını almaq məqsədilə kredit portfelinin
+                                        diversifikasiyasına riayət olunmasına nəzarət etmək;
+                                    </li>
+                                    <li>
+                                        Vaxtaşırı kredit portfelinin monitorinqi üzrə aidiyyəti üzrə hesabat almaq;
+                                    </li>
+                                    <li>
+                                        Kreditlərin verilməsi üzrə səlahiyyətlərə və prosedurlara riayət edilməsini
+                                        təmin etmək;
+                                    </li>
+                                    <li>
+                                        Kreditlərin qaytarılması üçün görülən bütün tədbirlərin icrasına nəzarət etmək.
+                                    </li>
+                                </ol>
+
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings3" role="tabpanel"
+                                aria-labelledby="v-pills-settings-tab3">
+                                <p class="docs-resources-content1">Orta Kredit Komitəsi</p>
+                                <table class="management-navtabs-table">
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Nəbi Əliyev</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyəti sədrinin müavini, Baş maliyyə inzibatçısı, Komitənin sədri
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Fuad İslamov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Bankın Baş direktoru, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Nərgizxanım Biləndərli</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Bankın Baş direktoru, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Fariz Rəhimov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Ofis rəhbəri, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Ülvi Qasımov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Ofis rəhbəri, Komitənin üzvü</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                                <p class="maanagement-navtabs-text management-content1">Kredit Komitəsinin əsas
+                                    vəzifələri</p>
+                                <ol class="management-navtabs-list">
+                                    <li>
+                                        Bankın kredit siyasətinə aidiyyəti üzrə baxmaq və onu Müşahidə Şurasının
+                                        təsdiqinə təqdim etmək;
+                                    </li>
+                                    <li>
+                                        Kreditlərin verilməsi və kredit öhdəliklərinin götürülməsi, habelə onların
+                                        şərtlərinin dəyişdirilməsi və restrukturizasiyasını təsdiq etmək;
+                                    </li>
+                                    <li>
+                                        Portfel səviyyəsində kreditlərin vaxtlı-vaxtında ödənilməsinə nəzarət etmək;
+                                    </li>
+                                    <li>
+                                        Kredit şərtlərinin Mərkəzi Bankın və Maliyyə Bazarlarına Nəzarət Palatasının
+                                        qaydalarına zidd olmamasını təmin etmək;
+                                    </li>
+                                    <li>
+                                        Portfel üzrə cəmləşmə riskinin qarşısını almaq məqsədilə kredit portfelinin
+                                        diversifikasiyasına riayət olunmasına nəzarət etmək;
+                                    </li>
+                                    <li>
+                                        Vaxtaşırı kredit portfelinin monitorinqi üzrə aidiyyəti üzrə hesabat almaq;
+                                    </li>
+                                    <li>
+                                        Kreditlərin verilməsi üzrə səlahiyyətlərə və prosedurlara riayət edilməsini
+                                        təmin etmək;
+                                    </li>
+                                    <li>
+                                        Kreditlərin qaytarılması üçün görülən bütün tədbirlərin icrasına nəzarət etmək.
+                                    </li>
+                                </ol>
+
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings4" role="tabpanel"
+                                aria-labelledby="v-pills-settings-tab4">
+                                <p class="docs-resources-content1">Kiçik Kredit Komitəsi</p>
+                                <table class="management-navtabs-table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Ülvi Qasımov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Ofis rəhbəri, Komitənin sədri</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Fariz Rəhimov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Ofis rəhbəri, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Rüfət Abbasov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İpoteka sahəsinin rəhbəri, Komitənin üzvü</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="maanagement-navtabs-text management-content1">Kredit Komitəsinin əsas
+                                    vəzifələri</p>
+                                <ol class="management-navtabs-list">
+                                    <li>
+                                        Bankın kredit siyasətinə aidiyyəti üzrə baxmaq və onu Müşahidə Şurasının
+                                        təsdiqinə təqdim etmək;
+                                    </li>
+                                    <li>
+                                        Kreditlərin verilməsi və kredit öhdəliklərinin götürülməsi, habelə onların
+                                        şərtlərinin dəyişdirilməsi və restrukturizasiyasını təsdiq etmək;
+                                    </li>
+                                    <li>
+                                        Portfel səviyyəsində kreditlərin vaxtlı-vaxtında ödənilməsinə nəzarət etmək;
+                                    </li>
+                                    <li>
+                                        Kredit şərtlərinin Mərkəzi Bankın və Maliyyə Bazarlarına Nəzarət Palatasının
+                                        qaydalarına zidd olmamasını təmin etmək;
+                                    </li>
+                                    <li>
+                                        Portfel üzrə cəmləşmə riskinin qarşısını almaq məqsədilə kredit portfelinin
+                                        diversifikasiyasına riayət olunmasına nəzarət etmək;
+                                    </li>
+                                    <li>
+                                        Vaxtaşırı kredit portfelinin monitorinqi üzrə aidiyyəti üzrə hesabat almaq;
+                                    </li>
+                                    <li>
+                                        Kreditlərin verilməsi üzrə səlahiyyətlərə və prosedurlara riayət edilməsini
+                                        təmin etmək;
+                                    </li>
+                                    <li>
+                                        Kreditlərin qaytarılması üçün görülən bütün tədbirlərin icrasına nəzarət etmək.
+                                    </li>
+                                </ol>
+
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings5" role="tabpanel"
+                                aria-labelledby="v-pills-settings-tab5">
+
+                                <p class="docs-resources-content1">Aktiv və Passivləri İdarəetmə Komitəsi</p>
+                                <table class="management-navtabs-table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Nəbi Əliyev</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyəti sədrinin müavini, Baş maliyyə inzibatçısı, Komitənin sədri
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Elmir Həbibullayev</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyəti sədrinin müavini, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Aqşin Əmirov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyəti sədrinin müavini, Baş risk inzibatçısı, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Vasif Əhmədov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İdarə Heyəti sədrinin müavini, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Fuad İslamov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Bankın Baş direktoru, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Nərgizxanım Biləndərli</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Bankın Baş direktoru, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Kamran Hüseynov </td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Mərkəzi xəzinədarlıq departamentinin direktoru, Komitənin üzvü</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                                <p class="maanagement-navtabs-text management-content1">Aktiv və Passivləri İdarəetmə
+                                    Komitəsinin əsas vəzifələri</p>
+                                <ol class="management-navtabs-list">
+                                    <li>
+                                        Strategiya və risklərin idarə edilməsi Komitəsinin tövsiyələri əsasında Müşahidə
+                                        Şurası tərəfindən təsdiq edilmiş limit həddində bazar və valyutalar üzrə
+                                        limitlər barədə qərarlar qəbul etmək;
+                                    </li>
+                                    <li>
+                                        Komitənin səlahiyyətlərinə aid olan və ya ona həvalə olunmuş risklərin idarə
+                                        edilməsi üçün müvafiq istiqamət və hədəflərlə bağlı qanunvericiliyə riayət
+                                        edilməsini təmin etmək;
+                                    </li>
+                                    <li>
+                                        Bankın nağd və nağdsız likvidlik vəziyyətini müntəzəm monitorinq etmək, bu
+                                        istiqamətdə müvafiq limitləri təsdiqləmək;
+                                    </li>
+                                    <li>
+                                        Faiz dərəcələrinə həssas aktiv və passivlərlə bağlı risklərin idarə olunması
+                                        məqsədilə qərar qəbul etmək;
+                                    </li>
+                                    <li>
+                                        Qanunvericiliklə müəyyən edilmiş məlumatları Müşahidə Şurasının müzakirəsinə
+                                        təqdim etmək.
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings6" role="tabpanel"
+                                aria-labelledby="v-pills-settings-tab6">
+                                <p class="docs-resources-content1">İnformasiya texnologiyaları komitəsi</p>
+                                <table class="management-navtabs-table">
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Nihat Şenyuva</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Bankın Baş direktoru, Baş informasiya inzibatçısı, Komitənin sədri</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Mayya Dursunova</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Data texnologiyaları departamentinin direktoru, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item2">
+                                                Samir Ağamalıyev</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Proqram təminatının inkişafı departamentinin direktoru, Komitənin üzvü
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Fariz Rəhimov</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                Ofis rəhbəri, Komitənin üzvü</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="management-navtabs-table-item management-navtabs-table-item2">
+                                                Rüstəm Rüstəmli</td>
+                                            <td class="management-navtabs-table-item  management-navtabs-table-item3">
+                                                İnformasiya təhlükəsizliyi departamentinin direktoru, Komitənin üzvü
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="maanagement-navtabs-text management-content1">İnformasiya Texnologiyaları
+                                    Komitəsinin əsas vəzifələri</p>
+                                <ol class="management-navtabs-list">
+                                    <li>
+                                        Bankın strategiyasından irəli gələn İT inkişaf strategiyasının prioritet
+                                        istiqamətlərini hazırlamaq, baxılması və münasibət bildirilməsi üçün müvafiq
+                                        idarəetmə orqanına təqdim etmək;
+                                    </li>
+                                    <li>
+                                        Bankın strategiyasından irəli gələn və İT əsaslı strateji hədəflərin icrasını
+                                        təmin edən strateji statuslu layihələrin həyata keçirilməsinə maneə yarada bilən
+                                        halları nəzərdən keçirmək, onların aradan qaldırılması üçün aidiyyəti struktur
+                                        bölmələrə tapşırıqlar vermək;
+                                    </li>
+                                    <li>
+                                        Bankın İT fəaliyyətində fasiləsizliyinin pozulmasına səbəb ola bilən halları
+                                        nəzərdən keçirmək, fasiləsizliyinin təmin edilməsi ilə bağlı İT sahəsində
+                                        fəaliyyət göstərən struktur bölmələrə tapşırıqlar vermək;
+                                    </li>
+                                    <li>
+                                        Bankın İT aktivlərindən bankdaxili qaydalara və qabaqcıl təcrübələrə uyğun
+                                        adekvat və səmərəli istifadənin təmin edilməsinə nəzarət etmək;
+                                    </li>
+                                    <li>
+                                        Bankın informasiya sistemlərinin təhlükəsizliyinin bankdaxili qaydalara və
+                                        qabaqcıl təcrübələrə uyğun təmin edilməsinə nəzarət etmək;
+                                    </li>
+                                    <li>
+                                        Banka məxsus informasiyanın məxfiliyinə, bütövlüyünə və əlçatanlığına təsir
+                                        imkanına malik olan və Bank üçün işlər görən (xidmətlər göstərən) şəxslərlə
+                                        (kontragentlər) aparılan işlərə nəzarət etmək;
+                                    </li>
+                                    <li>
+                                        Bankdaxili qaydalara uyğun olaraq yüksək riskli hesab edilən İT insidentləri
+                                        nəzərdən keçirmək, belə hallara qarşı preventiv tədbirlərin görülməsi ilə bağlı
+                                        İT sahəsində fəaliyyət göstərən struktur bölmələrə tapşırıqlar vermək;
+                                    </li>
+                                    <li>
+                                        Bankın büdcəsi bankdaxili qaydalara uyğun təsdiq edilənədək İT sahəsində
+                                        fəaliyyət göstərən struktur bölmələrin, habelə ümumilikdə Bankın İT istiqamətli
+                                        büdcəsini nəzərdən keçirmək, bununla bağlı qeydlərini bildirmək (olduqda);
+                                    </li>
+                                    <li>
+                                        proqram təminatı, avadanlıqlar, eləcə Bankın İT fəaliyyətinin fasiləsizliyinin
+                                        təmin edilməsi üçün satın alınması zəruri olan digər qurğulara dair məsələlərə
+                                        satın alınmadan öncə baxmaq və müvafiq rəy vermək;
+                                    </li>
+                                    <li>
+                                        dövrü olaraq alınmış İT investisiyalara nəzarəti və yenidən qiymətləndirilməsini
+                                        təşkil etmək;
+                                    </li>
+                                    <li>
+                                        informasiya təhlükəsizliyi risklərinin azadılması, İT sahəsində yeni
+                                        texnologiyaların tətbiqi, eləcə də İT fəaliyyətində fasiləsizliyi təmin edən İT
+                                        əsaslı xərclərin səmərəliliyini qiymətləndirmək və müvafiq rəy vermək;
+                                    </li>
+                                    <li>
+                                        İT sahəsində yeni texnologiyaların, müasir trendlərin Bankda tətbiqinə dair İT
+                                        sahəsində fəaliyyət göstərən struktur bölmələrə tapşırıqlar vermək;
+                                    </li>
+                                    <li>
+                                        Bankın İT sahəsində fəaliyyət göstərən struktur bölmələrinin təşəbbüs göstərdiyi
+                                        İT layihələrinin yaradılmasında müşahidəçi və məsləhətçi kimi fəaliyyət
+                                        göstərmək;
+                                    </li>
+                                    <li>
+                                        İT sahəsində “Agile” mühitində fəaliyyət göstərən struktur bölmələrin İT əsaslı
+                                        əsas fəaliyyət göstəriciləri, məqsədləri (“objectives”) və əsas nəticələrini
+                                        (“key results”) nəzərdən keçirmək və müvafiq rəy vermək;
+                                    </li>
+                                    <li>
+                                        İT sahəsini tənzimləyən zəruri normativ sənədlərin, cari və fövqəladə hallar
+                                        üzrə prosedurların və əməliyyat planlarının hazırlanmasını təmin etmək;
+                                    </li>
+                                    <li>
+                                        bankdaxili və kənar yoxlayıcılar tərəfindən Bankda İT, eləcə də informasiya
+                                        təhlükəsizliyi sahələrində aparılmış yoxlamalar nəticəsində aşkar edilmiş
+                                        tapıntıları müzakirə etmək, onların aradan qaldırılması istiqamətində müvafiq
+                                        qərarlar qəbul etmək;
+                                    </li>
+                                    <li>
+                                        qanunvericilik və bankdaxili aktlarla müəyyən edilən digər vəzifələri icra
+                                        etmək.
+                                    </li>
+                                </ol>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===========================Section2================================= -->
+        <!-- ! copy this area==========================================================-->
+        <section>
+            <div class="all-loans-rating">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-9 ">
+                            <div>
+                                <p class="all-loans-rating-parg1">Səhifəni <span
+                                        class="all-loans-rating-parg1-item">dəyərləndirin</span></p>
+                                <p class="all-loans-rating-parg2">Fikirlərinizi bizimlə bölüşün. Rəyləriniz dəyərlidir!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="all-loan-rating-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================================Footer=========================== -->
+        <footer>
+            <div class="container p-4">
+                <div class="row footer-bottom-border ">
+                    <!-- col-1 -->
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <img src="../assets/images/abb-footer-logo.png" alt="ABB" width="80px" height="40px">
+                        <p class="thin-text pt-2">Tel:</p>
+                        <p class="font-size-14px">+994 12 493 00 91</p>
+                        <p class="thin-text">Faks:</p>
+                        <p class="font-size-14px">+994 12 493 00 91</p>
+                    </div>
+                    <!-- col-2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+                        <p class="thin-text">E-poçt:</p>
+                        <p class="font-size-14px">info@abb-bank.az</p>
+                        <p class="thin-text">Ünvan</p>
+                        <p class="font-size-14px">67, Nizami küç., AZ1005 Bakı, Azərbaycan</p>
+                    </div>
+                    <!-- col-3 -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class=" apps-container-box">
+                            <div class="download-abb-app">
+                                <div class="footer-dow-app">
+                                    <p>ABB mobile yüklə</p>
+                                    <div class="apps-icon-flex">
+                                        <!-- icons flex -->
+                                        <div class="apple apps-design">
+                                            <i class="fa-brands fa-apple"></i>
+                                        </div>
+                                        <div class="google-play apps-design">
+                                            <i class="fa-brands fa-google-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer-dow-btn qr-style">
+                                    <!-- button -->
+                                    <a href="https://play.google.com/store/apps/details?id=iba.mobilbank&hl=az"><i
+                                            class="fa-solid fa-qrcode"></i>Tətbiqi yüklə</a>
+                                </div>
+                            </div>
+                            <div class="footer-app-img">
+                                <img src="../assets/images/footer-phone.png" alt="Phone">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col -4 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-abb-cariers">
+                            <div class="footer-cariers-container">
+                                <p>ABB Karyera</p>
+                                <p>Uğur hekayənizi ABB ilə yazın</p>
+                            </div>
+                            <!-- button -->
+                            <div class="portal-link-btn">
+                                <a
+                                    href="https://careers.abb-bank.az/?_gl=1*1jlxk7n*_gcl_au*MTc4NTE4NDgyMC4xNzcwMDE4MTk2*_ga*MTMwNTE1MDE5MC4xNzcwMDE4MTk3*_ga_XS2V03MMNQ*czE3NzAyNjg4NDYkbzE3JGcxJHQxNzcwMjc0MTk0JGo1NSRsMCRoMA..">Karyera
+                                    portalı <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- footer elements -->
+            <div class="container border-bottom-grey-line">
+                <div class="footer-elements">
+                    <div class="row ">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <ul>
+                                <li><a href="../index.html" class="link-bold">Fərdi</a></li>
+                                <li><a href="./all-loans.html">Bütün kreditlər</a></li>
+                                <li><a href="./assets/pages/cards.html">Kartlar</a></li>
+                                <li><a href="./all-deposits.html">Əmanətlər</a></li>
+                                <li><a href="#">Hesablar</a></li>
+                                <li><a href="./ipoteka.html">İpoteka</a></li>
+                                <li><a href="./cashback.html">Keşbek</a></li>
+                                <li><a href="#">Kampaniyalar</a></li>
+                                <li><a href="#">Bütün əməliyyatlar</a></li>
+                                <li><a href="#">Onlayan xidmətlər</a></li>
+                                <li><a href="#">ABB Prime</a></li>
+                                <li><a href="./doc-resource.html">Tariflər, Sənədlər və Resurslar</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <ul>
+                                <li><a href="./corporate.html" class="link-bold">Biznes</a></li>
+                                <li><a href="./corporate.html">Korporativ</a></li>
+                                <li><a href="./small-and-medium-business.html">Kiçik və orta biznes</a></li>
+                                <li><a href="./micro-business.html">Mikro fərdi sahibkar</a></li>
+                                <li><a href="#">İnternet Bankçılıq</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <ul>
+                                <li><a href="#" class="link-bold">Haqqımızda</a></li>
+                                <li><a href="#">Bank haqqında</a></li>
+                                <li><a href="#">Rəhbərlik</a></li>
+                                <li><a href="#">İdarəetmə və komitələr</a></li>
+                                <li><a href="#">Tariflər, Sənədlər və Resurslar</a></li>
+                                <li><a href="#">Siyasətlərimiz</a></li>
+                                <li><a href="#">Korporativ təqdimat</a></li>
+                                <li><a href="#">Araşdırma</a></li>
+                                <li><a href="#">Hesabatlar</a></li>
+                                <li><a href="#">Təklif və İradlar</a></li>
+                                <li><a href="#">İnvestisiya bankçılığı</a></li>
+                                <li><a href="#">Brend Mərkəzi</a></li>
+                                <li><a href="#">Satınalmalar</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="col-lg-3  col-md-6 col-sm-12">
+                            <ul>
+                                <li>
+                                    <a href="#" class="link-bold">İnvestorlarla əlaqə</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- footer social links -->
+            <div class="container pt-4">
+                <div class="row footer-links-center">
+                    <div class="col-lg-4 col-md-6 col-sm-12 links-flex">
+                        <!-- links -->
+                        <div class="links-container-round">
+                            <a href="https://x.com/abb_bank"><i class="fa-brands fa-x-twitter f-icon-size"></i></a>
+                        </div>
+                        <div class="links-container-round">
+                            <a href="https://www.youtube.com/c/abbaz"><i
+                                    class="fa-brands fa-youtube f-icon-size"></i></a>
+                        </div>
+                        <div class="links-container-round">
+                            <a href="https://www.instagram.com/abb_bank/"> <i
+                                    class="fa-brands fa-instagram f-icon-size"></i></a>
+                        </div>
+                        <div class="links-container-round">
+                            <a href="https://www.facebook.com/abbbank.az"> <i
+                                    class="fa-brands fa-facebook f-icon-size"></i></a>
+                        </div>
+                        <div class="links-container-round">
+                            <a href="https://az.linkedin.com/company/the-bank-abb"><i
+                                    class="fa-brands fa-linkedin f-icon-size"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        © ABB 2025 - Bütün hüquqlar qorunur
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 footer-img-center">
+                        <div class="footer-img-true-center">
+                            <a href="#"><img src="../assets/images/footer-logo-1.webp" alt="" width="50px"
+                                    height="30px"></a>
+                            <a href="#"><img src="../assets/images/footer-logo-2.png" alt="" width="50px"
+                                    height="30px"></a>
+                            <a href="#"><img src="../assets/images/footer-logo-3.webp" alt="" width="50px"
+                                    height="30px"></a>
+                            <a href="#"><img src="../assets/images/footer-logo-4.webp" alt="" width="50px"
+                                    height="30px"></a>
+                            <a href="#"><img src="../assets/images/footer-logo-5.svg" alt="" width="50px"
+                                    height="30px"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    </main>
+</body>
+
+</html>
