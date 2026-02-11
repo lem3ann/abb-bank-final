@@ -1,0 +1,43 @@
+.intereset-rates-based-term-left div img{
+    width: 100px;
+    height: 100px;
+}
+.intereset-rates-based-term-left h3{
+      font-size: var( --font-size-md);
+      line-height: 56px;
+      text-align: left;
+}
+.create-digidepo-btn{
+    width: 190px!important;
+}
+.interest-rate-table-list table tr td,.interest-rate-table-list table tr th{
+    text-align: center;
+    padding:12px 35px;
+}
+.interest-rate-table-list table{
+    border-radius: 20px;
+    outline: 6px solid rgb(241, 239, 239);
+    width: 650px;
+}
+.list-txt-fs{
+    line-height: 24px;
+}
+.list-txt-fs li::marker{
+    color: rgb(207, 205, 205);
+}
+.list-bg-grey-radius li button{
+    background-color:rgb(241, 239, 239)!important;
+}
+.insurance-img-right-side img{
+    width: 420px;
+    height: 360px;
+}
+.insurance-details-left h2{
+    font-size: var(--font-size-md);
+    line-height: 56px;
+}
+.insurance-details-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

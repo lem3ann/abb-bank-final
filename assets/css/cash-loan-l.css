@@ -255,7 +255,7 @@ div.favorable-terms-details-link {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    background-color: transparent;
+    background-color: transparent!important;
 }
 
 .navtabs-details-text {
