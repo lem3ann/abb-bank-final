@@ -1,14 +1,301 @@
 /* *Laman  */
-@media(max-width:575px){
-   
-}
-@media(max-width:767px){
+@media(max-width:575px) {
+    .carousel-first-text h2 {
+        font-size: 22px;
+    }
+
+    .digi-text-style {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .digi-bold {
+        font-size: 20px;
+        padding: 5px 0;
+    }
+
+    .digi-big-img img {
+        width: 400px;
+        height: 430px;
+    }
+
+    .shape-the-future-width-abb h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .shape-the-future-width-abb p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .digi-order-btn {
+        margin: auto;
+    }
+
+    .business-white-cards-btn a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .abb-staff img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .campagins-header h2 {
+        font-size: 28px;
+    }
+
+    .campagins-details-box h3 {
+        font-size: 22px;
+    }
+
+    .navbtabs-center h2 {
+        font-size: 22px;
+    }
+
+    .navtabs-content-width {
+        width: 100%;
+    }
+
+    .loan-payment-blue {
+        width: 100%;
+    }
+
+    .currency-details-header h3 {
+        font-size: 20px;
+    }
+
+    .currency-details-box {
+        padding: 20px;
+        width: 100%;
+    }
+
+    table tr td p {
+        font-size: 18px;
+    }
+
+    .currency-convertor-header-details h3 {
+        font-size: 22px;
+    }
+
+    #main-our-services h2 {
+        font-size: 22px;
+    }
+
+    .all-loan-section3-parg1 {
+        font-size: 24px;
+    }
+
+    .all-loan-phone-img {
+        display: none;
+    }
+
+    .abb-news-title h2 {
+        font-size: 20px;
+    }
+
+    .abb-news-col-box img {
+        width: 100%;
+    }
+
+    .news-finance-h2 {
+        font-size: 24px;
+    }
+
+    .news-finance h3 {
+        font-size: 22px;
+    }
+
+    .all-loans-rating-parg1 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .all-loan-rating-stars {
+        margin: 10px auto;
+    }
+
+    .all-loans-rating-parg2 {
+        text-align: center;
+    }
+
+    .abb-news-col-box a,
+    .news-title-bottom a {
+        font-size: 20px;
+    }
+
+    .portal-link-btn a {
+        font-size: 14px;
+    }
+
+    .links-container-round {
+        margin: 20px auto;
+        width: 20px;
+        height: 20px;
+        padding: 10px;
+    }
+
+    .law {
+        display: none;
+    }
+
+    .footer-img-true-center {
+        margin: auto;
+    }
 
 }
-@media(max-width:991px){
-   
 
+@media(max-width:767px) {
+     .carousel-first-text h2 {
+        font-size: 24px;
+    }
+
+    .digi-text-style {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .digi-bold {
+        font-size: 22px;
+        padding: 5px 0;
+    }
+
+    .digi-big-img img {
+        width: 400px;
+        height: 430px;
+    }
+
+    .shape-the-future-width-abb h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .shape-the-future-width-abb p {
+        text-align: center;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .digi-order-btn {
+        margin: auto;
+    }
+
+    .business-white-cards-btn a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .abb-staff img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .campagins-header h2 {
+        font-size: 30px;
+    }
+
+    .campagins-details-box h3 {
+        font-size: 24px;
+    }
+
+    .navbtabs-center h2 {
+        font-size: 24px;
+    }
+
+    .navtabs-content-width {
+        width: 100%;
+    }
+
+    .loan-payment-blue {
+        width: 100%;
+    }
+
+    .currency-details-header h3 {
+        font-size: 22px;
+    }
+
+    .currency-details-box {
+        padding: 22px;
+        width: 100%;
+    }
+
+    table tr td p {
+        font-size: 20px;
+    }
+
+    .currency-convertor-header-details h3 {
+        font-size: 24px;
+    }
+
+    #main-our-services h2 {
+        font-size: 24px;
+    }
+
+    .all-loan-section3-parg1 {
+        font-size: 26px;
+    }
+
+    .all-loan-phone-img {
+        display: none;
+    }
+
+    .abb-news-title h2 {
+        font-size: 22px;
+    }
+
+    .abb-news-col-box img {
+        width: 100%;
+    }
+
+    .news-finance-h2 {
+        font-size: 24px;
+    }
+
+    .news-finance h3 {
+        font-size: 24px;
+    }
+
+    .all-loans-rating-parg1 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .all-loan-rating-stars {
+        margin: 10px auto;
+    }
+
+    .all-loans-rating-parg2 {
+        text-align: center;
+    }
+
+    .abb-news-col-box a,
+    .news-title-bottom a {
+        font-size: 22px;
+    }
+
+    .portal-link-btn a {
+        font-size: 14px;
+    }
+
+    .links-container-round {
+        margin: 20px auto;
+        width: 25px;
+        height: 25px;
+        padding: 10px;
+    }
+
+    .law {
+        display: none;
+    }
+
+    .footer-img-true-center {
+        margin: auto;
+    }
 }
-@media(max-width:1200px){
-   
-}
+
+@media(max-width:991px) {}
+
+@media(max-width:1200px) {}
