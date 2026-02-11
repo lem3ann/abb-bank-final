@@ -733,8 +733,8 @@
 }
 
 .currency-table-style thead tr td {
-    color: var(--grey-font-color)!important;
-    font-size: var(--font-size-thin)!important;
+    color: var(--grey-font-color);
+    font-size: var(--font-size-thin);
 }
 
 .currency-table-style thead tr td,
