@@ -1,0 +1,73 @@
+#full-credit-cards-section{
+    background-image: var( --striped-black-bg-color);
+}
+.section-h3-text-full-c h3{
+    text-align: center;
+    color: var(--context-white-color);
+    font-size: var(--font-size-md);
+    line-height: 56px;
+}
+.left-side-card-pic img{
+    width: 450px;
+    height: 400px;
+}
+.sec-full-card-details-box h3{
+    font-size: var(--font-size-large);
+    color: var(--context-white-color);
+
+}
+.credit-limit-column-box p:nth-child(2){
+    font-size: var(--font-size-for-news);
+    color: var(--context-white-color);
+}
+.credit-limit-column-box p:nth-child(1){
+    font-size: var(--font-size-thin);
+    color: var(--links-grey-text-color);
+}
+.credit-limit-details{
+    display: flex;
+    gap: 50px;
+}
+.loan-card-img-and-text{
+    height: 370px;
+    border-radius: 30px;
+    background-color: var(--footer-app-container-bg);
+}
+.sec-full-card-details-box p{
+    padding: 10px 0;
+    font-size: var(--font-size-small);
+    color: var(--card-grey-font-color);
+}
+.loan-card-about-btn{
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 0;
+    width: 100px;
+    background-color: var(--context-white-color);
+}
+.loan-card-about-btn a{
+    color: var(--context-black-color);
+}
+.offer-credit-card-btn{
+    background-color: var(--main-blue);
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 0;
+    width: 130px;
+}
+.offer-credit-card-btn:hover{
+    background-color: var(--blue-with-dark-hover);
+}
+.offer-credit-card-btn a{
+    color:var(--context-white-color);
+}
+.full-cards-btn-flex{
+    display: flex;
+    gap: 10px;
+}
+.full-card-details-right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content:space-between ;
+}
