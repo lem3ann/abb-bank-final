@@ -1,0 +1,226 @@
+#car-loan-information {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.car-loan-information-text {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    max-width: 474px;
+}
+
+.car-loan-information-text h3 {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: var(--grey-font-color);
+}
+
+.car-loan-information-text h1 {
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.car-loan-information-text p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #484a4f;
+}
+
+.black {
+    color: black;
+}
+
+.car-loan-information-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-loan-txt {
+    display: flex;
+    border: 1px solid #f0f0f0;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 70px;
+}
+
+
+.car-loan-txt .header_text_box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.car-loan-txt .header_text_box svg {
+    color: #1f63ed;
+    margin-right: 5px;
+}
+
+.car-loan-img img {
+    max-height: 356px;
+    margin-bottom: 85px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.car-loan-txt h4{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: var(--grey-font-color);
+    margin-left: 26px;
+}
+
+.car-loan-txt p {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+
+.car-loan-h1 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    text-align: center;
+    margin: 35px 0;
+}
+
+.car-loan-partner {
+    background-color: #0A0B0D0A;
+    border-radius: 32px;
+    margin-bottom: 45px;
+    min-height: 400px
+}
+
+.car-loan-partner-information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 40px 20px 40px;
+}
+
+.ferid1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.car-loan-partner-information h3 {
+    letter-spacing: 0;
+    color: black;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+.car-loan-partner-information p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    text-align: center;
+}
+
+
+
+.car-loan-partner-img img  {
+    object-fit: cover;
+    max-height: 182px;
+}
+
+
+#car-loan-section-2{
+    background-color: #f0f0f0;
+}
+
+.bg_light_section{
+    background-color: white ;
+    padding: 50px 0;
+    border: 1px solid white;
+    border-top-left-radius: 54px;
+    border-top-right-radius: 54px;
+}
+
+.ferid3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.total-price-a {
+    padding: 24px 24px;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.total-price-a:hover {
+    background-color: rgb(244, 242, 242);
+}
+
+.tt1 {
+    min-height: 400px;
+}
+
+.car-loan-table .table th {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #7a7d82;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 0;
+}
+
+.car-loan-table .table td {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: black;
+    border-bottom: 1px solid #f0f0f0;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    padding: 20px 0 20px 100px;
+    text-align: justify;
+}
+
+
+
+
+.car-loan-table .table {
+    width: 70%;
+}
+
+.car-loan-logo {
+    margin-top: 50px;
+}
+
