@@ -111,3 +111,64 @@
 .strategic-pages-button:hover{
     color: black
 }
+.mission-section5-cards-img{
+    width: 300px;
+}
+.mission-strategic-card-box{
+    border: 1px solid black;
+    background-color:rgb(240 240 240) ;
+    border: none;
+    border-radius: 15px;
+}
+ .mission-card1{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.mission-card-box-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.mission-section5-head-text{
+    font-size: 48px;
+        line-height: 56px;
+        font-weight: 500;
+        text-align: center;
+}
+.mission-section5-page{
+    background-color:rgb(27 99 237); 
+}
+.mission-section5-page2{
+    background-color: white;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    padding: 40px;
+}
+.mission-section5-head-text2{
+    color: rgb(72 74 79 ) ;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mission-section2-parg{
+    margin: 0 auto;
+    width: 60%;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+.mission-strategic-section2-item{
+    width: 100%;
+    padding: 60px 0;
+}
+
+.mission-strategic-section2-text{
+    margin-bottom: 30px;
+}
