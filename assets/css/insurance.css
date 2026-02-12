@@ -108,3 +108,23 @@
 .insure-your{
     width: 220px;
 }
+/* !INVESTMENT PAGE CSS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+#bonds-with-one-touch h2{
+    font-size:var(--font-size-md) ;
+    text-align: center;
+    line-height: 56px;
+    padding: 60px 0;
+}
+.bonds-with-one-tap{
+    padding: 30px;
+    background-color: var(--cards-container-transparency);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+.bonds-with-one-tap p:nth-child(2){
+    font-weight: 600;
+    font-size: var( --font-size-for-news);
+}
