@@ -9,6 +9,17 @@
 }
 
 /* !CURRENT ACCOUNT--CSS******************************************************* */
+#create-current-account{
+   padding: 60px;
+   background-image: var(--striped-black-bg-color);
+}
+#create-current-account h2{
+   font-size: var(--font-size-md);
+   line-height: 32px;
+   text-align: center;
+   color: var(--context-white-color);
+   padding: 30px;
+}
 .flags-container{
    display: flex;
    justify-content: space-between;
@@ -25,11 +36,68 @@
    height: 50px;
 }
 .header-h3-center{
+   padding: 40px;
    text-align: center;
-   font-size: ;
+   font-size:var(--font-size-medium) ;
 }
 .flags-container{
    border-radius: 20px;
-   padding: 20px;
+   padding: 35px;
+   background-color: var(--context-white-color);
+}
+.flags-deatils-box p:nth-child(3){
+   padding: 10px 0;
+   color: rgb(122,124,130);
+   font-size: var(--font-size-thin);
+}
+.cash-advantages-details-width{
+   height: 390px!important;
+}
+div.area-width-transparency{
+  background-image:var(--striped-black-bg-color);
+}
+.create-current-account-details{
+   border-radius: 20px;
+   height: 250px;
+   color: var(--context-white-color);
+   padding: 30px;
+   background-color: var(--footer-app-container-bg);
+}
+.current-account-round-detail{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   width: 40px;
+   height: 40px;
+   color: var(--links-grey-text-color);
+   background-color: var(--footer-app-container-bg);
+}
+.current-account-title{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.loan-link-white-color a{
+   color: var(--context-white-color);
+   text-decoration: underline;
+}
+.current-account-title svg{
+   width: 30px;
+   height: 30px;
+}
+.create-current-account-details p{
+   padding: 20px 0;
+   font-size: 20px;
+   line-height: 28px;
+}
+.create-current-account-details div span{
+   font-size: var(--font-size-thin);
+   color: var( --card-grey-font-color);
+}
+.bg-grey-self-white{
+   background-color:var(--section-bg-light-pink);
+}
+.stars-bg-color-white {
    background-color: var(--context-white-color);
 }

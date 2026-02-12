@@ -1,6 +1,6 @@
 /* !CASH LOAN */
 #loan-with-favorable-terms {
-    padding: 60px 0;
+    padding-top: 60px;
     background-color: var(--section-bg-light-pink);
 }
 
@@ -190,7 +190,7 @@ div.favorable-terms-details-link {
 
 /* !PHONE NAVTABS************* */
 #phone-switch {
-    padding: 60px 0;
+    padding: 40px 0;
     background-image: var(--striped-black-bg-color);
 }
 
@@ -208,8 +208,13 @@ div.favorable-terms-details-link {
     line-height: 56px;
 }
 
-.margin-for-elements {
+/* .margin-for-elements {
     gap: 200px;
+} */
+/* !icon flex class atıb leftden 50px verdin biri 5 biri ise 7`dir */
+.icon-flex-end {
+    display: flex;
+    margin-left: 50px;
 }
 
 .phone-tabs-style {
@@ -255,7 +260,7 @@ div.favorable-terms-details-link {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .navtabs-details-text {
