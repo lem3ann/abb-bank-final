@@ -1,0 +1,102 @@
+#pin-cod-change-section-1 {
+    background-color: #f0f0f0;
+}
+
+.pin-cod-change-blog-right-text {
+    margin: 50px 0;
+}
+
+.pin-cod-change-blog-right-text h1 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.pin-cod-change-blog-right-text p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    margin-bottom: 30px;
+}
+
+.pin-cod-change-blog-right-text a {
+    padding: 12px 16px;
+    background-color: #1b63ed;
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+.pin-cod-change-blog-right-text a:hover {
+    background-color: #1a5dd9;
+}
+
+.pin-code-card .card {
+    background-color: white;
+}
+
+.pin-code-card .card:hover {
+    background-color: white;
+}
+
+.pin-code-card .card p {
+    color: #606369;
+    padding: 2px 6px;
+    background-color: #e6e7eb;
+    border-radius: 8px;
+    width: 41%;
+}
+
+.pin-code-card .card h3 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.pin-cod-change-warning {
+    display: flex;
+    background-color: #0A0B0D0A;
+    border: 1px solid #8e8e8e;
+    border-radius: 10px;
+    gap: 10px;
+    width: 70%;
+    margin: 50px 0;
+}
+
+.pin-cod-change-warning p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    padding: 15px 12px;
+}
+
+.pin-cod-change-warning i {
+    margin-top: 24px;
+    margin-left: 8px;
+}
+
+.pin-code-table table {
+    background-color: white;
+}
+
+.pin-code-table table th {
+    text-align: justify;
+}
+
+.pin-code-table table td {
+    text-align: justify;
+}
+
+
