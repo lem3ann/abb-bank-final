@@ -387,3 +387,12 @@ height: 500px;
 .all-loan-rating-stars i:hover ~ i{
     color: #0072CE;
 }
+
+/* .all-loans-calculate-section{
+    background:radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
+}
+.all-loans-calculate-range-section{
+    background-color: white;
+    width: 100%;
+} */
+

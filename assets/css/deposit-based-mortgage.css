@@ -1,0 +1,34 @@
+
+.mortgage-table-icon{
+    color:rgb(27 99 237) ;
+}
+.mortgage-section2-button{
+   
+    background-color:var( --main-blue); 
+    color: var( --context-white-color); 
+    border-radius:13px ; 
+    border: 1px solid black; 
+    display: block;
+    width: 150px; 
+    height: 55px;
+    border: none; 
+    text-align: center; 
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 40px;
+}
+.mortgage-section2-button:hover{
+     color: white;
+    background-color: #004B98;
+}
+.mortgage-section3-box{
+     padding-top: 60px; 
+}
+.mortgage-section3-img{
+    width: 100px;
+}
+.mortgage-section3-text-item{
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 20px;
+}
