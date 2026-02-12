@@ -1,0 +1,110 @@
+.insurance-main-page-img img{
+    width: 400px;
+}
+.insurance-white-btn{
+    width: 240px;
+    background-color: var(--context-white-color);
+}
+.insurance-white-btn a{
+    color: var(--context-black-color);
+}
+#loan-with-favorable-terms-1 {
+    padding-top: 60px;
+    background-color: var(--main-blue);
+}
+#loan-with-favorable-terms-1 h2{
+    color: var(--context-white-color);
+}
+#loan-with-favorable-terms-1 p{
+    color: var(--card-grey-font-color);
+}
+.apple-icon-links-insurance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff29;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.apple-icon-links-insurance svg{
+    color: var(--context-white-color);
+}
+.social-links-flex{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.apps-appple-market-icons-flex{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.unexpected-section-border-radius{
+    background-color: rgb(233,225,250);
+    border-radius: 20px;
+}
+.ready-for-unexpected-events-box{
+    display: flex;
+    height: 84%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top:40px;
+    padding-left: 30px;
+}
+.ready-for-unexpected-events-box h3{
+    line-height: 40px;
+    font-size: var(--font-size-large);
+}
+.ready-for-unexpected-events-box p{
+    padding: 10px 0;
+    line-height: 24px;
+    font-size: var(--font-size-small);
+    color: var( --medium-grey);
+}
+/* Insure your trip with abb */
+.row-minimal-width{
+    width: 800px;
+}
+.insure-with-abb-img img{
+    width: 250px;
+    height: 250px;
+}
+.insure-with-abb-img +p{
+    padding: 10px 0;
+   text-align: center;
+}
+.insure-with-abb-width{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.insurance-txt-center{
+    padding: 15px 0;
+    text-align: center;
+    color: var(--medium-grey);
+}
+.insure-with-abb-width h2{
+    padding-bottom: 20px;
+     text-align: center;
+    font-size: var(--font-size-md);
+    line-height: 56px;
+}
+.secure-future-img img{
+    width: 50px;
+    height: 50px;
+}
+.secure-future{
+    border-radius: 20px;
+    background-color: var(--cards-container-transparency);
+    width: 500px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.insure-your{
+    width: 220px;
+}
