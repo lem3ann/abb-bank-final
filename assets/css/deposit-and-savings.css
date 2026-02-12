@@ -1,0 +1,57 @@
+
+*{
+    font-family: "Inter",sans-serif;
+}
+.deposit-and-savings-header-button{
+    margin-top: 50px;
+    background-color:var( --main-blue);
+    color: var( --context-white-color);
+    border-radius:13px ;
+    border: 1px solid black;
+    display: block;
+    width: 140px;
+    height: 55px;
+    border: none;
+   text-align: center;
+   padding-top: 20px;
+}
+.deposit-and-savings-header-button:hover{
+  color: white;
+  background-color: #004B98;
+}
+.deposit-and-savings-section2-box{
+    background-color: rgb(240 240 240);
+}
+.deposit-and-savings-section2-box-item{
+    background-color: white;
+    padding-top: 60px;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    padding-bottom: 60px;
+}
+.deposit-and-savings-card-icon{
+    color: white;
+
+  
+}
+.deposit-and-savings-section4-box{
+    background:radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
+}
+.deposit-and-savings-section4-box-item{
+    background-color: rgb(240 240 240);
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    padding: 70px;
+}
+.savings-and-deposit-section4-table{
+     background-color: white; 
+}
+.deposit-and-savings-section4-text{
+    font-size: 48px;
+    font-size: 500;
+}
+.deposit-and-savings-section4-text2{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 30px;
+}

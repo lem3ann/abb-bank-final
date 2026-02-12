@@ -1,0 +1,174 @@
+
+*{
+  font-family: "Inter",sans-serif;  
+}
+.mission-strategic-head-parg1{
+    font-size: 40px;
+}
+.mission-strategic-section2{
+    background-color: rgb(240 240 240);
+}
+.mission-strategic-section2-item{
+    background-color: white;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+  
+}
+.text{
+   width: 60%;
+ 
+}
+.mission-img{
+    display: flex;
+    justify-content: space-between;
+}
+.mission-strategic-table{
+    border: 1px solid black;
+    height: 530px;
+    padding: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+ 
+  
+}
+.mission-strategic-tables{
+    max-width:960px ;
+}
+.mission-table-text{
+    
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0;
+        font-weight: 500;
+        margin-top: 30px;
+    
+        
+}
+.mission-strategic-list{
+    list-style-type: disc;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    margin-top: 30px;
+    padding: 20px;
+}
+.mission-strategic-section3{
+    background-color: rgb(240 240 240);
+    padding: 60px;
+}
+.mission-strategic-section3-header-text{
+    text-align: center;
+    font-size: 48px;
+        line-height: 56px;
+        letter-spacing: .025em;
+        font-weight: 500;
+}
+.mission-strategic-header-text2{
+    text-align: center;
+    color:rgb(72 74 79 ) ;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 50px;
+
+}
+.mission-strategic-section2-text{
+    text-align: center;
+}
+.mission-and-strategic-section4{
+    background-color:rgb(27 99 237);
+}
+.strategic-text{
+    font-size: 48px;
+        line-height: 56px;
+        font-weight: 500;
+        color: white;
+        padding-top: 80px;
+}
+.strategic-text-2{
+    color: #FFFFFFB8;
+      font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-top: 30px;
+}
+.strategic-pages-button{
+    border: 1px solid black;
+    display: block;
+    width: 190px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    border: none;
+    border-radius: 10px;
+
+    
+}
+.strategic-pages-button:hover{
+    color: black
+}
+.mission-section5-cards-img{
+    width: 300px;
+}
+.mission-strategic-card-box{
+    border: 1px solid black;
+    background-color:rgb(240 240 240) ;
+    border: none;
+    border-radius: 15px;
+}
+ .mission-card1{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.mission-card-box-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.mission-section5-head-text{
+    font-size: 48px;
+        line-height: 56px;
+        font-weight: 500;
+        text-align: center;
+}
+.mission-section5-page{
+    background-color:rgb(27 99 237); 
+}
+.mission-section5-page2{
+    background-color: white;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    padding: 40px;
+}
+.mission-section5-head-text2{
+    color: rgb(72 74 79 ) ;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mission-section2-parg{
+    margin: 0 auto;
+    width: 60%;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+.mission-strategic-section2-item{
+    width: 100%;
+    padding: 60px 0;
+}
+
+.mission-strategic-section2-text{
+    margin-bottom: 30px;
+}
