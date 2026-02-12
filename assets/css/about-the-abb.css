@@ -107,10 +107,11 @@
     .all-awards-btn a {
         color: var(--context-black-color);
     }
-    .all-awards-btn:hover{
+
+    .all-awards-btn:hover {
         background-color: var(--section-bg-light-pink);
     }
-    
+
 
     #learn-more-about-abb h2,
     #bank-in-figures h2 {
@@ -154,79 +155,97 @@
     /* !DEGREE *************************************** */
     #banks-degree {
         background-image: var(--striped-black-bg-color);
-        padding: 40px 0;
+        padding-top: 40px;
     }
-    .statistics-ranking-table-section{
+
+    .statistics-ranking-table-section {
         padding: 20px 30px;
     }
+
     table.abb-statistics-table tr {
         padding: 10px;
-        border-bottom:1px solid var( --medium-grey);
-        
-    }    
-    table.abb-statistics-table tr td{
+        border-bottom: 1px solid var(--medium-grey);
+
+    }
+
+    table.abb-statistics-table tr td {
         color: var(--card-grey-font-color);
         /* background-color: var(--table-bg-color); */
         background-color: #30343B;
     }
-    table.abb-statistics-table tr td:nth-child(2){
+
+    table.abb-statistics-table tr td:nth-child(2) {
         padding-left: 30px;
     }
-    ul.table-tabs-bg-olor li:first-child button{
-        background-color:var(--context-black-color) !important;
+
+    ul.table-tabs-bg-olor li:first-child button {
+        background-color: var(--context-black-color) !important;
         color: var(--context-white-color) !important;
         padding: 12px;
         border-radius: 12px;
     }
-    ul.table-tabs-bg-olor li:nth-child(2) button{
+
+    ul.table-tabs-bg-olor li:nth-child(2) button {
         color: var(--card-grey-font-color);
         font-size: var(--font-size-extra-small) !important;
         padding: 12px;
         border-radius: 12px;
     }
-    ul.table-tabs-bg-olor li:nth-child(2) button:focus{
-        background-color: var(--context-black-color)!important;
+
+    ul.table-tabs-bg-olor li:nth-child(2) button:focus {
+        background-color: var(--context-black-color) !important;
     }
-    .table-tabs-bg-olor li:nth-child(2) button{
+
+    .table-tabs-bg-olor li:nth-child(2) button {
         margin-left: 10px;
     }
-    .abb-statistics-table tr td:nth-child(2){
+
+    .abb-statistics-table tr td:nth-child(2) {
         text-align: center;
         padding: 20px;
-        border-left:1px solid var( --medium-grey);
+        border-left: 1px solid var(--medium-grey);
     }
-    .abb-statistics-table tr td:nth-child(1){
+
+    .abb-statistics-table tr td:nth-child(1) {
         padding: 20px;
     }
-    .statistics-table{
+
+    .statistics-table {
         margin-top: 20px;
     }
-    .table-footer-details{
+
+    .table-footer-details {
         padding: 8px;
     }
-    .table-footer-details p{
-        color:var(--card-grey-font-color);
+
+    .table-footer-details p {
+        color: var(--card-grey-font-color);
     }
-    .degree-left-side img{
+
+    .degree-left-side img {
         width: 100%;
         max-width: 100px;
         height: auto;
     }
-    .degree-left-side h2{
+
+    .degree-left-side h2 {
         padding: 25px 0;
         color: var(--context-white-color);
-        font-size: var( --font-size-extra-large);
+        font-size: var(--font-size-extra-large);
         line-height: 72px;
     }
-    .degree-left-side p{
+
+    .degree-left-side p {
         font-size: var(--font-size-sm);
         color: var(--card-grey-font-color);
         line-height: 28px;
         padding: 10px 0;
     }
+
     /* !POSITION ELEMENTS FOR MAIN PAGE FOOTER */
-    
-    .main-page-position-abb-person,.main-page-position-abb{
+
+    .main-page-position-abb-person,
+    .main-page-position-abb {
         background-color: var(--main-blue);
         width: 45px;
         height: 45px;
@@ -241,19 +260,25 @@
         /* outline: 5px solid rgba(178, 178, 243, 0.719); */
         transition: all 0.4s;
     }
-    .main-page-position-abb-person{
+
+    .main-page-position-abb-person {
         left: 2%;
     }
-    .main-page-position-abb-person:hover,.main-page-position-abb:hover{
+
+    .main-page-position-abb-person:hover,
+    .main-page-position-abb:hover {
         transform: scale(1.2);
     }
-    .main-page-position-abb img{
+
+    .main-page-position-abb img {
         width: 100%;
         height: auto;
     }
-    .main-page-position-abb{
-         right: 2%;
+
+    .main-page-position-abb {
+        right: 2%;
     }
-    .rating-star-bg-color-grey{
+
+    .rating-star-bg-color-grey {
         background-color: rgb(228, 225, 225);
     }
