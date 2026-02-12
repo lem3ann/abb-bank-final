@@ -14,3 +14,10 @@
    height: 180px;
    
 }
+.corporate-pres-section1{
+    margin-bottom: 60px;
+  
+}
+ .corporate-pres-pdf-box:hover .docs-resources-tabs-icon{
+    color: #0D6EFD ;
+}

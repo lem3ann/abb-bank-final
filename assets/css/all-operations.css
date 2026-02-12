@@ -102,6 +102,12 @@ color:#7A7D82;
     text-align: center;
     padding-top: 90px;
 }
+.all-operations-section2{
+  
+}
+.all-operations-acrdn{
+    padding-bottom: 80px;
+}
 .all-operations-section2-parg2{
     font-size: 40px;
     color: black;
@@ -150,6 +156,7 @@ color:#7A7D82;
    font-size: 30px;
     
 }
+
 .all-operations-line{
  color: #7A7D82;
  margin-bottom: 80px;
@@ -158,11 +165,28 @@ color:#7A7D82;
     text-align: center;
     font-size: 48px;
     font-weight: 500;
+ margin-top: 20px;
+ margin-bottom: 30px;
 
 }
 .all-operations-accordion-button{
-    
+    font-size: 20px;
+    font-weight: 600;
+}
+.all-operations-accordion-body{
+    font-size:17px ;
+    line-height: 28px;
 }
 .grey-bg-color-for-ranking-page{
     background-color: var(--grey-font-color);
 }
+
+.accordion-item{
+    border: none;
+}
+.all-operations-accordion-button:focus,
+.all-operations-accordion-button:active{
+ box-shadow: none; 
+
+}
+

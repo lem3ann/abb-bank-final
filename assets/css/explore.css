@@ -1,0 +1,41 @@
+*{
+    font-family: "Inter",sans-serif;
+}
+.docs-resources-explore-large-tabs{
+    width: 320px;
+    height: 200px;
+}
+.docs-resources-explore-medium-tabs{
+    width: 320px;
+    height: 150px;
+}
+.explore-page-head-text{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    padding-top: 60px;
+    padding-bottom: 60px ;
+}
+.explore-section2{
+   background-color: rgb(240 240 240);
+  
+}
+.explore-section2-box{
+    background-color: white;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    padding-bottom: 60px;
+}
+.explore-doc-tabs-icon{
+    border: 1px solid black;
+    width: 38px;
+   padding-top: 10px;
+   padding-left: 10px;
+    height: 40px;
+    background-color:#1b63ed1f;
+    border: none;
+    border-radius: 10px;
+}
+/* .docs-resources-management-box:hover .explore-doc-tabs-icon{
+    color:rgb(27 99 237);
+} */

@@ -8,7 +8,8 @@
     flex-direction: column;
     gap: 46px;
     max-width: 535px;
-}
+}   
+   
 
 .abb-mobile-information-text h1 {
     font-size: 64px;
