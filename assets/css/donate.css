@@ -1,0 +1,75 @@
+.purchase-logo-h1 {
+    margin: 30px 0;
+}
+
+.donate-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.donate-card h5 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.donate-card .card {
+    width: 100%;
+    min-height: 200px;
+    max-height: 400px;
+}
+
+.donate-card .card p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: rgb(24, 24, 24);
+    width: 100%;
+    color: #606369;
+    padding: 0px 0px;
+    background-color: white;
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+
+.donate-links {
+    display: flex;
+    gap: 10px;
+}
+
+.donate-link1 {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: white;
+    padding: 8px 10px;
+    background-color: #1b63ed;
+    border-radius: 12px;
+}
+
+
+.donate-link2 {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #1b63ed;
+    padding: 8px 10px;
+    background-color: #1B63ED1F;
+    border-radius: 12px;
+}
+
+.donate-link2:hover {
+    background-color: #133d8c1f;
+}
+
+
+.donate-link1:hover {
+    background-color: #1859d2;
+}

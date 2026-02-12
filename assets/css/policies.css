@@ -1,0 +1,224 @@
+#policies-information {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.policies-information-text {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    max-width: 580px;
+}
+
+.policies-information-text h3 {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+}
+
+.policies-information-text h1 {
+    font-size: 40px;
+    line-height: 72px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.policies-information-text p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #484a4f;
+}
+
+.policies-img img {
+    max-height: 356px;
+    margin-bottom: 85px;
+    width: 100%;
+    object-fit: contain;
+}
+
+#policies-section-2{
+    background-color: #f0f0f0;
+}
+
+.bg_light_section{
+    background-color: white ;
+    padding: 50px 0;
+    border: 1px solid white;
+    border-top-left-radius: 54px;
+    border-top-right-radius: 54px;
+}
+
+.policies-section-2-navs-tabs {
+    margin: 0 100px;
+}
+
+.policies-section-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.policies-section-2-navs-tabs .tab-content .tab-pane p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #0a0b0d;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+.policies-section-2-navs-tabs .tab-content .tab-pane p a {
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.policies-section-2-navs-tabs .tab-content .tab-pane h1 {
+    margin-bottom: 30px;
+}
+
+.policies-section-2-navs-tabs .tab-content .tab-pane h2 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: 500;;
+    color: #0a0b0d;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.policies-section-2-navs-tabs .tab-content .tab-pane li {
+    list-style-type: circle;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #0a0b0d;
+}
+
+.policies-section-2-navs-tabs .tab-content .tab-pane ul {
+    margin-left: 20px;
+}
+
+.policies-section-2-navs-tabs .tab-content .tab-pane p span {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+
+.policies-section-cards .card{
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    border-radius: 32px;
+    max-height: 180px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.policies-section-cards .card-1{
+    max-height: 448px;
+    width: 220px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.policies-section-cards .card:hover {
+    background-color: #e9e8e8;
+
+}
+
+.policies-section-cards .card-1:hover {
+    background-color: #e9e8e8;
+
+}
+
+.policies-section-cards .card .card-head {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1B63ED1F;
+    display: inline-block;
+    width: 40px;
+}
+
+.policies-section-cards .card-1 .card-head {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1B63ED1F;
+    display: inline-block;
+    width: 40px;
+}
+
+.policies-section-cards .card h3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+}
+
+.policies-section-cards .card-1 h3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+}
+
+.policies-section-cards .card .card-body {
+    padding: 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.policies-section-cards .card-1 .card-body {
+    padding: 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.policies-section-cards .card .card-body .card-body-p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.policies-section-cards .card-1 .card-body .card-body-p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.policies-section-cards .card .card-body .card-body-p span {
+    padding: 0 5px;
+}
+
+.policies-section-cards .card-1 .card-body .card-body-p span {
+    padding: 0 5px;
+}

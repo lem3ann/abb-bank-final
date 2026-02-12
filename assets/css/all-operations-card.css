@@ -1,0 +1,25 @@
+
+*{
+    font-family: "Inter",sans-serif;
+}
+
+.all-operations-card-navtabs{
+    color:rgb(122 125 130 ) ;
+}
+
+.all-operations-card-navtabs:active{
+color: white;
+background-color: black;
+}
+.appointment-card-box-item-large{
+    border:1px solid black;
+width: 300px;
+height: 200px;
+border-radius: 20px;
+background-color: white;
+border: none;
+margin-top: 30px;
+}
+.all-operations-card-navtabs-table{
+    margin-top: 50px;
+}

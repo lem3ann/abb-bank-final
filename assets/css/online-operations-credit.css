@@ -1,0 +1,39 @@
+*{
+    font-family: "Inter",sans-serif;
+}
+.online-ope-credit{
+    width: 160px;
+}
+.appointment-card-box-item{
+    padding: 0 10px;
+}
+.online-operations-credit-box{
+border:1px solid black;
+width: 250px;
+height: 200px;
+border-radius: 20px;
+background-color: white;
+border: none;
+margin-top: 30px;
+padding: 20px;
+}
+.online-operations-credit-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.online-operations-credit-icon{
+    color: rgb(27 99 237);
+    
+}
+.online-operations-credit-table-text{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 600;
+}
+.online-operations-credit-table-text2{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+}

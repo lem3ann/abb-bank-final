@@ -1,0 +1,129 @@
+.classic-savings-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+}
+
+.classic-savings-table {
+    margin-left: inherit;
+}
+
+.classic-savings-ul li p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #0a0b0d;
+}
+
+.classic-savings-ul li {
+    list-style-type: circle;
+}
+
+.classic-savings-card1 {
+    background-color: white;
+    border-radius: 24px;
+    margin-left: 10px;
+    width: 24%;
+    height: 450px;
+
+}
+
+.classic-savings-card1 h3{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #b3b1b1;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.classic-savings-card1 p{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.classic-savings-card1 .card-type-list li {
+    margin-top: 10px ;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.classic-savings-p1 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #b3b1b1;
+    margin: 50px 0 ;
+}
+
+#count1 {
+    background-color: #f0f0f0;
+}
+
+.classic-savings-section3 {
+    margin: 50px 0;
+}
+
+.classic-savings-section-5-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.classic-savings-section-5-cards .card {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+}
+
+.classic-savings-section-5-cards p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+}
+
+#classic-savings-section-5 {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.classic-savings-section-5-logo h1 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    color: black;
+
+}
+
+.classic-savings-section-5-cards .card i {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+} 
+
+.classic-savings-section-5-cards .card ul {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.classic-savings-section-5-cards .card li {
+    list-style-type: circle;
+}

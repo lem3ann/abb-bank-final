@@ -5,6 +5,7 @@ font-family: "Inter",sans-serif;
 
 .online-service-appt{
     background-color: rgb(240 240 240);
+ 
 }
 .appointment-text-icon{
      font-size: 16px; 
@@ -14,7 +15,7 @@ font-family: "Inter",sans-serif;
 }
 .online-service-appt-table{
     border: 1px solid black;
-    width: 250px;
+    width: 280px;
     height: 610px;
     background-color: white;
     border-radius: 25px;
@@ -24,7 +25,7 @@ font-family: "Inter",sans-serif;
 }
 .appointment-text{
     border: 1px solid black;
-    width: 220px;
+    width: 250px;
     margin-left: 15px;
     /* margin-top: 20px; */
     border-radius: 15px;
@@ -38,9 +39,11 @@ font-family: "Inter",sans-serif;
     font-size: 48px;
     font-weight: 500;
     margin-top: 40px;
+    line-height: 56px;
 }
 .appointment-section1-item2{
     font-size: 16px;
+    line-height: 24px;
     color: rgb(72 74 79 );
     margin-top: 20px;
 }
@@ -69,7 +72,8 @@ font-family: "Inter",sans-serif;
 .appointment-text-box-item{
     font-size: 22px;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 40px;
+   
 }
 .appointment-card-box{
     display: flex;
@@ -89,6 +93,7 @@ margin-top: 30px;
     font-size: 14px;
     margin-top: 20px;
     text-align: center;
+    line-height: 20px;
 
 }
 .appointment-card-box-number{
@@ -103,12 +108,14 @@ margin-top: 30px;
     background-color:  rgb(230 231 235);
     color:rgb(96 99 105) ;
     border: none;
+    font-size: 12px;
   
 }
 .appointment-parg{
     color: rgb(72 74 79);
     font-size: 14px;
     margin-top: 30px;
+    line-height: 20px;
 }
 .online-service-appointment-rating-stars{
      border: 1px solid black;
@@ -130,4 +137,5 @@ margin-top: 30px;
 .online-service-appointment-rating-stars i:hover ~ i{
     color: #0072CE;
 }
+
 
