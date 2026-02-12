@@ -112,7 +112,8 @@ div.favorable-terms-details-link {
 .cash-loan-plans h2,
 .calculate-for-loan-sec h2,
 #avans-loan h3,
-#online-credit-apply-now h2,.insure-with-abb-width h2{
+#online-credit-apply-now h2,
+.insure-with-abb-width h2 {
     text-align: center;
     font-size: var(--font-size-md);
     line-height: 56px;
@@ -214,7 +215,7 @@ div.favorable-terms-details-link {
 /* !icon flex class atıb leftden 50px verdin biri 5 biri ise 7`dir */
 .icon-flex-end {
     display: flex;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .phone-tabs-style {
@@ -262,10 +263,11 @@ div.favorable-terms-details-link {
 .nav-pills {
     background-color: transparent !important;
 } */
+
 /* .show>.nav-link  */
-.nav-pills {
+/* .nav-pills {
     background-color: transparent !important;
-}
+} */
 
 .navtabs-details-text {
     text-align: left;
