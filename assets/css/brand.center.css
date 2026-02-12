@@ -1,0 +1,145 @@
+.brand-center-section2-p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.brand-center-cards-blog-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.brand-center-cards-blog-1 .card img {
+    object-fit: contain;
+    width: auto;
+    height: 104px;
+}
+
+.brand-center-cards-blog-1 .card  {
+    background-color: #0A0B0D0A;
+    border: 1px solid #0A0B0D0A;
+    border-radius: 12px;
+}
+
+.brand-center-cards-blog-1 .card h3 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.brand-center-cards-blog-1 .card p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.brand-center-cards-blog-2 {
+    margin: 30px 0;
+}
+
+.brand-center-cards-blog-2 .card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    border-radius: 24px;
+    height: 200px;
+}
+
+.brand-center-cards-blog-2 .card img {
+    object-fit: contain;
+    width: 200px;
+    height: 128px;
+}
+
+.brand-center-cards-blog-2 .card h3 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.brand-center-cards-blog-2 .card p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    margin-bottom: 15px;
+    width: 92%;
+}
+
+.brand-center-cards-blog-2 .card a {
+    padding: 12px 20px;
+    background-color: #1b63ed;
+    border-radius: 12px;
+    color: white;
+    width: 47%;
+    height: 22%;
+    margin-right: 20px;
+}
+
+
+.brand-center-cards-blog-2 .card a:hover {
+    background-color: #1652c2;
+}
+
+.brand-center-cards-blog-3 {
+    display: flex;
+    gap: 10px;
+    margin: 50px 0;
+}
+
+.brand-center-cards-blog-3 .card img {
+    height: 117px;
+    object-fit: cover;
+    border-radius: 24px;
+    padding: 12px;
+    margin-bottom: 40px;
+}
+
+.brand-center-cards-blog-3 .card {
+    border-radius: 24px;
+}
+
+.brand-center-cards-blog-3 .card p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #7a7d82;
+    text-align: center;
+}
+
+.brand-center-cards-blog-3 .card p span {
+    color: #1b52b8;
+    text-transform:uppercase;
+}
+
+#brand-center-section-3 {
+    background-color: white;
+}
+
+.f0f0f0-color {
+    background-color: #f0f0f0;
+    border-top-left-radius: 54px;
+    border-top-right-radius: 54px;
+}
+
+
+
+
