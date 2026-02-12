@@ -1,0 +1,31 @@
+.cooperation-section-2-text-p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #484a4f;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cooperation-cards-img div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cooperation-cards-img img {
+    object-fit: contain;
+    border-radius: 99999px;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.cooperation-cards-img p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #484a4f;
+}
