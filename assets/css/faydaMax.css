@@ -1,0 +1,59 @@
+.nav-faydamax-style{
+   padding: 3px;
+   width: 600px;
+   border-radius: 20px;
+   border:1px solid rgb(207, 203, 203) !important;
+}
+.list-tabs-max-width-li button{
+    align-items: center;
+    width: 140px;
+}
+.list-tabs-max-width-li button img{
+    width: 40px;
+    height: 40px;
+}
+.faydamax-awards-box{
+    border-radius: 20px;
+    height: 280px;
+    padding: 20px;
+    background-color: var(--cards-container-transparency);
+}
+.faydamax-awards-box img{
+    width: 48px;
+    height: 48px;
+}
+.faydamax-awards-box h4{
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: var(--font-size-for-news);
+}
+.faydamax-awards-box p{
+    padding: 10px 0;
+    font-size: var(--font-size-thin);
+    color: var(--medium-grey);
+}
+.red-border-box{
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(226,36,23);
+    width: 40px;
+    color: var(--context-white-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+div.faydamax-awards-box-max-width{
+    height: 400px;
+}
+#questions-section h3{
+    text-align: center;
+    font-size: var(--font-size-md);
+    line-height: 56px;
+    padding: 60px 0;
+}
+
+.ul-elements-flex{
+    display: flex;
+    align-items: center;
+}

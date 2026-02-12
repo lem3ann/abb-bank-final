@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/global.css">
+</head>
+
+<body>
+    <main>
+        <div class="position-sticky">
+            <div class="container py-3 pb-2 border-bottom-grey">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><img src="../assets/images/ABB_Logo.png" alt="" width="70px"
+                            height="30px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto nav-color-black nav-text-style">
+                            <li class="nav-item nav-relative-position">
+                                <a class="nav-link nav-blue-hover" href="#">Fərdi <span
+                                        class="visually-hidden">(current)</span></a>
+                                <!-- !position elements -->
+                                <div class="nav-menu-position">
+                                    <div class="row ">
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="all-loan-bold a-link-bold">
+                                                <!-- butun kreditler -->
+                                                <ul>
+                                                    <li><a href="./assets/pages/all-loans.html"
+                                                            class="bold-header">Bütün kreditlər</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Nağd kredit</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Avans krediti</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Avtomobil krediti</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Əmanətçi nağd krediti</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Əmanətçilər üçün kredit
+                                                            xətti</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- kartlar -->
+                                            <div class="cardss-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Kartlar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Kredit kartlar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Debet kartlar</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- emanetler -->
+                                            <div class="deposits-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Əmanətlər</a></li>
+                                                    <li><a href="#" class="thin-and-grey">DigiDepozit</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Klassik Əmanət</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Depozit seyfləri</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Əmanət əsaslı ipoteka
+                                                            krediti</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <!-- hesablar -->
+                                            <div class="account-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Hesablar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">DigiHesab Max</a></li>
+                                                    <li><a href="#" class="thin-and-grey">DigiHesab</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Cari hesab</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Dama-dama</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- ipoteka -->
+                                            <div class="mortgage-bold a-link-bold">
+                                                <a href="#" class="bold-header">Ipoteka</a>
+                                            </div>
+                                            <!-- cashback -->
+                                            <div class="cashback-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Keşbek</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Faydalı keşbek</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Faydalı Max</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Faydalı Klub</a></li>
+                                                </ul>
+
+                                            </div>
+                                            <!-- kampaniyalar -->
+                                            <div class="campagins-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Kampaniyalar</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="all-operations-bold a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Bütün əməliyyatlar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Ölkədaxili və ölkəxarici
+                                                            köçürmələr</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Bank köçürmələri</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="online-services a-link-bold">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Onlayn xidmətlər</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Randevu</a></li>
+                                                    <li><a href="#" class="thin-and-grey">ABB mobile</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Məlumat Mərkəzi</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Arayış sifarişi</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Kredit ödənişi</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Karta mədaxil</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Pul köçürməsi</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Cash by Code</a></li>
+                                                    <li><a href="#" class="thin-and-grey">İanə et</a></li>
+                                                    <li><a href="#" class="thin-and-grey">PİN kod dəyişimi</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Sığorta</a></li>
+                                                    <li><a href="#" class="thin-and-grey">İnvestisiya</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="abb-prime-bold a-link-bold">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">ABB Prime</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--! end  -->
+                            </li>
+                            <li class="nav-item nav-business-position">
+                                <a class="nav-link nav-blue-hover" href="#">Biznes</a>
+                                <!-- !position elements -->
+                                <div class="business-dropdown-position">
+                                    <ul>
+                                        <li><a href="#" class="bold-header">Korporativ</a></li>
+                                        <li><a href="#" class="bold-header">Kiçik və orta biznes</a></li>
+                                        <li><a href="#" class="bold-header">Mikro fərdi sahibkar</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- ! position about section -->
+                            <li class="nav-item about-nav-position">
+                                <a class="nav-link nav-blue-hover" href="#">Haqqımızda</a>
+                                <div class="about-nav">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Bank haqqında</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Rekvizitlər</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Missiya və strateji baxış</a>
+                                                    </li>
+                                                    <li><a href="#" class="thin-and-grey">Sosial məsuliyyət
+                                                            /Sponsorluq</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Müxbir banklar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Törəmə və asılı müəssisələrdə
+                                                            iştirak payı</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Mükafatlar</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Rəhbərlik</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">İdarəetmə və komitələr</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Tariflər,Sənədlər və
+                                                            Resurslar</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Siyasətlərimiz</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Korporativ təqdimat</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Araşdırma</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Hesabatlar</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Təklif və iradlar</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">İnvestisiya bankçılığı</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="bold-header">Brend Mərkəzi</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="bank-details">
+                                                <ul>
+                                                    <li><a href="#" class="bold-header">Satınalmalar</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Müsabiqələlrin elanı</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Bildirişlər</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Bağlanmış müqavilələrin
+                                                            qeydiyyatı</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Satınalma planı</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Təchizatçı sorğusu</a></li>
+                                                    <li><a href="#" class="thin-and-grey">Satınalma hesabatları</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <!-- ?end -->
+                            <li class="nav-item">
+                                <a class="nav-link nav-blue-hover" href="#">İnvestorlarla əlaqə</a>
+                            </li>
+                        </ul>
+                        <!-- right side -->
+                        <ul class="navbar-nav ms-auto nav-color-grey nav-text-style">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 l-r-border" href="#">AZ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#"><i class="fa-solid fa-phone"></i> 937</a>
+                            </li>
+                            <li class="nav-item network-btn">
+                                <a class="nav-link" href="https://abb-bank.az/filiallar">
+                                    <i class="fa-solid fa-location-dot"></i> Xidmət Şəbəkəsi
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- !end of the area -->
+
+        <!-- !FAYDAMAX *********************************************** -->
+        <section id="loan-with-favorable-terms">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="favorable-terms-container-b">
+                            <div class="favorable-terms-details-link">
+                                <div>
+                                    <a href="#" class="f-g-color">Fərdi •</a>
+                                </div>
+                                <div>
+                                    <a href="#" class="f-g-color">Keşbek •</a>
+                                </div>
+                                <div>
+                                    <a href="#" class="not-loan">Fayda Max</a>
+                                </div>
+                            </div>
+                            <h2>Fayda Max təkmilləşdirilmiş keşbek</h2>
+                            <p>Tətbiqdə kateqoriya seçin və artan keşbek əldə edin</p>
+                            <div class="favorable-btn create-digi-btn">
+                                <a href="#">Fayda Max-a qoşulun</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="favorable-terms-img">
+                            <img src="../assets/images/faydamax-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                 <!-- COLUMNS -4 -->
+                <div class="row loan-white-area-bg">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="loan-white-area-details circle-right-border">
+                            <div class="circle-and-price">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" class="size-sm"><path fill="currentColor" d="M12.693 2.265A11.57 11.57 0 0 1 18.339.833a.833.833 0 0 1 .828.834c0 2.341-.657 6.423-4.877 9.513.07.298.151.69.207 1.124.061.473.095 1.017.046 1.553-.05.528-.186 1.11-.516 1.605l-.001.001c-.566.846-1.633 1.336-2.378 1.607a10.5 10.5 0 0 1-1.46.41.86.86 0 0 1-.722-.174.83.83 0 0 1-.3-.64v-3.82l-2.011-2.013H3.333a.833.833 0 0 1-.82-.982q.043-.231.102-.459c.067-.269.17-.639.315-1.04.27-.745.76-1.812 1.607-2.378.497-.331 1.078-.468 1.606-.517a7 7 0 0 1 1.553.046c.438.056.834.138 1.133.21a11.6 11.6 0 0 1 3.864-3.448"></path><path fill="currentColor" fill-rule="evenodd" d="M5.003 12.49a2.65 2.65 0 0 0-1.79.622c-.439.37-.76.877-1 1.366a9.4 9.4 0 0 0-.566 1.52 14.5 14.5 0 0 0-.39 1.807.834.834 0 0 0 .937.938 9 9 0 0 0 .548-.092c.326-.062.774-.159 1.26-.298a9.4 9.4 0 0 0 1.52-.567c.488-.238.996-.56 1.365-1 .851-1.007.864-2.576-.127-3.554l-.01-.01a2.65 2.65 0 0 0-1.747-.732" clip-rule="evenodd"></path></svg>
+                                <div class="white-area-txt">
+                                <p>30%-dək</p>
+                                <p>Əlavə keşbek</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="loan-white-area-details circle-right-border">
+                                <div class="circle-and-price">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" class="size-sm"><path fill="currentColor" fill-rule="evenodd" d="M7.299 1.667H12.7c.67 0 1.224 0 1.675.037.469.038.9.12 1.304.326.627.32 1.137.83 1.457 1.457.206.404.288.835.326 1.303.037.451.037 1.005.037 1.676V17.5a.833.833 0 0 1-1.323.674l-1.778-1.293-1.587 1.27a.83.83 0 0 1-1.01.023L10 16.864l-1.802 1.31a.83.83 0 0 1-1.01-.023L5.6 16.88l-1.778 1.293A.833.833 0 0 1 2.5 17.5V6.466c0-.671 0-1.225.037-1.676.038-.468.12-.899.326-1.303.32-.627.83-1.137 1.457-1.457.404-.206.835-.288 1.303-.326.451-.037 1.005-.037 1.676-.037m6.207 5.589a.833.833 0 1 0-1.179-1.179l-3.16 3.161-1.078-1.077a.833.833 0 0 0-1.178 1.178l1.666 1.667a.833.833 0 0 0 1.179 0z" clip-rule="evenodd"></path></svg>
+                                    <div class="white-area-txt">
+                                    <p>15+ mükafat</p>
+                                    <p>Oyunlaşdırma səviyyələrindən asılı olaraq</p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="loan-white-area-details circle-right-border">
+                                <div class="circle-and-price">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" class="size-sm"><path fill="currentColor" fill-rule="evenodd" d="M4.725 4.167A2.53 2.53 0 0 1 5.3 1.57 2.46 2.46 0 0 1 7.053.833C8.55.833 9.477 1.85 10 2.727c.523-.878 1.45-1.894 2.946-1.894.66 0 1.29.267 1.752.738a2.52 2.52 0 0 1 .577 2.596h1.83c.175 0 .346 0 .491.01.159.01.347.036.542.116.408.17.733.494.902.902.08.195.106.384.117.542.01.145.01.316.01.49v.045c0 .175 0 .346-.01.49a1.7 1.7 0 0 1-.117.542c-.17.409-.494.733-.902.902a1.7 1.7 0 0 1-.542.117c-.145.01-.316.01-.49.01H2.894c-.176 0-.346 0-.491-.01a1.7 1.7 0 0 1-.542-.117 1.67 1.67 0 0 1-.902-.902 1.7 1.7 0 0 1-.117-.541 8 8 0 0 1-.01-.49v-.045c0-.175 0-.346.01-.49a1.7 1.7 0 0 1 .117-.543c.17-.408.494-.732.902-.902a1.7 1.7 0 0 1 .542-.117c.145-.01.316-.01.49-.01zM7.053 2.5a.8.8 0 0 0-.562.239.85.85 0 0 0-.241.594c0 .226.088.44.24.595a.8.8 0 0 0 .563.239h1.809a5 5 0 0 0-.21-.438c-.404-.75-.924-1.23-1.599-1.23m4.085 1.667q.09-.216.209-.438c.405-.75.925-1.23 1.6-1.23.208 0 .41.085.562.24s.24.368.24.594-.087.44-.24.595a.8.8 0 0 1-.563.239z" clip-rule="evenodd"></path><path fill="currentColor" d="M2.5 10.833c0-.46.373-.833.833-.833H8.5c.233 0 .35 0 .44.045.077.04.141.104.181.182.046.09.046.206.046.44V18.5c0 .233 0 .35-.046.44a.4.4 0 0 1-.182.181c-.09.046-.206.046-.44.046H5.969c-.44 0-.819 0-1.13-.026-.33-.027-.658-.086-.973-.247a2.5 2.5 0 0 1-1.093-1.092c-.16-.316-.22-.643-.247-.973-.025-.312-.025-.691-.025-1.13zM15.162 19.141c-.312.026-.69.026-1.13.026H11.5c-.233 0-.35 0-.44-.046a.4.4 0 0 1-.181-.182c-.046-.089-.046-.206-.046-.44v-7.832c0-.234 0-.35.046-.44a.4.4 0 0 1 .182-.182C11.15 10 11.267 10 11.5 10h5.167c.46 0 .833.373.833.833V15.7c0 .439 0 .818-.026 1.13-.026.33-.086.657-.247.973a2.5 2.5 0 0 1-1.092 1.092c-.315.16-.643.22-.973.247"></path></svg>
+                                    <div class="white-area-txt">
+                                    <p>2x “ƏDV geri al”</p>
+                                    <p>Geri qaytarılmış ƏDV məbləğini iki dəfə artırın</p>
+                                    </div>
+                                </div>
+
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="loan-white-area-details">
+                                <div class="circle-and-price">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" class="size-sm"><path fill="currentColor" fill-rule="evenodd" d="M15.858 1.01c.26.043.483.207.601.442l.696 1.393 1.393.696a.818.818 0 0 1 .212 1.31l-2.454 2.455a.82.82 0 0 1-.579.24h-2.115l-3.033 3.032A.818.818 0 1 1 9.42 9.422l3.034-3.033V4.273c0-.217.086-.425.24-.579l2.454-2.454a.82.82 0 0 1 .71-.23" clip-rule="evenodd"></path><path fill="currentColor" d="M2.636 10A7.364 7.364 0 0 1 10 2.636.818.818 0 1 0 10 1a9 9 0 1 0 9 9 .818.818 0 1 0-1.636 0 7.364 7.364 0 0 1-14.728 0"></path><path fill="currentColor" d="M6.727 10A3.273 3.273 0 0 1 10 6.727a.818.818 0 1 0 0-1.636A4.91 4.91 0 1 0 14.91 10a.818.818 0 1 0-1.637 0 3.273 3.273 0 1 1-6.546 0"></path></svg>
+                                    <div class="white-area-txt">
+                                    <p>Etibarlı hədəflər</p>
+                                    <p>Səviyyələrə çatmaq üçün oyunlaşdırma hədəfləri</p>
+                                    </div>
+                                </div>
+
+                                </div>
+                            </div>
+                     </div>
+             <!-- ************************* -->
+            </div>           
+            <div class="white-area-with-border-radius">
+
+            </div>
+        </section>
+        <!-- !Fayda Max mükafatları************************************************* -->
+         <section id="faydamax-sec">
+            <div class="container navbtabs-center">
+                <!-- Navtabs -->
+                 <ul class="nav nav-pills mb-3 nav-faydamax-style d-flex justify-content-center g-4" id="pills-tab" role="tablist">
+                    <li class="nav-item list-tabs-max-width-li " role="presentation">
+                        <button class=" navtabs-bg-color d-flex nav-link-v1" id="pills-max-1-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-max-1" type="button" role="tab" aria-controls="pills-max-1"
+                        aria-selected="true">
+                        <img src="../assets/images/award-1.png" alt="">
+                        <div>
+                            <p>Bürünc</p>
+                            <p class="mt-1">3 üstünlük</p>
+                        </div> 
+                        
+                       </button>
+                    </li>
+                    <li class="nav-item list-tabs-max-width-li " role="presentation">
+                        <button class=" navtabs-bg-color d-flex nav-link-v1" id="pills-max-2-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-max-2" type="button" role="tab" aria-controls="pills-max-2"
+                        aria-selected="true">
+                        <img src="../assets/images/award-2.png" alt="">
+                        <div>
+                            <p>Gümüş</p>
+                            <p class="mt-1">4 üstünlük</p>
+                        </div> 
+                        
+                       </button>
+                    </li>
+                    <li class="nav-item list-tabs-max-width-li " role="presentation">
+                        <button class=" navtabs-bg-color d-flex nav-link-v1" id="pills-max-3-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-max-3" type="button" role="tab" aria-controls="pills-max-3"
+                        aria-selected="true">
+                        <img src="../assets/images/award-3.png" alt="">
+                        <div>
+                            <p>Qızıl</p>
+                            <p class="mt-1">9 üstünlük</p>
+                        </div> 
+                        
+                       </button>
+                    </li>
+                    <li class="nav-item list-tabs-max-width-li " role="presentation">
+                        <button class=" navtabs-bg-color d-flex" id="pills-max-4-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-max-4" type="button" role="tab" aria-controls="pills-max-4"
+                        aria-selected="true">
+                        <img src="../assets/images/award-4.png" alt="">
+                        <div>
+                            <p>Prime</p>
+                            <p class="mt-1">8 üstünlük</p>
+                        </div> 
+                        
+                       </button>
+                    </li>
+        </ul>
+        <!-- CONTENT ********************************************************* -->
+         <div class="container">
+          <div class="tab-content navtabs-content-width" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-max-1" role="tabpanel" aria-labelledby="pills-max-1-tab">
+                <div class="row mt-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/brown-1.png" alt="">
+                            </div>
+                            <h4>DigiDeposit gəlirinə keşbek</h4>
+                            <p>Yalnız AZN valyutasında açılmış depozitlər nəzərə alınır. Digər valyutalarda olan depozitlərə şamil olunmur.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/brown-2.png" alt="">
+                            </div>
+                            <h4>x1.1 Faydalı keşbek</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/brown-2.png" alt="">
+                            </div>
+                            <h4>Onlayn kredit ödəniş faizinə keşbek</h4>
+                            <p>FaydaMax aktivləşdirdikdən sonra aldığınız onlayn kreditin faiz məbləğinə 1% keşbek</p>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+            <div class="tab-pane fade" id="pills-max-2" role="tabpanel" aria-labelledby="pills-max-2-tab">
+               <div class="row mt-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/silver_invest_both-1.png" alt="">
+                            </div>
+                            <h4>Səhm alışına keşbek</h4>
+                            <p>Yalnız ABŞ bazarından alış üçün keçərlidir.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/silver_invest_both-2.png" alt="">
+                            </div>
+                            <h4>DigiDeposit gəlirinə keşbek</h4>
+                            <p>Yalnız AZN valyutasında açılmış depozitlər nəzərə alınır. Digər valyutalarda olan depozitlərə şamil olunmur.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/silver_invest_both-3.png" alt="">
+                            </div>
+                            <h4>x1.2 Faydalı keşbek</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/silver_invest_both-4.png" alt="">
+                            </div>
+                            <h4>Onlayn kredit ödəniş faizinə keşbek</h4>
+                            <p>FaydaMax aktivləşdirdikdən sonra aldığınız onlayn kreditin faiz məbləğinə 3% keşbek</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-max-3" role="tabpanel" aria-labelledby="pills-max-3-tab">
+               <div class="row mt-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/silver_invest_both-1.png" alt="">
+                            </div>
+                            <h4>Səhm alışına keşbek</h4>
+                            <p>Yalnız ABŞ bazarından alış üçün keçərlidir.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/silver_invest_both-2.png" alt="">
+                            </div>
+                            <h4>DigiDeposit gəlirinə keşbek</h4>
+                            <p>Yalnız AZN valyutasında açılmış depozitlər nəzərə alınır. Digər valyutalarda olan depozitlərə şamil olunmur.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/silver_invest_both-3.png" alt="">
+                            </div>
+                            <h4>x1.2 Faydalı keşbek</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/silver_invest_both-4.png" alt="">
+                            </div>
+                            <h4>Onlayn kredit ödəniş faizinə keşbek</h4>
+                            <p>FaydaMax aktivləşdirdikdən sonra aldığınız onlayn kreditin faiz məbləğinə 3% keşbek</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-max-4" role="tabpanel" aria-labelledby="pills-max-4-tab">
+                <!-- 1 -->
+              <div class="row mt-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/novbesiz_light-1.png" alt="">
+                            </div>
+                            <h4>Filiallarda növbəsiz xidmət</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/novbesiz_light-2.png" alt="">
+                            </div>
+                            <h4>Əlaqə mərkəzi növbəsiz xidmət</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/novbesiz_light-3.png" alt="">
+                            </div>
+                            <h4>Səhm alışına keşbek</h4>
+                            <p>Yalnız ABŞ bazarından alış üçün keçərlidir.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/novbesiz_light-4.png" alt="">
+                            </div>
+                            <h4>DigiDeposit gəlirinə keşbek</h4>
+                            <p>Yalnız AZN valutyasında açılmış depozitlər nəzərə alınır. Digər valyutalarda olan depozitlərə şamil olunmur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                 <div class="row mt-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/novbesiz_light-5.png" alt="">
+                            </div>
+                            <h4>1000 Mil Hədiyyə</h4>
+                            <p>Bonuslar 14 iş günü ərzində mil balansınıza əlavə olunacaq.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/novbesiz_light-6.png" alt="">
+                            </div>
+                            <h4>x1.3 Faydalı keşbek</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/novbesiz_light-7.png" alt="">
+                            </div>
+                            <h4>Debet kartlara komissiyasız köçürmə</h4>
+                            <p>30 000 AZN limiti, ölkə daxilində digər bankların debet kartlarına ay ərzində komissiyasız edilən köçürmələrə tətbiq olunur.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box">
+                            <div class="brown-img">
+                                <img src="../assets/images/novbesiz_light-8.png" alt="">
+                            </div>
+                            <h4>Onlayn kredit ödəniş faizinə keşbek</h4>
+                            <p>FaydaMax aktivləşdirdikdən sonra aldığınız onlayn kreditin faiz məbləğinə 5% keşbek</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                 <div class="row mt-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box faydamax-awards-box-max-width">
+                            <div class="brown-img">
+                                <img src="../assets/images/edv_light-1.png" alt="">
+                            </div>
+                            <h4>"2x ƏDV geri al"</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box faydamax-awards-box-max-width">
+                            <div class="brown-img">
+                                <img src="../assets/images/edv_light-2.png" alt="">
+                            </div>
+                            <h4>Pulsuz "Chargeback" Ərizəsi</h4>
+                            <p>Chargeback – Kart əməliyyatı uğursuz olduqda, nağdlaşdırma zamanı vəsait ATM-də qaldıqda və s. bu kimi hallarda vəsaitin geri qaytarılması üçün göstərilən xidmətdir. “Chargeback” ərizəsi üçün DigiGeriAl xidməti ilə mobil tətbiq üzərindən müraciət edə və ya filiala yaxınlaşa bilərsiniz.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box faydamax-awards-box-max-width">
+                            <div class="red-border-box">
+                                Yeni
+                            </div>
+                            <div class="brown-img">
+                                <img src="../assets/images/edv_light-3.png" alt="">
+                            </div>
+                            <h4>100 ədəd ABB səhmi</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box faydamax-awards-box-max-width">
+                            <div class="red-border-box">
+                                Yeni
+                            </div>
+                            <div class="brown-img">
+                                <img src="../assets/images/edv_light-4.png" alt="">
+                            </div>
+                            <h4>CHAYKI restoranından özəl iftar təklifi!</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                 <div class="row mt-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box ">
+                            <div class="brown-img">
+                                <img src="../assets/images/susha_hotel-1.png" alt="">
+                            </div>
+                            <h4>"2x ƏDV geri al"</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box ">
+                            <div class="brown-img">
+                                <img src="../assets/images/susha_hotel-2.png" alt="">
+                            </div>
+                            <h4>Pulsuz "Chargeback" Ərizəsi</h4>
+                            <p>Chargeback – Kart əməliyyatı uğursuz olduqda, nağdlaşdırma zamanı vəsait ATM-də qaldıqda və s. bu kimi hallarda vəsaitin geri qaytarılması üçün göstərilən xidmətdir. “Chargeback” ərizəsi üçün DigiGeriAl xidməti ilə mobil tətbiq üzərindən müraciət edə və ya filiala yaxınlaşa bilərsiniz.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box ">
+                            <div class="red-border-box">
+                                Yeni
+                            </div>
+                            <div class="brown-img">
+                                <img src="../assets/images/susha_hotel-3.png" alt="">
+                            </div>
+                            <h4>100 ədəd ABB səhmi</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box ">
+                            <div class="red-border-box">
+                                Yeni
+                            </div>
+                            <div class="brown-img">
+                                <img src="../assets/images/susha_hotel-4.png" alt="">
+                            </div>
+                            <h4>CHAYKI restoranından özəl iftar təklifi!</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                  <div class="row mt-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box ">
+                            <div class="brown-img">
+                                <img src="../assets/images/Marriot_logo-1.png" alt="">
+                            </div>
+                            <h4>"2x ƏDV geri al"</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box ">
+                            <div class="brown-img">
+                                <img src="../assets/images/Marriot_logo-2.png" alt="">
+                            </div>
+                            <h4>Pulsuz "Chargeback" Ərizəsi</h4>
+                            <p>Chargeback – Kart əməliyyatı uğursuz olduqda, nağdlaşdırma zamanı vəsait ATM-də qaldıqda və s. bu kimi hallarda vəsaitin geri qaytarılması üçün göstərilən xidmətdir. “Chargeback” ərizəsi üçün DigiGeriAl xidməti ilə mobil tətbiq üzərindən müraciət edə və ya filiala yaxınlaşa bilərsiniz.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box ">
+                            <div class="red-border-box">
+                                Yeni
+                            </div>
+                            <div class="brown-img">
+                                <img src="../assets/images/Marriot_logo-3.png" alt="">
+                            </div>
+                            <h4>100 ədəd ABB səhmi</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="faydamax-awards-box ">
+                            <div class="red-border-box">
+                                Yeni
+                            </div>
+                            <div class="brown-img">
+                                <img src="../assets/images/Marriot_logo-4.png" alt="">
+                            </div>
+                            <h4>CHAYKI restoranından özəl iftar təklifi!</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+            </div>
+         </section>
+        <!-- !PHONE-NAVTABS************************************************* -->
+        <section id="phone-switch">
+            <div class="container">
+                <div class="d-flex align-items-start margin-for-elements">
+                    <div class="col-lg-7 col-md-12 col-sm-12 pl-5">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <h2 class="navbtabs-big-header">Fayda Max ilə necə qazanmaq olar?</h2>
+                            <button class="nav-link active phone-tabs-style mb-5" id="v-pills-online-loan-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-online-loan" type="button" role="tab"
+                                aria-controls="v-pills-online-loan" aria-selected="true">
+                                <div class="navtab-flex-display">
+                                    <div class="numbers-box">
+                                        1
+                                    </div>
+                                    <div class="navtabs-details-text">
+                                        <h3>Fayda Max-ı aktivləşdirin</h3>
+                                        <p>Sadəcə olaraq, "Sizin üçün"ə daxil olduqdan sonra "Fayda Max"-ı bir dəfə aktivləşdirmək kifayətdir</p>
+                                    </div>
+                                </div>
+                            </button>
+                            <button class="nav-link phone-tabs-style mb-5" id="v-pills-profile-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-velocity" type="button" role="tab"
+                                aria-controls="v-pills-velocity" aria-selected="false">
+                                <div class="navtab-flex-display">
+                                    <div class="numbers-box">
+                                        2
+                                    </div>
+                                    <div class="navtabs-details-text">
+                                        <h3>Məqsədləri tamamlayın</h3>
+                                        <p>Hər mərhələ üçün xüsusi məqsədləri tamamlayın və növbəti ayda mükafatlar alın</p>
+                                    </div>
+                                </div>
+                            </button>
+                            <button class="nav-link phone-tabs-style mb-5" id="v-pills-messages-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-buy" type="button" role="tab"
+                                aria-controls="v-pills-buy" aria-selected="false">
+                                <div class="navtab-flex-display">
+                                    <div class="numbers-box">
+                                        3
+                                    </div>
+                                    <div class="navtabs-details-text">
+                                        <h3>Mükafatlardan yararlanın</h3>
+                                        <p>Gələn ay mükafatlar qazanmaq bu ayın sonuna qədər xüsusi səviyyələri tamamlamaqdan asılıdır</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 mt-5">
+                        <div class="tab-content icon-flex-end " id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-online-loan" role="tabpanel"
+                                aria-labelledby="v-pills-online-loan-tab">
+                                <div class="switch-class-img">
+                                    <img src="../assets/images/buynow-phone-1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-velocity" role="tabpanel"
+                                aria-labelledby="v-pills-velocity-tab">
+                                <div class="switch-class-img">
+                                    <img src="../assets/images/buynow-phone-2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-buy" role="tabpanel"
+                                aria-labelledby="v-pills-buy-tab">
+                                <div class="switch-class-img">
+                                    <img src="../assets/images/switch-3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- !QUESTIONS*********************************************************** -->
+         <section id="questions-section">
+           <div class="container">
+            <h3>Tez-tez verilən suallar</h3>
+            <div class="accordion " id="accordionPanelsStayOpenExample">
+                <!-- Ümumi -->
+                 <p class="my-4 px-4">ÜMUMİ</p>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse-01" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseO-01">
+                                        Fayda Max-dan kimlər yararlana bilər?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse ">
+                                    <div class="accordion-body accordion-body-color">
+                                        "ABB mobile" tətbiqindən istifadə edən bütün müştərilər Fayda Max-dan yararlana bilər.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse-02" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse-02">
+                                        Fayda Max-a qoşulmağın nə kimi üstünlüyü var?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                        Kredit əldə etmək üçün şəxsiyyəti və rəsmi gəliri təsdiq edən sənədlər
+                                        müştərinin icazəsi ilə
+                                        elektron qaydada yoxlanılır. Məlumatların əldə edilməsi mümkün deyilsə,
+                                        müştəridən 6 aylıq dövrü
+                                        əhatə edən əməkhaqqı çıxarışı tələb olunur.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse-03" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse-03">
+                                        Fayda Max neçə mərhələdən ibarətdir?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                        Kredit müraciətinizlə bağlı qərar bir neçə dəqiqə ərzində veriləcək və Sizə
+                                        müraciətin nəticəsi
+                                        barədə təsdiq SMS-i göndəriləcək. Əlavə sual olduğu halda isə əməkdaşlarımız
+                                        Sizinlə əlaqə
+                                        saxlayacaq.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse-04" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse-04">
+                                        Fayda Max Prime mərhələni niyə görə bilmirəm?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                        Fiziki şəxslər üçün xeyr. 2028-ci ilin 1 fevral tarixinə qədər fond birjasının
+                                        listinqində olan
+                                        səhmdar cəmiyyətlərin, o cümlədən ABB-nin səhmləri üzrə ödənilən dividendlərə
+                                        görə fiziki şəxslərdən
+                                        vergi tutulmur.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Hədəflər -->
+                             <p class="py-5 px-4">Hədəflər</p>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse5">
+                                        “İndi al, sonra ödə” xidməti üçün ödəniş qaydası necədir?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                        İstənilən fiziki və hüquqi şəxs ABB səhmlərini təkrar bazardan əldə bilər.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse6" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse6">
+                                        “İndi al, sonra ödə” xidməti üzrə yaranmış borcu necə ödəmək olar?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse6" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                        Bəli. Əldə edilmiş səhmlər kağız daşıyıcıda “ABB-İnvest” İnvestisiya Şirkəti
+                                        QSC-yə və ya digər
+                                        investisiya şirkətlərinə sifariş verilməklə satış həyata keçirilə bilər. Yaxın
+                                        gələcəkdə səhmlərin
+                                        ABB mobile vasitəsilə elektron formada satışı da mümkün olacaqdır.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                            <!-- Mükafatlar -->
+                            <p class="my-5 px-4">Mükafatlar</p>
+                             <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div><div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div><div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div><div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div><div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div><div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div><div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                             <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                             <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                             <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                             <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                             <div class="accordion-item accordion-border-none">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse7">
+                                        “İndi al, sonra ödə” vaxtından öncə ödəniş etsəm, nə baş verəcək?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+                                    <div class="accordion-body accordion-body-color">
+                                    </div>
+                                    Üstünlük hüququndan istifadə imkanı barədə bildirişi sifarişli poçt göndərişi ilə
+                                    əldə etmiş və
+                                    bildiriş alındığı tarixdən on iş günü ərzində ABB-yə tələbini təqdim etmiş
+                                    səhmdardır.
+                                </div>
+                            </div>
+                        </div>
+           </div>
+
+         </section>
+         <section>
+      <div class="all-loan-section3">
+        <div class="container px-5">
+          <div class="row">
+            <div class="col-6 px-5">
+              <p class="all-loan-section3-parg1">ABB mobile</p>
+              <p class="all-loan-section3-parg2">4.9 reytinqə malik innovativ və təhlükəsiz bank mobil
+                <br> tətbiqi!
+              </p>
+              <div class="all-loans-scan">
+                <div>
+                  <img class="all-loan-qr" src="../assets/images/all-loans-qr.png" alt="">
+                </div>
+                <div>
+                  <p class="all-loan-section3-scan-text">ABB mobile yükləmək <br> üçün QR kodu skan
+                    edin.</p>
+                  <a href=""><i class="fa-brands fa-apple all-loan-section3-icon"></i></a>
+                  <a href=""><i class="fa-brands fa-google-play all-loan-section3-icon"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 all-loan-section3-phone-img ">
+              <img class="all-loan-phone-img" src="../assets/images/all-loans-phone.png" alt="">
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+        <!-- !RANK -->
+        <section>
+            <div class="all-loans-rating white-bg-new-color">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-12">
+                            <div>
+                                <p class="all-loans-rating-parg1">Səhifəni <span
+                                        class="all-loans-rating-parg1-item">dəyərləndirin</span></p>
+                                <p class="all-loans-rating-parg2">Fikirlərinizi bizimlə bölüşün. Rəyləriniz dəyərlidir!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <div class="all-loan-rating-stars stars-bg-color-grey">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- !FOOTER ****************************************************** -->
+        <footer>
+            <div class="container p-4">
+                <div class="row footer-bottom-border">
+                    <!-- col-1 -->
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <img src="../assets/images/abb-footer-logo.png" alt="ABB" width="80px" height="40px">
+                        <p class="thin-text pt-2">Tel:</p>
+                        <p class="font-size-14px">+994 12 493 00 91</p>
+                        <p class="thin-text">Faks:</p>
+                        <p class="font-size-14px">+994 12 493 00 91</p>
+                    </div>
+                    <!-- col-2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+                        <p class="thin-text">E-poçt:</p>
+                        <p class="font-size-14px">info@abb-bank.az</p>
+                        <p class="thin-text">Ünvan</p>
+                        <p class="font-size-14px">67, Nizami küç., AZ1005 Bakı, Azərbaycan</p>
+                    </div>
+                    <!-- col-3 -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class=" apps-container-box">
+                            <div class="download-abb-app">
+                                <div class="footer-dow-app">
+                                    <p>ABB mobile yüklə</p>
+                                    <div class="apps-icon-flex">
+                                        <!-- icons flex -->
+                                        <div class="apple apps-design">
+                                            <i class="fa-brands fa-apple"></i>
+                                        </div>
+                                        <div class="google-play apps-design">
+                                            <i class="fa-brands fa-google-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer-dow-btn qr-style">
+                                    <!-- button -->
+                                    <a href="https://play.google.com/store/apps/details?id=iba.mobilbank&hl=az"><i
+                                            class="fa-solid fa-qrcode"></i>Tətbiqi yüklə</a>
+                                </div>
+                            </div>
+                            <div class="footer-app-img">
+                                <img src="../assets/images/footer-phone.png" alt="Phone">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col -4 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-abb-cariers">
+                            <div class="footer-cariers-container">
+                                <p>ABB Karyera</p>
+                                <p>Uğur hekayənizi ABB ilə yazın</p>
+                            </div>
+                            <!-- button -->
+                            <div class="portal-link-btn">
+                                <a
+                                    href="https://careers.abb-bank.az/?_gl=1*1jlxk7n*_gcl_au*MTc4NTE4NDgyMC4xNzcwMDE4MTk2*_ga*MTMwNTE1MDE5MC4xNzcwMDE4MTk3*_ga_XS2V03MMNQ*czE3NzAyNjg4NDYkbzE3JGcxJHQxNzcwMjc0MTk0JGo1NSRsMCRoMA..">Karyera
+                                    portalı <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- footer elements -->
+            <div class="container border-bottom-grey-line">
+                <div class="footer-elements">
+                    <div class="row ">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <ul>
+                                <li><a href="../../index.html" class="link-bold">Fərdi</a></li>
+                                <li><a href="./assets/pages/all-loans.html">Bütün kreditlər</a></li>
+                                <li><a href="./assets/pages/cards.html">Kartlar</a></li>
+                                <li><a href="#">Əmanətlər</a></li>
+                                <li><a href="#">Hesablar</a></li>
+                                <li><a href="./ipoteka.html">İpoteka</a></li>
+                                <li><a href="#">Keşbek</a></li>
+                                <li><a href="#">Kampaniyalar</a></li>
+                                <li><a href="#">Bütün əməliyyatlar</a></li>
+                                <li><a href="#">Onlayan xidmətlər</a></li>
+                                <li><a href="#">ABB Prime</a></li>
+                                <li><a href="#">Tariflər, Sənədlər və Resurslar</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <ul>
+                                <li><a href="#" class="link-bold">Biznes</a></li>
+                                <li><a href="#">Korporativ</a></li>
+                                <li><a href="#">Kiçik və orta biznes</a></li>
+                                <li><a href="#">Mikro fərdi sahibkar</a></li>
+                                <li><a href="#">İnternet Bankçılıq</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <ul>
+                                <li><a href="#" class="link-bold">Haqqımızda</a></li>
+                                <li><a href="#">Bank haqqında</a></li>
+                                <li><a href="#">Rəhbərlik</a></li>
+                                <li><a href="#">İdarəetmə və komitələr</a></li>
+                                <li><a href="#">Tariflər, Sənədlər və Resurslar</a></li>
+                                <li><a href="#">Siyasətlərimiz</a></li>
+                                <li><a href="#">Korporativ təqdimat</a></li>
+                                <li><a href="#">Araşdırma</a></li>
+                                <li><a href="#">Hesabatlar</a></li>
+                                <li><a href="#">Təklif və İradlar</a></li>
+                                <li><a href="#">İnvestisiya bankçılığı</a></li>
+                                <li><a href="#">Brend Mərkəzi</a></li>
+                                <li><a href="#">Satınalmalar</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="col-lg-3  col-md-6 col-sm-12">
+                            <ul>
+                                <li>
+                                    <a href="#" class="link-bold">İnvestorlarla əlaqə</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- footer social links -->
+            <div class="container pt-4">
+                <div class="row footer-links-center">
+                    <div class="col-lg-4 col-md-6 col-sm-12 links-flex">
+                        <!-- links -->
+                        <div class="links-container-round">
+                            <a href="https://x.com/abb_bank"><i class="fa-brands fa-x-twitter f-icon-size"></i></a>
+                        </div>
+                        <div class="links-container-round">
+                            <a href="https://www.youtube.com/c/abbaz"><i
+                                    class="fa-brands fa-youtube f-icon-size"></i></a>
+                        </div>
+                        <div class="links-container-round">
+                            <a href="https://www.instagram.com/abb_bank/"> <i
+                                    class="fa-brands fa-instagram f-icon-size"></i></a>
+                        </div>
+                        <div class="links-container-round">
+                            <a href="https://www.facebook.com/abbbank.az"> <i
+                                    class="fa-brands fa-facebook f-icon-size"></i></a>
+                        </div>
+                        <div class="links-container-round">
+                            <a href="https://az.linkedin.com/company/the-bank-abb"><i
+                                    class="fa-brands fa-linkedin f-icon-size"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 law">
+                        © ABB 2025 - Bütün hüquqlar qorunur
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 footer-img-center">
+                        <div class="footer-img-true-center">
+                            <a href="#"><img src="../assets/images/footer-logo-1.webp" alt="" width="50px"
+                                    height="30px"></a>
+                            <a href="#"><img src="../assets/images/footer-logo-2.png" alt="" width="50px"
+                                    height="30px"></a>
+                            <a href="#"><img src="../assets/images/footer-logo-3.webp" alt="" width="50px"
+                                    height="30px"></a>
+                            <a href="#"><img src="../assets/images/footer-logo-4.webp" alt="" width="50px"
+                                    height="30px"></a>
+                            <a href="#"><img src="../assets//images/footer-logo-5.svg" alt="" width="50px"
+                                    height="30px"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- !position elemn=ents for left and right side -->
+        <div class="main-page-position-abb">
+            <img src="../assets/images/abb-footer-position.webp" alt="">
+        </div>
+        <div class="main-page-position-abb-person">
+            <img src="../assets/images/person-icon.svg" alt="">
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        const ranges = document.querySelectorAll('.my-range');
+
+        ranges.forEach(range => {
+            const updateRange = () => {
+                const val = range.value;
+                const min = range.min || 0;
+                const max = range.max || 100;
+                const percent = ((val - min) / (max - min)) * 100;
+                range.style.background = `linear-gradient(to right, #2d63d6 ${percent}%, #e5e5e5 ${percent}%)`;
+            }
+
+            range.addEventListener('input', updateRange);
+            updateRange(); // səhifə yüklənəndə gradient olsun
+        });
+
+    </script>
+</body>
+
+</html>
