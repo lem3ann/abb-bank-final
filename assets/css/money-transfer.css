@@ -1,0 +1,89 @@
+
+*{
+    font-family: "Inter",sans-serif;
+}
+
+.appointment-card-box-item-large{
+    padding: 0 20px;
+}
+
+.money-transfer-parg{
+    font-size: 24px;
+    font-weight: 500;
+}
+.money-transfer-navtabs2-text{
+     font-size: 24px;
+    font-weight: 500;
+    margin-top:40px ;
+    margin-bottom: 40px;
+}
+
+.navtabs3-content{
+    display: flex;
+    border-bottom: 1px solid rgb(122 125 130);
+    padding-bottom: 20px;
+  
+}
+.navtabs3-content-img{
+    width: 30px;
+    height: 30px;
+    
+}
+.navtabs3-content2{
+    display: flex;
+   border-bottom: 1px solid rgb(122 125 130);
+    padding-bottom: 20px;
+}
+.navtabs3-content3{
+    display: flex;
+     border-bottom: 1px solid rgb(122 125 130);
+    padding-bottom: 20px;
+}
+.navtabs3-content4{
+    display: flex;
+
+}
+.money-transfer-navtabs-table-general{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+height: 500px;
+width: 800px;
+justify-content: space-around;
+padding: 0 20px;
+background-color: white;
+border: none;
+border-radius: 30px;
+
+}
+
+.money-transfer-img-general{
+    display: flex;
+}
+.navtabs3-content-img2{
+    border-radius: 50px;
+}
+.money-transfer-table-column{
+    width: 25%;
+}
+.money-transfer-table-item-img{
+    width: 100px;
+}
+.money-transfer-table-column-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.money-trn-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.money-trn-text-span{
+    font-weight: 600;
+}
+.money-trn-text2{
+    font-size: 12px;
+    color: rgb(72 74 79 );
+    line-height: 15px;
+}
