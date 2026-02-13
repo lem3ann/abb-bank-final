@@ -17,5 +17,23 @@
 }
 .micro-p-fs{
     color: var(--medium-grey);
-    font-size: 11px;
+    font-size: 14px;
+    /* padding: 5px 0; */
+}
+.abb-man-details-flex h3{
+    font-size: 48px;
+    line-height: 56px;
+}
+#abb-mbusiness-staff{
+    padding: 60px 0;
+}
+.mbusiness-man-img img{
+    width: 500px;
+    height: 320px;
+}
+#gradient-abb-biz{
+    background-image: radial-gradient(77.43% 409.98% at 85.14% 7.65%,#2B76ED 0,#761BED 100%);
+}
+div.purple-radius-area{
+    background-color: #761BED!important;
 }
