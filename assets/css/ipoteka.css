@@ -132,6 +132,7 @@
     font-weight: 500;
     text-align: center;
     margin-bottom:40px;
+    margin-top: 40px;
 }
 .ipoteka-section2-card{
     height: 400px;
@@ -285,7 +286,9 @@ background:radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 1
     color: white;
     background-color: #004B98;
 }
-
+.ipoteka-section2-calculator-text{
+    margin-bottom: 50px;
+}
 
 
 

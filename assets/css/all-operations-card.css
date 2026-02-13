@@ -7,10 +7,10 @@
     color:rgb(122 125 130 ) ;
 }
 
-.all-operations-card-navtabs:active{
+/* .all-operations-card-navtabs:focus{
 color: white;
 background-color: black;
-}
+} */
 .appointment-card-box-item-large{
     border:1px solid black;
 width: 300px;
@@ -22,4 +22,8 @@ margin-top: 30px;
 }
 .all-operations-card-navtabs-table{
     margin-top: 50px;
+}
+.nav-link.nav-link-black:focus{
+    background-color: black !important;
+    color: white !important;
 }

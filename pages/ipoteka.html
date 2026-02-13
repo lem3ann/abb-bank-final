@@ -363,6 +363,58 @@
   <div class="ipoteka-section2">
   <h1 class="ipoteka-section2-calculator-text">İpoteka kalkulyatoru</h1>
   <!-- todo====================================İpoteka kalkulyatoru əlavə olunacaq==========================================-->
+        <div class="container">
+              <div class="row justify-content-between">
+                <div class="col-lg-6 col-md-12 col-sm-12 navtabs-height">
+                  <div>
+                    <div class="navtabs-statistics">
+                      <p>Kredit məbləği</p>
+                      <span>10000 ₼</span>
+                    </div>
+                    <!-- range -->
+                    <div>
+                      <input type="range" class="my-range" min="0" max="100" value="30 name=" price" id="navtabs-price">
+                    </div>
+                    <div class="navtabs-statistics">
+                      <p>1₼</p>
+                      <p>50000 ₼</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="navtabs-statistics">
+                      <p>Müddət</p>
+                      <span>12 il </span>
+                    </div>
+                    <!-- range -->
+                    <div>
+                      <input type="range" class="my-range" min="0" max="100" value="30 name=" price" id="navtabs-price">
+                    </div>
+                    <div class="navtabs-statistics">
+                      <p>1 il</p>
+                      <p>25 il</p>
+                    </div>
+                  </div>
+             
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 loan-payment-end">
+                  <div class="loan-payment-blue">
+                    <p>Aylıq Kredit ödənişi</p>
+                    <p>888.49 ₼</p>
+                    <div>
+                      <a href="#">Davam et</a>
+                    </div>
+                  </div>
+                  <!-- <span>Ilkin hesablama</span> -->
+                  <div>
+                    <span>İlkin hesablama</span>
+                  </div>
+
+                </div>
+              </div>
+            
+              </div>
+          
+
    <p class="ipoteka-section2-product-text">İpoteka Məhsullarımız</p>
 <div class="container d-flex flex-wrap justify-content-around gap-3">
   <div class="row">
@@ -703,6 +755,21 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-        </main>
+
+
+        <script>const ranges = document.querySelectorAll('.my-range');
+
+    ranges.forEach(range => {
+      const updateRange = () => {
+        const val = range.value;
+        const min = range.min || 0;
+        const max = range.max || 100;
+        const percent = ((val - min) / (max - min)) * 100;
+        range.style.background = `linear-gradient(to right, #2d63d6 ${percent}%, #e5e5e5 ${percent}%)`;
+      }
+
+      range.addEventListener('input', updateRange);
+      updateRange(); // səhifə yüklənəndə gradient olsun
+    }); </script>
 </body>
 </html>
