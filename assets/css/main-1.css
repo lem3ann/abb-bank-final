@@ -601,7 +601,7 @@
 
 .navtabs-statistics {
     display: flex;
-    justify-content: space-between;
+ justify-content: space-between; 
 }
 
 #navtabs-price {
@@ -630,7 +630,7 @@
 .navtabs-height {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+     justify-content: space-between; 
 }
 
 .navtabs-statistics p {
