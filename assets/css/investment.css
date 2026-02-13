@@ -172,3 +172,42 @@
     margin-bottom: 10px;
 }
 
+
+.investment-navs-tabs .investment-vert-tabs .invest {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.investment-navs-tabs .investment-vert-tabs .invest button {
+    background-color: #f0f0f0;
+}
+
+.investment-navs-tabs .investment-vert-tabs .invest button:hover{
+    background-color: #d9d9d9;
+}
+
+.investment-navs-tabs .investment-vert-tabs .invest button p {
+    color: black;
+    font-weight: 500;
+}
+
+.investment-navs-tabs .investment-vert-tabs .invest button p:focus{
+    color: #1b63ed;
+    border-left: 3px solid #1b63ed;
+}
+
+.investment-table table {
+    outline: 5px;
+    border-radius: 16px;
+    border-bottom: #f0f0f0;
+
+}
+
+.investment-logo-h1-12 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    color: black;
+}

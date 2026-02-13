@@ -161,6 +161,10 @@
     .statistics-ranking-table-section {
         padding: 20px 30px;
     }
+    .abb-statistics-table{
+        border-radius: 20px;
+        outline: 10px solid rgba(65, 64, 64, 0.616);
+    }
 
     table.abb-statistics-table tr {
         padding: 10px;
@@ -169,6 +173,7 @@
     }
 
     table.abb-statistics-table tr td {
+        border: none;
         color: var(--card-grey-font-color);
         /* background-color: var(--table-bg-color); */
         background-color: #30343B;
