@@ -155,6 +155,7 @@
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
+    margin-left: 50px
 
 }
 
@@ -245,6 +246,7 @@
 .abb-mobile-application-img {
     display: flex;
     gap: 20px;
+    margin-left: 50px;
 }
 
 .abb-mobile-application-img img {
