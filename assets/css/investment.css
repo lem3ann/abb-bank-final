@@ -172,3 +172,25 @@
     margin-bottom: 10px;
 }
 
+
+.investment-navs-tabs .investment-vert-tabs .invest {
+    background-color: #f0f0f0;
+}
+
+.investment-navs-tabs .investment-vert-tabs .invest button p {
+
+}
+
+.investment-table table {
+    outline: 5px;
+    border-radius: 16px;
+
+}
+
+.investment-logo-h1-12 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    color: black;
+}
