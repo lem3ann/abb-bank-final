@@ -11,13 +11,21 @@
 .corporate-report-section2-box{
     padding-top: 40px;
 }
-.docs-resources-navtabs-item{
+.docs-resources-navtabs-item:focus{
    
-    
+    border-left: 4px solid blue;
+    padding-block: 10px;
 }
 .doc-resource-section1{
    
 }
 .docs-resources-tabs-box{
     padding-bottom: 60px;
+}
+.corporate-report-tabs-box{
+    padding: 0 20px;
+}
+.all-operations-blue-border{
+    border-left: 4px solid #1B63ED;
+    border-radius: 0;
 }
