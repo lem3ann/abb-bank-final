@@ -406,3 +406,7 @@ div.favorable-terms-details-link {
     line-height: 18px;
     color: var(--medium-grey);
 }
+.nav-link.nav-grey-focus:focus{
+    background: transparent!important;
+
+}
