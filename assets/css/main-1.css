@@ -732,14 +732,18 @@
     font-size: var(--font-size-extra-small);
 }
 
-.currency-table-style thead tr td {
+.currency-table-style thead tr td .p-fs {
     color: var(--grey-font-color);
+    /* color: white; */
     font-size: var(--font-size-thin);
 }
 
 .currency-table-style thead tr td,
 .currency-table-style tbody tr td {
+    text-align: left;
+    color: white;
     padding: 20px 0;
+    border: none;
 }
 
 .currency-fs,
