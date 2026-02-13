@@ -103,11 +103,22 @@
     font-weight: 500;
     line-height: 40px;
 }
-
+.finance-rank-abb tr td:first-child{
+    text-align: left;
+    width: 500px;
+}
+.finance-rank-abb {
+    padding: 20px;
+    /* border: 1px solid rgba(189, 190, 189, 0.842); */
+    outline: 1px solid rgb(189, 190, 189, 0.842);
+    border-radius: 10px;
+}
 .statistics-table-for-abb {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
     border-radius: 20px;
     padding: 10px;
-    border: 1px solid green;
 }
 
 /* BIG TABLE ************************* */
@@ -115,18 +126,19 @@
     margin-top: 30px;
 }
 
-.finance-rank-abb thead th th {
+.finance-rank-abb thead th {
+    text-align: center;
+    padding: 5px;
     font-size: var(--font-size-thin);
     color: var(--grey-font-color);
 }
-
 .finance-rank-abb tr {
+    border: none;
     padding: 30px 0;
 }
 
 .finance-rank-abb tbody tr td {
     padding: 20px;
-    border-bottom: 1px solid black;
 }
 
 
