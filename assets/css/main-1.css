@@ -191,9 +191,10 @@
 }
 
 .carousel-first-img img {
-    width: 100%;
-    max-width: 320px;
-    height: 270px;
+    max-width: 100%;
+    width: 320px;
+    /* height: auto; */
+    /* height: 270px; */
 
 }
 
@@ -1106,4 +1107,74 @@ footer {
 .footer-bottom-border {
     padding-bottom: 20px;
     border-bottom: 1px solid var(--grey-font-color);
+}
+/* !ABB mobile section ************************* */
+#mobile-details{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+     background-image: radial-gradient(77.43% 409.98% at 85.14% 7.65%,#2B76ED 0,#761BED 100%);
+}
+.container{
+    padding: 30px 0;
+    /* max-width: 1000px; */
+    /* background-image: radial-gradient(77.43% 409.98% at 85.14% 7.65%,#2B76ED 0,#761BED 100%); */
+}
+
+
+.qr-code-width img{
+    width: 100%;
+    max-width: 150px;
+    max-height: 150px;
+    height: auto;
+    border-radius: 20px;
+}
+.img-container img{
+    margin-top: -80px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    max-height: 600px;
+}
+.icons-flex{
+    display: flex;
+    gap: 15px;
+}
+.qr-code-and-text{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.abb-business-details{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.abb-business-details h3{
+    font-size: 64px;
+    /* font-size: 6rem; */
+    line-height: 72px;
+    font-weight: 500;
+}
+.svg-with-border-radius{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgba(185, 183, 183, 0.582);
+}
+.download-app-btn {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-weight: 500;
+}
+.download-app-btn {
+    display: none;
 }
