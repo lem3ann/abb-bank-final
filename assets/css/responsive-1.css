@@ -1,110 +1,254 @@
-
 /*! 1.micro business page */
 /* !2.Insurance*/
 
-@media(max-width:1200px){
-    .business-cards-left-text h2{
+@media(max-width:1200px) {
+    .business-cards-left-text h2 {
         font-size: 64px;
     }
-     .carousel-first-img{
+
+    .carousel-first-img {
         display: flex;
         align-items: flex-end;
     }
-    
 }
-@media(max-width:991px){
-    .business-cards-left-text h2{
+
+@media(max-width:991px) {
+    .business-cards-left-text h2 {
         font-size: 48px;
     }
-     .carousel-first-img{
+
+    .carousel-first-img {
         display: flex;
         align-items: flex-end;
     }
 
-}
-@media(max-width:767px){
-      .all-loan-section3-phone-img img{
-        display: none;
-    }
-    .business-cards-left-text h2{
-        font-size: 36px !important;
-    }
-    .abb-news-col-box img{
-        width: 100%;
-        height: auto;
-    }
-     .carousel-first-img{
-        display: flex;
-        align-items: flex-end;
-    }
-     .business-white-cards-btn{
-        display: block;
-        width: 100%;
-    }
-    #digital-services h2{
-        font-size: 36px !important;
-    }
-
-
-}
-@media(max-width:575px){
-    .all-loan-section3-phone-img img{
-        display: none;
-    }
-    .business-cards-left-text h2{
-        font-size: 24px !important;
-    }
-    .mb-btn-width a{
-        margin-bottom: 30px;
-    }
-    .carousel-first-img{
-        display: flex;
-        align-items: flex-end;
-    }
-    #digital-services h2{
-        font-size: 24px;
-    }
-
-}
-
-
-/*  */
-@media(max-width:1200px){
-
-}
-@media(max-width:991px){
-    .abb-business-details h3{
+    .abb-business-details h3 {
         font-size: 32px;
         text-align: center;
     }
-    .abb-business-details p{
+
+    .abb-business-details p {
         text-align: center;
         /* font-size: 28px; */
     }
-    .qr-code-width img,.qr-code-and-text p{
+
+    .qr-code-width img,
+    .qr-code-and-text p {
         display: none;
     }
-    .img-container img{
+
+    .img-container img {
         margin: 30px auto;
     }
-    .qr-code-and-text{
+
+    .qr-code-and-text {
         margin: auto;
         order: -2;
     }
-    .download-app-btn{
+
+    .download-app-btn {
         display: flex;
         margin: auto;
     }
-    .download-app-btn a{
+
+    .download-app-btn a {
         color: black;
         text-decoration: none;
         text-align: center;
     }
 
-}
-@media(max-width:767px){
+    #digital-services h2 {
+        font-size: 24px;
+    }
+
+    .digital-services-img-container img {
+        width: 100%;
+        max-width: 150px;
+        max-height: 150px;
+        height: auto;
+    }
 
 }
-@media(max-width:575px){
+
+@media(max-width:767px) {
+    .all-loan-section3-phone-img img {
+        display: none;
+    }
+
+    .business-cards-left-text h2 {
+        font-size: 36px;
+    }
+
+    .abb-news-col-box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel-first-img {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .business-white-cards-btn {
+        display: block;
+        width: 100%;
+    }
+
+    #digital-services h2 {
+        font-size: 24px;
+    }
+
+    .digital-services-img-container img {
+        width: 100%;
+        max-width: 150px;
+        max-height: 150px;
+        height: auto;
+    }
+
+    .business-cards-left-text h2 {
+        text-align: center;
+    }
+
+    .business-cards-left-text p {
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    .business-cards-right-img {
+        display: flex;
+    }
+
+    .business-cards-right-img img {
+        order: 5;
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+        max-height: 150px;
+        margin: auto;
+    }
+
+    .business-white-cards-btn {
+        display: flex;
+    }
+
+    .business-white-cards-btn a {
+        text-align: center;
+        order: 20;
+        margin: auto;
+        width: 95%;
+    }
+
+    .digital-services-img-text {
+        max-height: 100px;
+    }
+
+}
+
+@media(max-width:575px) {
+    .all-loan-section3-phone-img img {
+        display: none;
+    }
+
+    .business-cards-left-text h2 {
+        font-size: 24px !important;
+    }
+
+    .mb-btn-width a {
+        margin-bottom: 30px;
+    }
+
+    .carousel-first-img img {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #digital-services h2 {
+        font-size: 24px;
+    }
+
+    .business-cards-left-text h2 {
+        text-align: center;
+    }
+
+    .business-cards-left-text p {
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    .business-cards-right-img {
+        display: flex;
+    }
+
+    .business-cards-right-img img {
+        order: 5;
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+        max-height: 150px;
+        margin: auto;
+    }
+
+    .business-white-cards-btn {
+        display: flex;
+    }
+
+    .business-white-cards-btn a {
+        text-align: center;
+        order: 20;
+        margin: auto;
+        width: 95%;
+    }
+
+    .digital-services-img-text {
+        max-height: 100px;
+    }
+
+
+    /* !E-muhasib */
+    #digital-services h2 {
+        font-size: 24px;
+    }
+
+    .digital-services-img-container img {
+        width: 100%;
+        max-width: 150px;
+        max-height: 150px;
+        height: auto;
+    }
+
+    /* ! ferdi musteri temsilciliyi */
+    /* .micro-p-fs {
+        text-align: center;
+        font-size: s11px;
+        color: #7a7d82;
+    } */
+
+    .abb-man-details-flex h3 {
+        text-align: center;
+        font-size: 24px !important;
+        line-height: 28px !important;
+    }
+
+    .offer-credit-card-btn {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .abb-man-details-flex p {
+        margin: auto;
+        text-align: center;
+        font-size: 11px;
+        color: #7a7d82;
+    }
+
+    .mbusiness-man-img img {
+        max-width: 250px;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+
 
 }

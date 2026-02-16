@@ -140,7 +140,8 @@
 }
 
 .business-cards-left-text h2 {
-    font-size: 64px;
+    font-size: 48px;
+    line-height: 56px;
 }
 
 .business-cards-left-text p {
@@ -159,8 +160,8 @@
 .business-cards-left-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 60px;
+    /* justify-content: space-between; */
+    gap: 35px;
 }
 
 /* ?Digital services */
@@ -170,13 +171,14 @@
     border-top-left-radius: 50px;
 }
 
-#digital-services h2 {
+.e-accountant {
     text-align: center;
     font-size: var(--font-size-md);
     padding: 30px;
 }
 
 .digital-services-img-text {
+    max-height: 250px;
     display: flex;
     justify-content: space-between;
     background-color: var(--cards-container-transparency);
@@ -187,9 +189,12 @@
 }
 
 .digital-services-img-container img {
+    width: 100%;
+    height: auto;
     max-width: 275px;
     max-height: 275px;
     transition: all .5s;
+    object-fit: cover;
 }
 
 .digital-services-img-container img:hover {

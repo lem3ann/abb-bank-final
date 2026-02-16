@@ -7,33 +7,47 @@
 }
 
 #micro-business-cards {
-    background-color: #761BED;
+    background-color: rgb(126, 72, 250);
 }
-.abb-man-details-flex{
+
+.abb-man-details-flex {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     text-align: left;
 }
-.micro-p-fs{
+
+.micro-p-fs {
     color: var(--medium-grey);
     font-size: 14px;
     /* padding: 5px 0; */
 }
-.abb-man-details-flex h3{
+
+.abb-man-details-flex h3 {
     font-size: 48px;
     line-height: 56px;
 }
-#abb-mbusiness-staff{
+
+#abb-mbusiness-staff {
     padding: 60px 0;
 }
-.mbusiness-man-img img{
-    width: 500px;
-    height: 320px;
+
+.mbusiness-man-img img {
+    object-fit: cover;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    max-height: 320px;
 }
-#gradient-abb-biz{
-    background-image: radial-gradient(77.43% 409.98% at 85.14% 7.65%,#2B76ED 0,#761BED 100%);
+
+#gradient-abb-biz {
+    background-image: radial-gradient(77.43% 409.98% at 85.14% 7.65%, #2B76ED 0, #761BED 100%);
 }
-div.purple-radius-area{
-    background-color: #761BED!important;
+
+div.purple-radius-area {
+    background-color: rgb(126, 72, 250);
+}
+
+.micro-b-bg-purple {
+    padding-bottom: 30px;
 }
