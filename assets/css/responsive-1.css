@@ -1,4 +1,3 @@
-
 /*! 1.micro business page */
 
 @media(max-width:1200px){
@@ -6,7 +5,8 @@
     .business-cards-left-text h2{
         font-size: 64px;
     }
-     .carousel-first-img{
+
+    .carousel-first-img {
         display: flex;
         align-items: flex-end;
     }
@@ -37,7 +37,8 @@
     .business-cards-left-text p{
         text-align: center;
     }
-     .carousel-first-img{
+
+    .carousel-first-img {
         display: flex;
         align-items: flex-end;
     }
@@ -202,11 +203,13 @@
     .business-cards-left-text p{
         text-align: center;
     }
-    .abb-news-col-box img{
+
+    .abb-news-col-box img {
         width: 100%;
         height: auto;
     }
-     .carousel-first-img{
+
+    .carousel-first-img {
         display: flex;
         align-items: flex-end;
     }
@@ -350,6 +353,9 @@
     }
     
 
+    .digital-services-img-text {
+        max-height: 100px;
+    }
 
 }
 @media(max-width:575px){
@@ -364,11 +370,13 @@
     .business-cards-left-text p{
         text-align: center;
     }
-    .carousel-first-img{
+
+    .carousel-first-img img {
         display: flex;
         align-items: flex-end;
     }
-    #digital-services h2{
+
+    #digital-services h2 {
         font-size: 24px;
     }
     /* sifaris et buttonu */
