@@ -7,7 +7,7 @@
 }
 
 #micro-business-cards {
-    background-color: rgb(126, 72, 250);
+    background-color: rgb(126 72 250);
 }
 
 .abb-man-details-flex {
@@ -34,7 +34,7 @@
 
 .mbusiness-man-img img {
     object-fit: cover;
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     height: auto;
     max-height: 320px;
@@ -47,7 +47,6 @@
 div.purple-radius-area {
     background-color: rgb(126, 72, 250);
 }
-
-.micro-b-bg-purple {
-    padding-bottom: 30px;
+div.purple-radius-area{
+    background-color:rgb(126 72 250);
 }

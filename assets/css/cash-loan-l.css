@@ -29,6 +29,7 @@ div.favorable-terms-details-link {
     max-width: 580px;
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 .favorable-terms-container-b p {
@@ -196,14 +197,14 @@ div.favorable-terms-details-link {
 }
 
 .switch-class-img img {
-    max-width: 280px;
+    max-width: 250px;
     width: 100%;
-    max-height: 600px;
+    /* max-height: 600px; */
     height: auto;
 }
 
 .navbtabs-big-header {
-    padding: 30px 0;
+    padding-bottom: 30px;
     color: var(--context-white-color);
     font-size: var(--font-size-md);
     line-height: 56px;
@@ -215,7 +216,7 @@ div.favorable-terms-details-link {
 /* !icon flex class atıb leftden 50px verdin biri 5 biri ise 7`dir */
 .icon-flex-end {
     display: flex;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 
 .phone-tabs-style {
@@ -235,6 +236,7 @@ div.favorable-terms-details-link {
     display: flex;
     align-items: center;
     gap: 30px;
+    width: 100%;
 }
 
 .numbers-box {
@@ -258,7 +260,9 @@ div.favorable-terms-details-link {
 .phone-tabs-style:focus .navtabs-details-text p {
     color: black;
 }
-
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: transparent;
+}
 /* .nav-pills .nav-link.active,
 .nav-pills {
     background-color: transparent !important;
@@ -272,7 +276,7 @@ div.favorable-terms-details-link {
 .navtabs-details-text {
     text-align: left;
     padding: 30px;
-    width: 450px;
+    width: 100%;
     height: 120px;
     border-radius: 20px;
     margin-top: 5px;
