@@ -1,8 +1,8 @@
 
 /*! 1.micro business page */
-/* !2.Insurance*/
 
 @media(max-width:1200px){
+    /*! 1.micro business page */
     .business-cards-left-text h2{
         font-size: 64px;
     }
@@ -10,70 +10,38 @@
         display: flex;
         align-items: flex-end;
     }
+    #mobile-details{
+        padding: 40px 0;
+    }   
+    .qr-style a{
+        font-size: 10px;
+    }
+    .portal-link-btn a {
+        font-size: 10px;
+    }
+    /*! DigiHesab Max */
+    .favorable-btn{
+        margin-bottom: 20px;
+    }
+    .business-cards-left-text h2{
+        font-size: 48px !important;
+    }
     
 }
 @media(max-width:991px){
+    /*! 1.micro business page */
     .business-cards-left-text h2{
-        font-size: 48px;
+        text-align: center;
+        font-size: 36px!important;
+    }
+    .business-cards-left-text p{
+        text-align: center;
     }
      .carousel-first-img{
         display: flex;
         align-items: flex-end;
     }
-
-}
-@media(max-width:767px){
-      .all-loan-section3-phone-img img{
-        display: none;
-    }
-    .business-cards-left-text h2{
-        font-size: 36px !important;
-    }
-    .abb-news-col-box img{
-        width: 100%;
-        height: auto;
-    }
-     .carousel-first-img{
-        display: flex;
-        align-items: flex-end;
-    }
-     .business-white-cards-btn{
-        display: block;
-        width: 100%;
-    }
-    #digital-services h2{
-        font-size: 36px !important;
-    }
-
-
-}
-@media(max-width:575px){
-    .all-loan-section3-phone-img img{
-        display: none;
-    }
-    .business-cards-left-text h2{
-        font-size: 24px !important;
-    }
-    .mb-btn-width a{
-        margin-bottom: 30px;
-    }
-    .carousel-first-img{
-        display: flex;
-        align-items: flex-end;
-    }
-    #digital-services h2{
-        font-size: 24px;
-    }
-
-}
-
-
-/*  */
-@media(max-width:1200px){
-
-}
-@media(max-width:991px){
-    .abb-business-details h3{
+     .abb-business-details h3{
         font-size: 32px;
         text-align: center;
     }
@@ -84,9 +52,14 @@
     .qr-code-width img,.qr-code-and-text p{
         display: none;
     }
-    .img-container img{
+    /* .img-container img{
         margin: 30px auto;
-    }
+    } */
+     .img-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px; 
+     }
     .qr-code-and-text{
         margin: auto;
         order: -2;
@@ -100,11 +73,461 @@
         text-decoration: none;
         text-align: center;
     }
-
+     .business-white-cards-btn{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .business-white-cards-btn a{
+        display: block;
+        width: 90%;
+    }
+     #digital-services h2{
+        font-size: 32px !important;
+     }
+    .micro-p-fs{
+        text-align: center;
+     }
+     .abb-man-details-flex h3{
+        text-align: center;
+        font-size:24px !important;
+        line-height: 32px !important;
+     }
+     .offer-credit-card-btn{
+        margin: auto;
+     }
+     .mbusiness-man-img{
+        display: flex;
+        justify-content: center;
+     }
+     .business-cards-right-img{
+        display: flex;
+        justify-content: center;
+     }
+      .abb-news-title h2{
+        font-size:24px !important;
+        line-height: 32px !important;
+     }
+     .all-loans-rating-parg1{
+        display: flex;
+        justify-content: center;
+     }
+     .all-loans-rating-parg2{
+        text-align: center;
+     }
+     .center-stars-field{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+     }
+     .icons-flex{
+        margin-top: 20px;
+     }
+     /* !DIGIHESABMAX */
+     .circle-right-border{
+        border: none !important;
+    }
+     div.favorable-terms-details-link{
+        font-size: 14px ;
+    }
+    .favorable-terms-details-link+h2{
+        padding: 5px 0 !important;
+        text-align: center;
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+    .favorable-terms-container-b p{
+        font-size: 16px !important;
+        text-align:center;
+        line-height: 24px !important;
+    }
+    .dama-dama-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .favorable-terms-container-b{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .favorable-terms-img img{
+        max-width: 100%;
+        height: auto;
+    }
+    .favorable-terms-img{
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .circle-right-border{
+        margin-top: 10px;
+        border: none !important;
+    }
+    .loan-cash-advantages-box h2, .cash-loan-plans h2, .calculate-for-loan-sec h2, #avans-loan h3, #online-credit-apply-now h2, .insure-with-abb-width h2{
+        font-size: 24px !important;
+        line-height: 32px !important;
+        text-align: center !important;
+    }
+    .navbtabs-big-header{
+        text-align: center;
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+    .switch-class-img{
+        display: flex;
+        justify-content: center;
+    }
+    .icon-flex-end{
+        display: flex;
+        justify-content: center;
+    }
+    .flex-column{
+        display: flex;
+        justify-content: center;
+    }
+    .qr-style a{
+        display: none;
+    }
+     
 }
 @media(max-width:767px){
+    /*! 1.micro business page */
+      .all-loan-section3-phone-img img{
+        display: none;
+    }
+    .business-cards-left-text h2{
+        text-align: center;
+        font-size: 24px !important;
+    }
+    .business-cards-left-text p{
+        text-align: center;
+    }
+    .abb-news-col-box img{
+        width: 100%;
+        height: auto;
+    }
+     .carousel-first-img{
+        display: flex;
+        align-items: flex-end;
+    }
+     /* .business-white-cards-btn{
+        display: block;
+        width: 100%;
+    } */
+    #digital-services h2{
+        font-size: 24px;
+    }
+    /* sifaris et buttonu */
+    .business-white-cards-btn{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .business-white-cards-btn a{
+        display: block;
+        width: 90%;
+    }
+    /* .currency-sm-text{
+        text-align: left;
+    } */
+    .currency-sm-flex h4{
+        display: flex;
+        justify-content: center;
+        font-size:18px !important ;
+    }
+     #digital-services h2{
+        font-size: 24px !important;
+     }
+     .micro-p-fs{
+        text-align: center;
+     }
+     .abb-man-details-flex h3{
+        text-align: center;
+        font-size:24px !important;
+        line-height: 32px !important;
+     }
+     .offer-credit-card-btn{
+        margin: auto;
+     }
+      .mbusiness-man-img{
+        display: flex;
+        justify-content: center;
+     }
+     .business-cards-right-img{
+        display: flex;
+        justify-content: center;
+     }
+      .abb-news-title h2{
+        font-size:24px !important;
+        line-height: 32px !important;
+     }
+     .all-loans-rating-parg1{
+        display: flex;
+        justify-content: center;
+     }
+     .digital-services-img-text{
+        max-height: 200px;
+     }
+     .all-loans-rating-parg2{
+        text-align: center;
+     }
+     .center-stars-field{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+     }
+     .abb-news-col-box a, .news-title-bottom a{
+        font-size: 22px !important;
+     }
+     .icons-flex{
+        margin-top: 20px;
+     }
+
+     /* !DAMA-DAMA HESAB */
+     .circle-right-border{
+        border: none !important;
+    }
+     div.favorable-terms-details-link{
+        font-size: 14px ;
+    }
+    .favorable-terms-details-link+h2{
+        padding: 5px 0 !important;
+        text-align: center;
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+    .favorable-terms-container-b p{
+        font-size: 16px !important;
+        text-align:center;
+        line-height: 24px !important;
+    }
+    .dama-dama-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .favorable-terms-container-b{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .favorable-terms-img img{
+        max-width: 100%;
+        height: auto;
+    }
+    .favorable-terms-img{
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .circle-right-border{
+        margin-top: 10px;
+        border: none !important;
+    }
+    .loan-cash-advantages-box h2, .cash-loan-plans h2, .calculate-for-loan-sec h2, #avans-loan h3, #online-credit-apply-now h2, .insure-with-abb-width h2{
+        font-size: 24px !important;
+        line-height: 32px !important;
+        text-align: center !important;
+    }
+    .navbtabs-big-header{
+        text-align: center;
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+    .switch-class-img{
+        display: flex;
+        justify-content: center;
+    }
+    .icon-flex-end{
+        display: flex;
+        justify-content: center;
+    }
+    .flex-column{
+        display: flex;
+        justify-content: center;
+    }
+    .qr-style a{
+        display: none;
+    }
+    
+
 
 }
 @media(max-width:575px){
-
+    /*! 1.micro business page */
+    .all-loan-section3-phone-img img{
+        display: none;
+    }
+    .business-cards-left-text h2{
+        text-align: center;
+        font-size: 24px !important;
+    }
+    .business-cards-left-text p{
+        text-align: center;
+    }
+    .carousel-first-img{
+        display: flex;
+        align-items: flex-end;
+    }
+    #digital-services h2{
+        font-size: 24px;
+    }
+    /* sifaris et buttonu */
+    .business-white-cards-btn{
+        text-align: center;
+    }
+    .business-white-cards-btn a{
+        display: block;
+        width: 100%;
+        order:-1;
+    }
+    .currency-sm-flex h4{
+        display: flex;
+        justify-content: center;
+        font-size:18px !important ;
+    }
+    .business-cards-right-img {
+        display: flex;     
+    }
+    /* .business-cards-right-img img{
+        order: -1;
+    } */
+     #digital-services h2{
+        font-size: 24px !important;
+     }
+     div.stars-bg-color-grey{
+        margin: auto;
+     }
+     .micro-p-fs{
+        text-align: center;
+     }
+     .offer-credit-card-btn{
+        display: flex;
+        justify-content: center;
+     }
+      .mbusiness-man-img{
+        display: flex;
+        justify-content: center;
+     }
+     
+     .business-cards-right-img{
+        display: flex;
+        justify-content: center;
+     }
+     .abb-news-title h2{
+        font-size:24px !important;
+        line-height: 32px !important;
+     }
+     .all-loans-rating-parg1{
+        display: flex;
+        justify-content: center;
+     }
+     .digital-services-img-text{
+        max-height: 200px;
+     }
+     .all-loans-rating-parg2{
+        text-align: center;
+     }
+     .center-stars-field{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+     }
+     .abb-news-col-box a, .news-title-bottom a{
+        font-size: 22px !important;
+     }
+     .icons-flex{
+        margin-top: 20px;
+     }
+     /* !DANA-DAMA HESAB */
+      div.favorable-terms-details-link{
+        font-size: 14px ;
+    }
+    .favorable-terms-details-link+h2{
+        padding: 5px 0 !important;
+        text-align: center;
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+    .favorable-terms-container-b p{
+        font-size: 16px !important;
+        text-align:center;
+        line-height: 24px !important;
+    }
+    .dama-dama-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .favorable-terms-container-b{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .favorable-terms-img img{
+        max-width: 100%;
+        height: auto;
+    }
+    .favorable-terms-img{
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .circle-right-border{
+        margin-top: 10px;
+        border: none !important;
+    }
+    .loan-cash-advantages-box h2, .cash-loan-plans h2, .calculate-for-loan-sec h2, #avans-loan h3, #online-credit-apply-now h2, .insure-with-abb-width h2{
+        font-size: 24px !important;
+        line-height: 32px !important;
+        text-align: center !important;
+    }
+    .navbtabs-big-header{
+        text-align: center;
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+    .switch-class-img{
+        display: flex;
+        justify-content: center;
+    }
+    .icon-flex-end{
+        display: flex;
+        justify-content: center;
+    }
+    .flex-column{
+        display: flex;
+        justify-content: center;
+    }
+    .qr-style a{
+        display: none;
+    }
+    /* ***************** */
+    .footer-links-center-main{
+        /* align-items: center;
+        justify-content: center; */
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .links-flex{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    .footer-img-center{
+        display: flex;
+        justify-content: center;
+    }
+    .links-container-round{
+        width: 30px;
+        height: 30px;
+    }
+    .links-container-round a i{
+        font-size: 14px;
+    }
+    .links-flex div{
+        font-size: 14px;
+    }
 }
+
+
+
