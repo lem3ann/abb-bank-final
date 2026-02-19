@@ -602,7 +602,7 @@
 
 .navtabs-statistics {
     display: flex;
- justify-content: space-between; 
+    justify-content: space-between;
 }
 
 #navtabs-price {
@@ -631,7 +631,7 @@
 .navtabs-height {
     display: flex;
     flex-direction: column;
-     justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .navtabs-statistics p {
@@ -968,8 +968,13 @@ input[type=number]::-webkit-inner-spin-button {
 
 /* ALL LOAN STARS BACKGROUND COLOR ######### */
 div.stars-bg-color-grey {
-    background-color: rgb(224, 221, 221);
+    background-color: #0A0B0D0A;
 }
+
+.stars-bg-color-grey i {
+    color: #0A0B0D14;
+}
+
 
 
 /* !FOOTER ###################### */
@@ -985,9 +990,11 @@ footer {
     background-color: var(--footer-app-container-bg);
     border-radius: 20px;
 }
-.footer-abb-cariers{
+
+.footer-abb-cariers {
     padding: 20px;
 }
+
 .apps-container-box-1,
 .footer-abb-cariers-1 {
     height: 220px;
@@ -1013,6 +1020,7 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
 .apps-container-box-1 {
     display: flex;
     justify-content: space-between;
@@ -1123,52 +1131,59 @@ footer {
     padding-bottom: 20px;
     border-bottom: 1px solid var(--grey-font-color);
 }
+
 /* !ABB mobile section ************************* */
-#mobile-details{
+#mobile-details {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-     background-image: radial-gradient(77.43% 409.98% at 85.14% 7.65%,#2B76ED 0,#761BED 100%);
+    background-image: radial-gradient(77.43% 409.98% at 85.14% 7.65%, #2B76ED 0, #761BED 100%);
 }
 
 
-.qr-code-width img{
+.qr-code-width img {
     width: 100%;
     max-width: 150px;
     max-height: 150px;
     height: auto;
     border-radius: 20px;
 }
-.img-container img{
+
+.img-container img {
     margin-top: -80px;
     width: 100%;
     max-width: 600px;
     height: auto;
     max-height: 600px;
 }
-.icons-flex{
+
+.icons-flex {
     display: flex;
     gap: 15px;
 }
-.qr-code-and-text{
+
+.qr-code-and-text {
     align-items: center;
     display: flex;
     justify-content: flex-start;
     gap: 30px;
 }
-.abb-business-details{
+
+.abb-business-details {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
 }
-.abb-business-details h3{
+
+.abb-business-details h3 {
     font-size: 64px;
     /* font-size: 6rem; */
     line-height: 72px;
     font-weight: 500;
 }
-.svg-with-border-radius{
+
+.svg-with-border-radius {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1177,6 +1192,7 @@ footer {
     border-radius: 15px;
     background-color: rgba(155, 154, 154, 0.486);
 }
+
 .download-app-btn {
     color: black;
     background-color: white;
@@ -1185,28 +1201,52 @@ footer {
     padding: 10px 5px;
     font-weight: 500;
 }
+
 .download-app-btn {
     display: none;
 }
-.footer-ul-list li{
+
+.footer-ul-list li {
     padding: 8px 0;
 }
-.accordion-button::after{
+
+.accordion-button::after {
     background-image: url("../images/whit.png") !important;
 }
+
 /* .footer-accordion-bg div {
     background-image: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%) !important;
 } */
-.footer-accordion-elements{
+.footer-accordion-elements {
     color: black !important;
     display: none;
 }
-.accordion-header button,.accordion-body{
+
+.accordion-header button,
+.accordion-body {
     color: white;
     border-bottom: none !important;
     /* background-color: black !important; */
-    background-image: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%);
+    /* background-image: radial-gradient(45.81% 111.02% at 57.47% 14.48%, #383C46 0, #24282F 100%); */
 }
-.apps-container-box-1,.footer-abb-cariers-1{
+
+.apps-container-box-1,
+.footer-abb-cariers-1 {
     display: none;
+}
+
+footer .accordion-item {
+    background-color: transparent;
+    border: none;
+    /* color: white; */
+}
+
+footer .accordion-button {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+footer .accordion-button:not(.collapsed) {
+    color: white !important;
 }

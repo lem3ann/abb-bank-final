@@ -28,7 +28,7 @@
 }
 
 .carousel-max-width {
-    max-height: 302px;
+    /* max-height: 302px; */
     width: 100%;
 }
 
@@ -48,7 +48,7 @@
 .corportive-loan-box {
     background-color: var(--context-white-color);
     /* max-height: 302px; */
-    height: 305px;
+    height: 340px;
     border-radius: 30px;
     padding-top: 20px;
     padding-left: 30px;
@@ -139,6 +139,7 @@
     height: auto;
     object-fit: cover;
 }
+
 .business-cards-right-img-hidden img {
     max-width: 580px;
     width: 100%;
@@ -200,7 +201,8 @@
     border-radius: 30px;
     overflow: hidden;
 }
-.digital-services-img-container{
+
+.digital-services-img-container {
     display: flex;
 }
 
@@ -337,9 +339,11 @@ time {
 .white-bg-new-color {
     background-color: var(--context-white-color);
 }
-.business-cards-right-img-hidden img{
+
+.business-cards-right-img-hidden img {
     display: none;
 }
-.d-none-desktop{
+
+.d-none-desktop {
     display: none;
 }
