@@ -47,8 +47,8 @@
 
 .corportive-loan-box {
     background-color: var(--context-white-color);
-    max-height: 302px;
-    height: 100%;
+    /* max-height: 302px; */
+    height: 305px;
     border-radius: 30px;
     padding-top: 20px;
     padding-left: 30px;
@@ -133,6 +133,13 @@
 }
 
 .business-cards-right-img img {
+    max-width: 580px;
+    width: 100%;
+    max-height: 450px;
+    height: auto;
+    object-fit: cover;
+}
+.business-cards-right-img-hidden img {
     max-width: 580px;
     width: 100%;
     max-height: 450px;
@@ -289,9 +296,9 @@
 
 .abb-news-col-box img {
     margin-bottom: 10px;
-    max-width: 400px;
+    /* max-width: 400px; */
     width: 100%;
-    max-height: 250px;
+    /* max-height: 250px; */
     height: auto;
     border-radius: 20px;
 }
@@ -329,4 +336,10 @@ time {
 
 .white-bg-new-color {
     background-color: var(--context-white-color);
+}
+.business-cards-right-img-hidden img{
+    display: none;
+}
+.d-none-desktop{
+    display: none;
 }
