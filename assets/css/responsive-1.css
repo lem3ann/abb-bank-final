@@ -26,8 +26,31 @@
     .business-cards-left-text h2{
         font-size: 48px !important;
     }
-    
+    .business-cards-right-img img{
+        display: none;
+    }
+    .business-cards-right-hidden img{
+    display: inline !important;
+    }
+     .d-none-desktop{
+        display: block;
+    }
+    .d-none-mobile{
+        display: none;
+    }
+      .d-none-mobile{
+        height: 300px;
+        display: block;
+      }
+      .d-none-desktop{
+        display: none;
+      }
+      .overflow-scroll{
+        overflow: hidden;
+      }
 }
+    
+
 @media(max-width:991px){
     /*! 1.micro business page */
     .business-cards-left-text h2{
@@ -52,9 +75,6 @@
     .qr-code-width img,.qr-code-and-text p{
         display: none;
     }
-    /* .img-container img{
-        margin: 30px auto;
-    } */
      .img-container{
         display: flex;
         justify-content: center;
@@ -188,7 +208,68 @@
     .qr-style a{
         display: none;
     }
-     
+    .news-title-with-border-bottom div{
+        display: none;
+    }
+    .business-cards-right-img-hidden img{
+        display: inline !important;
+    }
+    .d-none-desktop{
+        display: block;
+    }
+    .d-none-mobile{
+        display: none;
+    }
+     .overflow-scroll{
+    overflow-x: auto;
+    max-width: 100%;
+}
+   .elements-min-width{
+    min-width: 1200px;
+    }
+    /* .elements-min-width{
+    min-height: 200px;
+    } */
+     .corportive-loan-box,.corporative-boxs{
+        height: 200px;
+     }
+     .network-btn{
+        display: none;
+     }
+     /* scrollbar */
+     ::-webkit-scrollbar {
+       height: 4px;
+    }
+     ::-webkit-scrollbar-thumb {
+     background: #7e48fa; 
+     border-radius: 5px;
+    }   
+    .currency-sm-text {
+    justify-content: center;
+    /* gap: 35px; */
+} 
+.business-cards-right-img-hidden{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer accordion */
+    div.border-bottom-grey-line{
+        display: none;
+    }
+    div.footer-accordion-elements{
+        display: block !important;
+    }
+    .apps-container-box,.footer-abb-cariers {
+        display: none;
+    }
+    .footer-bottom-border{
+        border-bottom: transparent;
+    }
+    .apps-container-box-1,.footer-abb-cariers-1{
+        display:flex;
+}
+    
 }
 @media(max-width:767px){
     /*! 1.micro business page */
@@ -347,6 +428,13 @@
     }
     .qr-style a{
         display: none;
+    }
+    .business-cards-right-img-hidden img{
+    display: inline !important;
+    }
+    .abb-news-col-box img{
+        max-width: 100%;
+        height:auto;
     }
     
 
@@ -527,7 +615,11 @@
     .links-flex div{
         font-size: 14px;
     }
+    .business-cards-right-img-hidden img{
+    display: inline !important;
+    }
+    .overflow-scroll{
+    overflow-x: auto;
+    max-width: 100%;
 }
-
-
-
+}
